@@ -1,0 +1,37 @@
+# Hive Interview Questions
+
+Q. What is hive metastore?
+
+Q. Difference between managed and external tables?
+Yeh its like if you want multiple tool and multiple users to operate on your data at the same time than create an external table
+As all the data ultimately stored on files on hdfs
+Another difference:-
+When you drop an internal table, it drops the data, and it also drops the metadata.
+When you drop an external table, it only drops the meta data. That means hive is ignorant of that data now. It does not touch the data itself.
+
+
+Q. UDF's in Pig and Hive?  When is it used?
+
+Q.  When to choose Hive or Pig in the project?
+ 
+Q. Difference between Buckets and Partitions?
+
+Q. How to implement slowly changing dimensions data in hive?
+Slowly changing means dynamic data right?
+Yup...it will come in informatica..but how v can achieve in hive
+For dynamic data we have to integrate with hbase I think coz hive is only for olap
+
+Q. Hive - Hbase Integration - using storagehandlers
+So the data is present in hbase, now create table in hive with stored by org.apache.Hadoop.hive.hbase.hbasestoragehandler
+With serde properties next tblproperties
+So backend table is hbase.  Mirror is hive
+
+Q. EXPLODE function in hive?
+http://www.cnblogs.com/linehrr-freehacker/p/3309088.html
+To arrange one element in each row of array...they ll use explode..it ll be in ascending order
+
+Q. Cost based optimization; Calcite
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjk2OTA1MTEyXX0=
+-->
