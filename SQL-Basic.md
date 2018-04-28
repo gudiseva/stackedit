@@ -1,0 +1,63 @@
+# SQL (MS SQL Server)
+
+
+## Basic Select
+> SELECT * FROM CITY WHERE POPULATION > 100000 AND COUNTRYCODE = 'USA';
+
+> SELECT NAME FROM CITY WHERE COUNTRYCODE = 'USA' AND POPULATION 120000;
+
+> SELECT * FROM CITY;
+
+> SELECT * FROM CITY WHERE ID = 1661;
+
+> SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
+
+> SELECT NAME FROM CITY WHERE COUNTRYCODE = 'JPN';
+
+> SELECT CITY, STATE FROM STATION;
+
+> SELECT DISTINCT (CITY) FROM STATION WHERE (ID % 2 = 0);
+
+> SELECT (COUNT (CITY)) - (COUNT (DISTINCT CITY)) FROM STATION;
+
+> SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L, CITY;
+SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L DESC, CITY DESC;
+
+> SELECT DISTINCT CITY FROM STATION WHERE LOWER (LEFT(CITY, 1)) IN ('a', 'e', 'i', 'o', 'u'); 
+
+> SELECT DISTINCT CITY FROM STATION WHERE LOWER (RIGHT(CITY, 1)) IN ('a', 'e', 'i', 'o', 'u'); 
+
+> SELECT DISTINCT CITY FROM STATION WHERE LOWER (LEFT(CITY, 1)) IN ('a', 'e', 'i', 'o', 'u') AND LOWER (RIGHT(CITY, 1)) IN ('a', 'e', 'i', 'o', 'u');
+
+> SELECT DISTINCT CITY FROM STATION WHERE LOWER (LEFT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u'); 
+
+> SELECT DISTINCT CITY FROM STATION WHERE LOWER (RIGHT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u'); 
+
+> SELECT DISTINCT CITY FROM STATION WHERE LOWER (LEFT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u') OR LOWER (RIGHT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u');
+
+> SELECT DISTINCT CITY FROM STATION WHERE LOWER (LEFT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u') AND LOWER (RIGHT(CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u');
+
+> SELECT NAME FROM STUDENTS WHERE MARKS > 75 ORDER BY RIGHT(NAME, 3), ID;
+
+> SELECT NAME FROM EMPLOYEE ORDER BY NAME;
+
+> SELECT NAME FROM EMPLOYEE WHERE SALARY > 2000 AND MONTHS < 10 ORDER BY EMPLOYEE_ID;
+
+> TBD
+
+
+
+## Advanced Select
+> SELECT CASE WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
+            WHEN A = B AND B = C THEN 'Equilateral'
+            WHEN A = B OR A = C OR B = C THEN 'Isosceles'
+            ELSE 'Scalene'
+        END
+FROM TRIANGLES;
+
+> select concat(name, '(', substring(occupation, 1, 1), ')') from OCCUPATIONS order by name;
+select concat('There are a total of ', count(occupation), ' ', lower(occupation), 's.') from OCCUPATIONS
+group by occupation order by count(occupation), occupation;
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTY3ODA3OTQxMF19
+-->
