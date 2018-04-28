@@ -83,11 +83,38 @@ ORDER BY 1, 2, 3, 4;
 FROM BST
 ORDER BY N, P;
 
+> SELECT T1.company_code, T1.founder, COUNT(DISTINCT T2.lead_manager_code), COUNT(DISTINCT T3.senior_manager_code), COUNT(DISTINCT T4.manager_code), COUNT(DISTINCT T5.employee_code)
+FROM company T1,
+>
+>(SELECT company_code, lead_manager_code
+FROM Lead_Manager
+GROUP BY lead_manager_code, company_code) T2,
+>
+>(SELECT lead_manager_code, senior_manager_code
+FROM Senior_Manager
+GROUP BY senior_manager_code, lead_manager_code) T3,
+>
+>(SELECT senior_manager_code, manager_code
+FROM Manager
+GROUP BY manager_code, senior_manager_code) T4,
+>
+>(SELECT manager_code, employee_code
+FROM Employee
+GROUP BY employee_code, manager_code) T5
+>
+>WHERE T1.company_code = T2.company_code
+AND T2.lead_manager_code = T3.lead_manager_code
+AND T3.senior_manager_code = T4.senior_manager_code
+AND T4.manager_code = T5.manager_code
+>
+>GROUP BY T1.company_code, T1.founder
+ORDER BY T1.company_code;
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODMxNjI2NjQsNzQ4MDI5OTY3LC0xNz
-Y0NDE3NTk1LC0yNzI3ODU0MTUsLTY3ODA3OTQxMF19
+eyJoaXN0b3J5IjpbLTQ3Mjk4MzM4MiwtMTc4MzE2MjY2NCw3ND
+gwMjk5NjcsLTE3NjQ0MTc1OTUsLTI3Mjc4NTQxNSwtNjc4MDc5
+NDEwXX0=
 -->
