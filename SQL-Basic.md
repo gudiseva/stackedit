@@ -111,10 +111,11 @@ AND T4.manager_code = T5.manager_code
 ORDER BY T1.company_code;
 
 
-
+## Aggregation
+> SELECT COUNT(*) FROM CITY WHERE POPULATION > 100000;
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Mjk4MzM4MiwtMTc4MzE2MjY2NCw3ND
-gwMjk5NjcsLTE3NjQ0MTc1OTUsLTI3Mjc4NTQxNSwtNjc4MDc5
-NDEwXX0=
+eyJoaXN0b3J5IjpbLTEzNjA0NDg0NywtNDcyOTgzMzgyLC0xNz
+gzMTYyNjY0LDc0ODAyOTk2NywtMTc2NDQxNzU5NSwtMjcyNzg1
+NDE1LC02NzgwNzk0MTBdfQ==
 -->
