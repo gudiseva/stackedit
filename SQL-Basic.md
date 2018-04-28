@@ -58,6 +58,16 @@ FROM TRIANGLES;
 > select concat(name, '(', substring(occupation, 1, 1), ')') from OCCUPATIONS order by name;
 select concat('There are a total of ', count(occupation), ' ', lower(occupation), 's.') from OCCUPATIONS
 group by occupation order by count(occupation), occupation;
+
+
+
+(SELECT NAME 
+FROM OCCUPATIONS 
+WHERE OCCUPATION = 'Doctor')
+(SELECT NAME 
+FROM OCCUPATIONS 
+WHERE OCCUPATION = 'Actor')
+ORDER BY NAME;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODA3OTQxMF19
+eyJoaXN0b3J5IjpbLTI3Mjc4NTQxNSwtNjc4MDc5NDEwXX0=
 -->
