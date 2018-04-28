@@ -59,6 +59,20 @@ FROM TRIANGLES;
 select concat('There are a total of ', count(occupation), ' ', lower(occupation), 's.') from OCCUPATIONS
 group by occupation order by count(occupation), occupation;
 
+> SELECT Doctor_O, Professor_O, Singer_O, Actor_O
+FROM
+(
+    SELECT
+        CASE WHEN OCCUPATION = 'Doctor' THEN NAME ELSE NULL END AS Doctor_O,
+        CASE WHEN OCCUPATION = 'Professor' THEN NAME ELSE NULL END AS Professor_O, 
+        CASE WHEN OCCUPATION = 'Singer' THEN NAME ELSE NULL END AS Singer_O, 
+        CASE WHEN OCCUPATION = 'Actor' THEN NAME ELSE NULL END As Actor_O
+    FROM OCCUPATIONS
+    --ORDER BY NAME
+)
+TEMP1
+WHERE Doctor_O IS NOT NULL OR Professor_O IS NOT NULL OR Singer_O IS NOT NULL OR Actor_O IS NOT NULL
+ORDER BY 1, 2, 3, 4;
 
 
 (SELECT NAME 
@@ -69,5 +83,6 @@ FROM OCCUPATIONS
 WHERE OCCUPATION = 'Actor')
 ORDER BY NAME;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjc4NTQxNSwtNjc4MDc5NDEwXX0=
+eyJoaXN0b3J5IjpbLTE3NjQ0MTc1OTUsLTI3Mjc4NTQxNSwtNj
+c4MDc5NDEwXX0=
 -->
