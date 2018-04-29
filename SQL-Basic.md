@@ -186,11 +186,12 @@ WHERE CAST(LAT_N AS DECIMAL(10,4)) = (
     WHERE CAST(LAT_N AS DECIMAL(10,4)) < 137.2345
 );
 
-### Weather Observation Station 2
+### Weather Observation Station 16
 > SELECT CAST(MIN(LAT_N) AS DECIMAL(10,4)) AS min_lat_n
 FROM STATION
 WHERE CAST(LAT_N AS DECIMAL(10,4)) > 38.7780;
 
+### Weather Observation Station 17
 > SELECT CAST(LONG_W AS DECIMAL(10,4)) AS lon
 FROM STATION
 WHERE CAST(LAT_N AS DECIMAL(10,4)) = (
@@ -199,10 +200,12 @@ WHERE CAST(LAT_N AS DECIMAL(10,4)) = (
     WHERE CAST(LAT_N AS DECIMAL(10,4)) > 38.7780
 );
 
+### Weather Observation Station 18
 > SELECT CAST (ROUND( ABS(MIN(LAT_N) - MAX(LAT_N)) + ABS(MIN(LONG_W) - MAX(LONG_W) ), 4, 0) AS DECIMAL(10,4)) AS 'MANHATTAN DISTANCE'
 FROM STATION;
 
-> /*
+### Weather Observation Station 19
+- /*
 A = MIN(LAT_N)
 B = MAX(LAT_N)
 C = MIN(LONG_W)
@@ -210,12 +213,13 @@ D = MAX(LONG_W)
 P1(A, C)
 P2(B, D)
 - Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)
-> */
+>*/
 
 > SELECT
 CAST(SQRT( POWER((MAX(LAT_N) - MIN(LAT_N)), 2) + POWER((MAX(LONG_W) - MIN(LONG_W)), 2) ) AS DECIMAL(10,4)) AS 'Euclidean distance'
 FROM STATION;
 
+### Weather Observation Station 20
 > WITH MY_TABLE AS
 (
     SELECT 
@@ -247,7 +251,7 @@ AND COUNTRY.Continent = LOWER('Asia');
 ### African Cities
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDk1NjM0NCwxODU4ODY3NjgxLC04NT
+eyJoaXN0b3J5IjpbLTgxODcwNzM3MSwxODU4ODY3NjgxLC04NT
 k2OTUwNTAsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQx
 Nzg3LC0xMTcyOTgyNjMzLC04MDg0MDQ3MCwxMTk3NTc1NTIwLC
 0xMjcwODU2MjIxLC03MDc3MDQ3MjksLTEzODE4ODY2ODcsLTgw
