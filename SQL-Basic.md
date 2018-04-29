@@ -124,10 +124,13 @@ ORDER BY T1.company_code;
 
 > SELECT MAX(POPULATION) - MIN(POPULATION) AS DIFFERENCE FROM CITY;
 
+> --SELECT  employee_id, name, months, salary, (salary * months) AS earnings FROM Employee;
 
+SELECT TOP 1 (salary * months) AS earnings, count(*) FROM Employee GROUP BY (salary * months) ORDER BY earnings DESC;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA4NTYyMjEsLTcwNzcwNDcyOSwtMT
-M4MTg4NjY4NywtODAwODcxNzc2LC0xMzYwNDQ4NDcsLTQ3Mjk4
-MzM4MiwtMTc4MzE2MjY2NCw3NDgwMjk5NjcsLTE3NjQ0MTc1OT
-UsLTI3Mjc4NTQxNSwtNjc4MDc5NDEwXX0=
+eyJoaXN0b3J5IjpbMTAyODg4NjMwNiwtMTI3MDg1NjIyMSwtNz
+A3NzA0NzI5LC0xMzgxODg2Njg3LC04MDA4NzE3NzYsLTEzNjA0
+NDg0NywtNDcyOTgzMzgyLC0xNzgzMTYyNjY0LDc0ODAyOTk2Ny
+wtMTc2NDQxNzU5NSwtMjcyNzg1NDE1LC02NzgwNzk0MTBdfQ==
+
 -->
