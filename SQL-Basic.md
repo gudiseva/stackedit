@@ -169,13 +169,14 @@ C = MIN(LONG_W)
 D = MAX(LONG_W)
 P1(A, C)
 P2(B, D)
-Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)
+- Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)
 > */
-SELECT
+
+> SELECT
 CAST(SQRT( POWER((MAX(LAT_N) - MIN(LAT_N)), 2) + POWER((MAX(LONG_W) - MIN(LONG_W)), 2) ) AS DECIMAL(10,4)) AS 'Euclidean distance'
 FROM STATION;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTc0MTQ1NywtMzM0NjUzOTM4LC0xMT
+eyJoaXN0b3J5IjpbLTg1OTY5NTA1MCwtMzM0NjUzOTM4LC0xMT
 QxNDQ5NzAzLC05MDc1NDE3ODcsLTExNzI5ODI2MzMsLTgwODQw
 NDcwLDExOTc1NzU1MjAsLTEyNzA4NTYyMjEsLTcwNzcwNDcyOS
 wtMTM4MTg4NjY4NywtODAwODcxNzc2LC0xMzYwNDQ4NDcsLTQ3
