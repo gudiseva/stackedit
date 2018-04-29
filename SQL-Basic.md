@@ -80,7 +80,7 @@ select concat('There are a total of ', count(occupation), ' ', lower(occupation)
 group by occupation order by count(occupation), occupation;
 
 ### Occupations
-#### [Not Submitted]
+**[Not Submitted]**
 > SELECT Doctor_O, Professor_O, Singer_O, Actor_O
 FROM
 (
@@ -106,6 +106,7 @@ ORDER BY 1, 2, 3, 4;
 FROM BST
 ORDER BY N, P;
 
+### New Companies
 > SELECT T1.company_code, T1.founder, COUNT(DISTINCT T2.lead_manager_code), COUNT(DISTINCT T3.senior_manager_code), COUNT(DISTINCT T4.manager_code), COUNT(DISTINCT T5.employee_code)
 FROM company T1,
 >
@@ -230,11 +231,11 @@ AND COUNTRY.Continent = LOWER('Asia');
 ### African Cities
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzEwNjE5OCwxODU4ODY3NjgxLC04NT
-k2OTUwNTAsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQx
-Nzg3LC0xMTcyOTgyNjMzLC04MDg0MDQ3MCwxMTk3NTc1NTIwLC
-0xMjcwODU2MjIxLC03MDc3MDQ3MjksLTEzODE4ODY2ODcsLTgw
-MDg3MTc3NiwtMTM2MDQ0ODQ3LC00NzI5ODMzODIsLTE3ODMxNj
-I2NjQsNzQ4MDI5OTY3LC0xNzY0NDE3NTk1LC0yNzI3ODU0MTUs
-LTY3ODA3OTQxMF19
+eyJoaXN0b3J5IjpbLTE5MTQ1NzI5MjQsMTg1ODg2NzY4MSwtOD
+U5Njk1MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MDMsLTkwNzU0
+MTc4NywtMTE3Mjk4MjYzMywtODA4NDA0NzAsMTE5NzU3NTUyMC
+wtMTI3MDg1NjIyMSwtNzA3NzA0NzI5LC0xMzgxODg2Njg3LC04
+MDA4NzE3NzYsLTEzNjA0NDg0NywtNDcyOTgzMzgyLC0xNzgzMT
+YyNjY0LDc0ODAyOTk2NywtMTc2NDQxNzU5NSwtMjcyNzg1NDE1
+LC02NzgwNzk0MTBdfQ==
 -->
