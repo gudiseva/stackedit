@@ -79,6 +79,10 @@ FROM TRIANGLES;
 select concat('There are a total of ', count(occupation), ' ', lower(occupation), 's.') from OCCUPATIONS
 group by occupation order by count(occupation), occupation;
 
+### Occupations
+> TBD
+
+### Binary Tree Nodes
 > SELECT Doctor_O, Professor_O, Singer_O, Actor_O
 FROM
 (
@@ -227,11 +231,11 @@ AND COUNTRY.Continent = LOWER('Asia');
 ### African Cities
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTQwNTQ3NiwxODU4ODY3NjgxLC04NT
-k2OTUwNTAsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQx
-Nzg3LC0xMTcyOTgyNjMzLC04MDg0MDQ3MCwxMTk3NTc1NTIwLC
-0xMjcwODU2MjIxLC03MDc3MDQ3MjksLTEzODE4ODY2ODcsLTgw
-MDg3MTc3NiwtMTM2MDQ0ODQ3LC00NzI5ODMzODIsLTE3ODMxNj
-I2NjQsNzQ4MDI5OTY3LC0xNzY0NDE3NTk1LC0yNzI3ODU0MTUs
-LTY3ODA3OTQxMF19
+eyJoaXN0b3J5IjpbLTE2OTU5NzU0MjgsMTg1ODg2NzY4MSwtOD
+U5Njk1MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MDMsLTkwNzU0
+MTc4NywtMTE3Mjk4MjYzMywtODA4NDA0NzAsMTE5NzU3NTUyMC
+wtMTI3MDg1NjIyMSwtNzA3NzA0NzI5LC0xMzgxODg2Njg3LC04
+MDA4NzE3NzYsLTEzNjA0NDg0NywtNDcyOTgzMzgyLC0xNzgzMT
+YyNjY0LDc0ODAyOTk2NywtMTc2NDQxNzU5NSwtMjcyNzg1NDE1
+LC02NzgwNzk0MTBdfQ==
 -->
