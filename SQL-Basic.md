@@ -163,18 +163,21 @@ ORDER BY T1.company_code;
 
 > SELECT TOP 1 (salary * months) AS earnings, count(*) FROM Employee GROUP BY (salary * months) ORDER BY earnings DESC;
 
-### Weather Observation S
+### Weather Observation Station 2
 > SELECT ROUND(CAST(SUM(LAT_N) AS DECIMAL(10,2)), 2, 0) AS lat, ROUND(CAST(SUM(LONG_W) AS DECIMAL(10,2)), 2, 0) AS lon FROM STATION;
 
+### Weather Observation Station 13
 > SELECT CAST(SUM(LAT_N) AS DECIMAL(10,4)) AS sum_lat_n
 FROM STATION
 WHERE CAST(LAT_N AS DECIMAL(10,4)) > 38.7880
 AND CAST(LAT_N AS DECIMAL(10,4)) < 137.2345;
 
+### Weather Observation Station 14
 > SELECT CAST(MAX(LAT_N) AS DECIMAL(10,4)) AS max_lat_n
 FROM STATION
 WHERE CAST(LAT_N AS DECIMAL(10,4)) < 137.2345;
 
+### Weather Observation Station 15
 > SELECT CAST(LONG_W AS DECIMAL(10,4)) AS lon
 FROM STATION
 WHERE CAST(LAT_N AS DECIMAL(10,4)) = (
@@ -183,6 +186,7 @@ WHERE CAST(LAT_N AS DECIMAL(10,4)) = (
     WHERE CAST(LAT_N AS DECIMAL(10,4)) < 137.2345
 );
 
+### Weather Observation Station 2
 > SELECT CAST(MIN(LAT_N) AS DECIMAL(10,4)) AS min_lat_n
 FROM STATION
 WHERE CAST(LAT_N AS DECIMAL(10,4)) > 38.7780;
@@ -243,7 +247,7 @@ AND COUNTRY.Continent = LOWER('Asia');
 ### African Cities
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjY2ODE1NiwxODU4ODY3NjgxLC04NT
+eyJoaXN0b3J5IjpbMTc2MDk1NjM0NCwxODU4ODY3NjgxLC04NT
 k2OTUwNTAsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQx
 Nzg3LC0xMTcyOTgyNjMzLC04MDg0MDQ3MCwxMTk3NTc1NTIwLC
 0xMjcwODU2MjIxLC03MDc3MDQ3MjksLTEzODE4ODY2ODcsLTgw
