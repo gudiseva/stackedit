@@ -80,9 +80,7 @@ select concat('There are a total of ', count(occupation), ' ', lower(occupation)
 group by occupation order by count(occupation), occupation;
 
 ### Occupations
-> TBD
-
-### Binary Tree Nodes
+#### [Not Submitted]
 > SELECT Doctor_O, Professor_O, Singer_O, Actor_O
 FROM
 (
@@ -232,7 +230,7 @@ AND COUNTRY.Continent = LOWER('Asia');
 ### African Cities
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTkwNjgxMSwxODU4ODY3NjgxLC04NT
+eyJoaXN0b3J5IjpbMTEyNzEwNjE5OCwxODU4ODY3NjgxLC04NT
 k2OTUwNTAsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQx
 Nzg3LC0xMTcyOTgyNjMzLC04MDg0MDQ3MCwxMTk3NTc1NTIwLC
 0xMjcwODU2MjIxLC03MDc3MDQ3MjksLTEzODE4ODY2ODcsLTgw
