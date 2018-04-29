@@ -64,8 +64,9 @@ SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L DESC, CITY DESC;
 > SELECT NAME FROM EMPLOYEE WHERE SALARY > 2000 AND MONTHS < 10 ORDER BY EMPLOYEE_ID;
 
 
-
 ## Advanced Select
+
+### Type of Triange
 > SELECT CASE WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
             WHEN A = B AND B = C THEN 'Equilateral'
             WHEN A = B OR A = C OR B = C THEN 'Isosceles'
@@ -73,6 +74,7 @@ SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L DESC, CITY DESC;
         END
 FROM TRIANGLES;
 
+### The PADS
 > select concat(name, '(', substring(occupation, 1, 1), ')') from OCCUPATIONS order by name;
 select concat('There are a total of ', count(occupation), ' ', lower(occupation), 's.') from OCCUPATIONS
 group by occupation order by count(occupation), occupation;
@@ -225,11 +227,11 @@ AND COUNTRY.Continent = LOWER('Asia');
 ### African Cities
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNTM2MDQ0LDE4NTg4Njc2ODEsLTg1OT
-Y5NTA1MCwtMzM0NjUzOTM4LC0xMTQxNDQ5NzAzLC05MDc1NDE3
-ODcsLTExNzI5ODI2MzMsLTgwODQwNDcwLDExOTc1NzU1MjAsLT
-EyNzA4NTYyMjEsLTcwNzcwNDcyOSwtMTM4MTg4NjY4NywtODAw
-ODcxNzc2LC0xMzYwNDQ4NDcsLTQ3Mjk4MzM4MiwtMTc4MzE2Mj
-Y2NCw3NDgwMjk5NjcsLTE3NjQ0MTc1OTUsLTI3Mjc4NTQxNSwt
-Njc4MDc5NDEwXX0=
+eyJoaXN0b3J5IjpbMTE3NTQwNTQ3NiwxODU4ODY3NjgxLC04NT
+k2OTUwNTAsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQx
+Nzg3LC0xMTcyOTgyNjMzLC04MDg0MDQ3MCwxMTk3NTc1NTIwLC
+0xMjcwODU2MjIxLC03MDc3MDQ3MjksLTEzODE4ODY2ODcsLTgw
+MDg3MTc3NiwtMTM2MDQ0ODQ3LC00NzI5ODMzODIsLTE3ODMxNj
+I2NjQsNzQ4MDI5OTY3LC0xNzY0NDE3NTk1LC0yNzI3ODU0MTUs
+LTY3ODA3OTQxMF19
 -->
