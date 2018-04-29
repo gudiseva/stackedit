@@ -271,18 +271,26 @@ ORDER BY
     CASE WHEN Grades.Grade < 8 THEN Students.Marks END ASC;
 
 ### Top Competitors
-
+> SELECT Submissions.hacker_id, Hackers.name
+FROM Submissions
+    JOIN Challenges ON Submissions.challenge_id = Challenges.challenge_id
+    JOIN Difficulty ON Challenges.difficulty_level = Difficulty.difficulty_level
+    JOIN Hackers ON Submissions.hacker_id = Hackers.hacker_id
+WHERE Submissions.score = Difficulty.score
+GROUP BY Submissions.hacker_id, Hackers.name
+HAVING COUNT(Submissions.hacker_id) > 1
+ORDER BY COUNT(Submissions.hacker_id) DESC, Submissions.hacker_id;
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMT
-I5OTg0NTQzMywtNDAxMzIyNDIxLDEwODkyODkwNTUsMTg1ODg2
-NzY4MSwtODU5Njk1MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MD
-MsLTkwNzU0MTc4NywtMTE3Mjk4MjYzMywtODA4NDA0NzAsMTE5
-NzU3NTUyMCwtMTI3MDg1NjIyMSwtNzA3NzA0NzI5LC0xMzgxOD
-g2Njg3LC04MDA4NzE3NzYsLTEzNjA0NDg0NywtNDcyOTgzMzgy
-LC0xNzgzMTYyNjY0XX0=
+eyJoaXN0b3J5IjpbMTA1NDg1NTYxNSwtMTA2OTA1MTUxMCwtOT
+A1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00MDEzMjI0MjEsMTA4OTI4
+OTA1NSwxODU4ODY3NjgxLC04NTk2OTUwNTAsLTMzNDY1MzkzOC
+wtMTE0MTQ0OTcwMywtOTA3NTQxNzg3LC0xMTcyOTgyNjMzLC04
+MDg0MDQ3MCwxMTk3NTc1NTIwLC0xMjcwODU2MjIxLC03MDc3MD
+Q3MjksLTEzODE4ODY2ODcsLTgwMDg3MTc3NiwtMTM2MDQ0ODQ3
+LC00NzI5ODMzODJdfQ==
 -->
