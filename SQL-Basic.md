@@ -262,18 +262,27 @@ WHERE CITY.CountryCode = COUNTRY.Code
 GROUP BY COUNTRY.Continent;
 
 ### The Report
-> TBD
+> SELECT CASE WHEN Grades.Grade < 8 THEN NULL ELSE Students.Name END, Grades.Grade, Students.Marks
+FROM Students, Grades
+WHERE Students.Marks >= Grades.Min_Mark AND Students.Marks <= Grades.Max_Mark
+ORDER BY
+    Grades.Grade DESC,
+    CASE WHEN Grades.Grade >= 8 THEN Students.Name END ASC,
+    CASE WHEN Grades.Grade < 8 THEN Students.Marks END ASC;
+
+### Top Competitors
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTc0NzkyNiwtMTI5OTg0NTQzMywtND
-AxMzIyNDIxLDEwODkyODkwNTUsMTg1ODg2NzY4MSwtODU5Njk1
-MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MDMsLTkwNzU0MTc4Ny
-wtMTE3Mjk4MjYzMywtODA4NDA0NzAsMTE5NzU3NTUyMCwtMTI3
-MDg1NjIyMSwtNzA3NzA0NzI5LC0xMzgxODg2Njg3LC04MDA4Nz
-E3NzYsLTEzNjA0NDg0NywtNDcyOTgzMzgyLC0xNzgzMTYyNjY0
-LDc0ODAyOTk2N119
+eyJoaXN0b3J5IjpbLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMT
+I5OTg0NTQzMywtNDAxMzIyNDIxLDEwODkyODkwNTUsMTg1ODg2
+NzY4MSwtODU5Njk1MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MD
+MsLTkwNzU0MTc4NywtMTE3Mjk4MjYzMywtODA4NDA0NzAsMTE5
+NzU3NTUyMCwtMTI3MDg1NjIyMSwtNzA3NzA0NzI5LC0xMzgxOD
+g2Njg3LC04MDA4NzE3NzYsLTEzNjA0NDg0NywtNDcyOTgzMzgy
+LC0xNzgzMTYyNjY0XX0=
 -->
