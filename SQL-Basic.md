@@ -212,8 +212,7 @@ C = MIN(LONG_W)
 D = MAX(LONG_W)
 P1(A, C)
 P2(B, D)
-**Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)**
-`'Isn't this fun?'`
+`'Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)'`
 - */
 
 > SELECT
@@ -243,6 +242,7 @@ WHERE
 
 
 ## Basic JOIN
+
 ### Asian Population
 > SELECT SUM(CITY.POPULATION)
 FROM CITY, COUNTRY
@@ -250,9 +250,11 @@ WHERE CITY.CountryCode = COUNTRY.Code
 AND COUNTRY.Continent = LOWER('Asia');
 
 ### African Cities
+> TBD
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTEzMjY4NCwxODU4ODY3NjgxLC04NT
+eyJoaXN0b3J5IjpbMTA4OTI4OTA1NSwxODU4ODY3NjgxLC04NT
 k2OTUwNTAsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQx
 Nzg3LC0xMTcyOTgyNjMzLC04MDg0MDQ3MCwxMTk3NTc1NTIwLC
 0xMjcwODU2MjIxLC03MDc3MDQ3MjksLTEzODE4ODY2ODcsLTgw
