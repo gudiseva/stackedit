@@ -360,12 +360,12 @@ SELECT SUB_DATE, SUB_COUNT, HACK_ID, HACK_NAME FROM Common_Table_Expression WHER
 ## Alternative Queries
 
 ### Draw The Triangle 1
-> DECLARE @var int               -- -- Declare
-SELECT @var = 20                   -- Initialization
-WHILE @var > 0                      -- condition
-BEGIN                                       -- Begin
-PRINT replicate('* ', @var)       -- Print
-SET @var = @var - 1               -- decrement
+> DECLARE @var int               `-- Declare`
+SELECT @var = 20                   `-- Initialization`
+WHILE @var > 0                      `-- condition`
+BEGIN                                       `-- Begin`
+PRINT replicate('* ', @var)       `-- Print`
+SET @var = @var - 1               `-- decrement
 END  
 
 ### Draw The Triangle 2
@@ -378,11 +378,11 @@ SET @var = @var + 1               -- Set
 END                               -- end
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgxMTcxNjksMTYyNDY2NTg1NiwyMT
-I4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0
-OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC
-05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5
-Mjg5MDU1LDE4NTg4Njc2ODEsLTg1OTY5NTA1MCwtMzM0NjUzOT
-M4LC0xMTQxNDQ5NzAzLC05MDc1NDE3ODcsLTExNzI5ODI2MzMs
-LTgwODQwNDcwXX0=
+eyJoaXN0b3J5IjpbMTMzOTAxMDE3OSwxNjI0NjY1ODU2LDIxMj
+g5MzUyNDUsLTc1NzE5ODIzNiwzNjA4NDEzMzIsNDM5Njg1OTQ4
+LC0xMjIyODcwNDEyLDEwNTQ4NTU2MTUsLTEwNjkwNTE1MTAsLT
+kwNTc0NzkyNiwtMTI5OTg0NTQzMywtNDAxMzIyNDIxLDEwODky
+ODkwNTUsMTg1ODg2NzY4MSwtODU5Njk1MDUwLC0zMzQ2NTM5Mz
+gsLTExNDE0NDk3MDMsLTkwNzU0MTc4NywtMTE3Mjk4MjYzMywt
+ODA4NDA0NzBdfQ==
 -->
