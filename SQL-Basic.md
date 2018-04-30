@@ -378,9 +378,41 @@ SET @var = @var + 1                 `-- Set`
 END                                            `-- end`
 
 
+### PRIME NUMBER
+DECLARE @start int
+DECLARE @end int
+DECLARE @prime int
+DECLARE @number int
+DECLARE @flag int
+
+SET @number = 25
+SET @start = 2
+SET @end = @number
+
+PRINT 'NUMBER ENTERED: ' + CONVERT(VARCHAR, @number)
+
+WHILE @start < @end
+BEGIN
+    SET @flag = 0
+    BEGIN
+    IF(@number % @start = 0) 
+        BEGIN
+            SET @flag = 1
+            PRINT CONVERT(VARCHAR, @number) + ' IS NOT PRIME'
+            BREAK
+        END
+    END
+    SET @start = @start + 1
+END
+    BEGIN
+    IF(@flag = 0)
+        BEGIN
+            PRINT CONVERT(VARCHAR, @number) + ' IS PRIME'
+        END
+    END
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTQ2Njk1OSw3MjA5NDI0MDMsMTYyND
+eyJoaXN0b3J5IjpbMTE1Mjg4MTcwMyw3MjA5NDI0MDMsMTYyND
 Y2NTg1NiwyMTI4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMy
 LDQzOTY4NTk0OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC0xMD
 Y5MDUxNTEwLC05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQwMTMy
