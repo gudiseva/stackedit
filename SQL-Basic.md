@@ -360,8 +360,17 @@ SELECT SUB_DATE, SUB_COUNT, HACK_ID, HACK_NAME FROM Common_Table_Expression WHER
 ## Alternative Queries
 
 ### Draw The Triangle 1
+> DECLARE @var int               -- Declare
+SELECT @var = 20               -- Initialization
+WHILE @var > 0                 -- condition
+BEGIN                          -- Begin
+PRINT replicate('* ', @var)    -- Print
+SET @var = @var - 1            -- decrement
+END  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDk1MTcyMSwyMTI4OTM1MjQ1LC03NT
+eyJoaXN0b3J5IjpbMTYyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NT
 cxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0OCwtMTIyMjg3MDQx
 MiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC05MDU3NDc5MjYsLT
 EyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5Mjg5MDU1LDE4NTg4
