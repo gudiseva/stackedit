@@ -371,18 +371,19 @@ END
 ### Draw The Triangle 2
 > DECLARE @var int                  `-- Declare` 
 SELECT @var = 1                        `-- initialization` 
-WHILE @var <= 20                   `-- Condition`
-BEGIN                             `-- Begin`
-PRINT replicate('* ', @var)       `-- Print`
-SET @var = @var + 1               `-- Set`
-END                               `-- end`
+WHILE @var <= 20                    `-- Condition`
+BEGIN                                         `-- Begin`
+PRINT replicate('* ', @var)         `-- Print`
+SET @var = @var + 1                 `-- Set`
+END                                            `-- end`
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA3NDM1MjcsMTYyNDY2NTg1NiwyMT
-I4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0
-OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC
-05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5
-Mjg5MDU1LDE4NTg4Njc2ODEsLTg1OTY5NTA1MCwtMzM0NjUzOT
-M4LC0xMTQxNDQ5NzAzLC05MDc1NDE3ODcsLTExNzI5ODI2MzMs
-LTgwODQwNDcwXX0=
+eyJoaXN0b3J5IjpbNzIwOTQyNDAzLDE2MjQ2NjU4NTYsMjEyOD
+kzNTI0NSwtNzU3MTk4MjM2LDM2MDg0MTMzMiw0Mzk2ODU5NDgs
+LTEyMjI4NzA0MTIsMTA1NDg1NTYxNSwtMTA2OTA1MTUxMCwtOT
+A1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00MDEzMjI0MjEsMTA4OTI4
+OTA1NSwxODU4ODY3NjgxLC04NTk2OTUwNTAsLTMzNDY1MzkzOC
+wtMTE0MTQ0OTcwMywtOTA3NTQxNzg3LC0xMTcyOTgyNjMzLC04
+MDg0MDQ3MF19
 -->
