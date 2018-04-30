@@ -339,13 +339,29 @@ WHERE S_DATE < E_DATE
 GROUP BY S_DATE
 ORDER BY datediff(day, S_DATE, MIN(E_DATE)), S_DATE;
 
+### 15 Days of Learning SQL
+**[Not Submitted]**
+> WITH Common_Table_Expression AS
+(
+   SELECT S.submission_date AS SUB_DATE, COUNT(S.submission_id) AS SUB_COUNT, S.hacker_id AS HACK_ID, H.name AS HACK_NAME, 
+    ROW_NUM = ROW_NUMBER() OVER (
+        PARTITION BY S.submission_date 
+        ORDER BY S.submission_date, COUNT(S.submission_id) DESC, S.hacker_id
+    )
+   FROM Submissions S
+    JOIN Hackers H
+    ON S.hacker_id = H.hacker_id
+   GROUP BY S.submission_date, S.hacker_id, H.name
+   HAVING COUNT(S.submission_id) >= 1
+)
+SELECT SUB_DATE, SUB_COUNT, HACK_ID, HACK_NAME FROM Common_Table_Expression WHERE ROW_NUM = 1;
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzE5ODIzNiwzNjA4NDEzMzIsNDM5Nj
-g1OTQ4LC0xMjIyODcwNDEyLDEwNTQ4NTU2MTUsLTEwNjkwNTE1
-MTAsLTkwNTc0NzkyNiwtMTI5OTg0NTQzMywtNDAxMzIyNDIxLD
-EwODkyODkwNTUsMTg1ODg2NzY4MSwtODU5Njk1MDUwLC0zMzQ2
-NTM5MzgsLTExNDE0NDk3MDMsLTkwNzU0MTc4NywtMTE3Mjk4Mj
-YzMywtODA4NDA0NzAsMTE5NzU3NTUyMCwtMTI3MDg1NjIyMSwt
-NzA3NzA0NzI5XX0=
+eyJoaXN0b3J5IjpbLTE0NzAyOTAyMDksLTc1NzE5ODIzNiwzNj
+A4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLDEwNTQ4NTU2
+MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5OTg0NTQzMy
+wtNDAxMzIyNDIxLDEwODkyODkwNTUsMTg1ODg2NzY4MSwtODU5
+Njk1MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MDMsLTkwNzU0MT
+c4NywtMTE3Mjk4MjYzMywtODA4NDA0NzAsMTE5NzU3NTUyMCwt
+MTI3MDg1NjIyMV19
 -->
