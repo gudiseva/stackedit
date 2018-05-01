@@ -378,7 +378,7 @@ SET @var = @var + 1                 `-- Set`
 END                                            `-- end`
 
 
-### PRIME NUMBER
+### FIND PRIME NUMBER
 >DECLARE @start int
 DECLARE @end int
 DECLARE @prime int
@@ -458,7 +458,7 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjE1NjAxLC0yMTM1NTUxMDkzLDcyMD
+eyJoaXN0b3J5IjpbMzAxOTQ2MjUyLC0yMTM1NTUxMDkzLDcyMD
 k0MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5ODIz
 NiwzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLDEwNT
 Q4NTU2MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5OTg0
