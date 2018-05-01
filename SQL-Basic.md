@@ -411,12 +411,58 @@ END
         END
     END
 
+### Print Prime Numbers
+[1 to 1000]
+> DECLARE @start int
+DECLARE @end int
+DECLARE @number int
+DECLARE @reset int
+DECLARE @prime varchar(1000)
+DECLARE @flag int
+
+> SET @start = 2
+SET @end = 1000
+SET @number = @start
+SET @reset = @start
+SET @prime = ''
+
+WHILE @number < @end
+BEGIN
+    SET @start = @reset
+    WHILE @start < @end
+    BEGIN
+        SET @flag = 0
+        IF(@number = @start) 
+            BEGIN
+                --PRINT CONVERT(VARCHAR, @number) + ' IS EQUAL'
+                BREAK
+            END        
+        IF(@number % @start = 0) 
+            BEGIN
+                SET @flag = 1
+                --PRINT CONVERT(VARCHAR, @number) + ' IS NOT PRIME'
+                BREAK
+            END
+        SET @start = @start + 1
+    END
+        IF(@flag = 0)
+            BEGIN
+                --PRINT CONVERT(VARCHAR, @number) + ' IS A PRIME'
+                --PRINT @number
+                IF (@start = @reset)
+                    SET @prime = @prime + CONVERT(VARCHAR, @number)
+                ELSE
+                    SET @prime = @prime + '&' + CONVERT(VARCHAR, @number)
+            END
+    SET @number = @number + 1
+END
+PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU1NTEwOTMsNzIwOTQyNDAzLDE2Mj
-Q2NjU4NTYsMjEyODkzNTI0NSwtNzU3MTk4MjM2LDM2MDg0MTMz
-Miw0Mzk2ODU5NDgsLTEyMjI4NzA0MTIsMTA1NDg1NTYxNSwtMT
-A2OTA1MTUxMCwtOTA1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00MDEz
-MjI0MjEsMTA4OTI4OTA1NSwxODU4ODY3NjgxLC04NTk2OTUwNT
-AsLTMzNDY1MzkzOCwtMTE0MTQ0OTcwMywtOTA3NTQxNzg3LC0x
-MTcyOTgyNjMzXX0=
+eyJoaXN0b3J5IjpbMjg2OTU2ODE1LC0yMTM1NTUxMDkzLDcyMD
+k0MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5ODIz
+NiwzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLDEwNT
+Q4NTU2MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5OTg0
+NTQzMywtNDAxMzIyNDIxLDEwODkyODkwNTUsMTg1ODg2NzY4MS
+wtODU5Njk1MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MDMsLTkw
+NzU0MTc4N119
 -->
