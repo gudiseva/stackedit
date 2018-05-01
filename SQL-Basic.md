@@ -381,35 +381,30 @@ END                                            `-- end`
 ### FIND PRIME NUMBER
 >DECLARE @start int
 DECLARE @end int
-DECLARE @prime int
 DECLARE @number int
 DECLARE @flag int
 
->SET @number = 25
+SET @number = 29
 SET @start = 2
 SET @end = @number
 
->PRINT 'NUMBER ENTERED: ' + CONVERT(VARCHAR, @number)
+PRINT 'NUMBER ENTERED: ' + CONVERT(VARCHAR, @number)
 
->WHILE @start < @end
+WHILE @start < @end
 BEGIN
     SET @flag = 0
-    BEGIN
     IF(@number % @start = 0) 
         BEGIN
             SET @flag = 1
             PRINT CONVERT(VARCHAR, @number) + ' IS NOT PRIME'
             BREAK
         END
-    END
     SET @start = @start + 1
 END
-    BEGIN
     IF(@flag = 0)
         BEGIN
             PRINT CONVERT(VARCHAR, @number) + ' IS PRIME'
         END
-    END
 
 ### Print Prime Numbers
 **[1 to 1000]**
@@ -458,11 +453,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxOTQ2MjUyLC0yMTM1NTUxMDkzLDcyMD
-k0MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5ODIz
-NiwzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLDEwNT
-Q4NTU2MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5OTg0
-NTQzMywtNDAxMzIyNDIxLDEwODkyODkwNTUsMTg1ODg2NzY4MS
-wtODU5Njk1MDUwLC0zMzQ2NTM5MzgsLTExNDE0NDk3MDMsLTkw
-NzU0MTc4N119
+eyJoaXN0b3J5IjpbMzQxNTIxOTU4LDMwMTk0NjI1MiwtMjEzNT
+U1MTA5Myw3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMTI4OTM1MjQ1
+LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0OCwtMTIyMj
+g3MDQxMiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC05MDU3NDc5
+MjYsLTEyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5Mjg5MDU1LD
+E4NTg4Njc2ODEsLTg1OTY5NTA1MCwtMzM0NjUzOTM4LC0xMTQx
+NDQ5NzAzXX0=
 -->
