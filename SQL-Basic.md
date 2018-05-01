@@ -412,7 +412,7 @@ END
     END
 
 ### Print Prime Numbers
-[1 to 1000]
+**[1 to 1000]**
 > DECLARE @start int
 DECLARE @end int
 DECLARE @number int
@@ -426,7 +426,7 @@ SET @number = @start
 SET @reset = @start
 SET @prime = ''
 
-WHILE @number < @end
+> WHILE @number < @end
 BEGIN
     SET @start = @reset
     WHILE @start < @end
@@ -458,7 +458,7 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2OTU2ODE1LC0yMTM1NTUxMDkzLDcyMD
+eyJoaXN0b3J5IjpbMTQwNjE1NjAxLC0yMTM1NTUxMDkzLDcyMD
 k0MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5ODIz
 NiwzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLDEwNT
 Q4NTU2MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5OTg0
