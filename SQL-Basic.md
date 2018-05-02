@@ -456,16 +456,6 @@
     PRINT replicate('* ', @var)   	-- Print
     SET @var = @var + 1           	-- Set
     END  				-- End
-> 
-
-    DECLARE @var int					-- Declare
-    SELECT @var = 1						-- Initialization
-    WHILE @var <= 20					-- Condition
-    BEGIN						-- Begin
-    PRINT replicate('* ', @var)					-- Print
-    SET @var = @var + 1					-- Set
-    END						-- End
-
 
 ### FIND PRIME NUMBER
 > 
@@ -548,11 +538,11 @@
     PRINT @prime
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjQzMjQyMiwyMTI0MDYwNzAwLC0xOD
-k3NTYyNTcwLDc2NzYyMDk4MCwxOTYwNzYxNjI0LC0xNTkwNjc5
-NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1MiwtMjEzNTU1MTA5My
-w3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NTcx
-OTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0OCwtMTIyMjg3MDQxMi
-wxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC05MDU3NDc5MjYsLTEy
-OTk4NDU0MzNdfQ==
+eyJoaXN0b3J5IjpbNDcyMDYzMjYzLDIxMjQwNjA3MDAsLTE4OT
+c1NjI1NzAsNzY3NjIwOTgwLDE5NjA3NjE2MjQsLTE1OTA2Nzk1
+NTgsLTEzMDExMjA2MTYsMzAxOTQ2MjUyLC0yMTM1NTUxMDkzLD
+cyMDk0MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5
+ODIzNiwzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLD
+EwNTQ4NTU2MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5
+OTg0NTQzM119
 -->
