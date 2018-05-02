@@ -490,56 +490,59 @@
 
 ### Print Prime Numbers
 **[1 to 1000]**
-> DECLARE @start int
-DECLARE @end int
-DECLARE @number int
-DECLARE @reset int
-DECLARE @prime varchar(1000)
-DECLARE @flag int
+> 
 
-SET @start = 2
-SET @end = 1000
-SET @number = @start
-SET @reset = @start
-SET @prime = ''
-
-> WHILE @number < @end
-BEGIN
-    SET @start = @reset
-    WHILE @start < @end
+    DECLARE @start int
+    DECLARE @end int
+    DECLARE @number int
+    DECLARE @reset int
+    DECLARE @prime varchar(1000)
+    DECLARE @flag int
+    
+    SET @start = 2
+    SET @end = 1000
+    SET @number = @start
+    SET @reset = @start
+    SET @prime = ''
+    
+    WHILE @number < @end
     BEGIN
-        SET @flag = 0
-        IF(@number = @start) 
-            BEGIN
-                --PRINT CONVERT(VARCHAR, @number) + ' IS EQUAL'
-                BREAK
-            END        
-        IF(@number % @start = 0) 
-            BEGIN
-                SET @flag = 1
-                --PRINT CONVERT(VARCHAR, @number) + ' IS NOT PRIME'
-                BREAK
-            END
-        SET @start = @start + 1
+        SET @start = @reset
+        WHILE @start < @end
+        BEGIN
+            SET @flag = 0
+            IF(@number = @start) 
+                BEGIN
+                    --PRINT CONVERT(VARCHAR, @number) + ' IS EQUAL'
+                    BREAK
+                END        
+            IF(@number % @start = 0) 
+                BEGIN
+                    SET @flag = 1
+                    --PRINT CONVERT(VARCHAR, @number) + ' IS NOT PRIME'
+                    BREAK
+                END
+            SET @start = @start + 1
+        END
+            IF(@flag = 0)
+                BEGIN
+                    --PRINT CONVERT(VARCHAR, @number) + ' IS A PRIME'
+                    --PRINT @number
+                    IF (@start = @reset)
+                        SET @prime = @prime + CONVERT(VARCHAR, @number)
+                    ELSE
+                        SET @prime = @prime + '&' + CONVERT(VARCHAR, @number)
+                END
+        SET @number = @number + 1
     END
-        IF(@flag = 0)
-            BEGIN
-                --PRINT CONVERT(VARCHAR, @number) + ' IS A PRIME'
-                --PRINT @number
-                IF (@start = @reset)
-                    SET @prime = @prime + CONVERT(VARCHAR, @number)
-                ELSE
-                    SET @prime = @prime + '&' + CONVERT(VARCHAR, @number)
-            END
-    SET @number = @number + 1
-END
-PRINT @prime
+    PRINT @prime
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MjkwODk0LDc2NzYyMDk4MCwxOTYwNz
-YxNjI0LC0xNTkwNjc5NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1
-MiwtMjEzNTU1MTA5Myw3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMT
-I4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0
-OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC
-05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5
-Mjg5MDU1XX0=
+eyJoaXN0b3J5IjpbLTE4OTc1NjI1NzAsNzY3NjIwOTgwLDE5Nj
+A3NjE2MjQsLTE1OTA2Nzk1NTgsLTEzMDExMjA2MTYsMzAxOTQ2
+MjUyLC0yMTM1NTUxMDkzLDcyMDk0MjQwMywxNjI0NjY1ODU2LD
+IxMjg5MzUyNDUsLTc1NzE5ODIzNiwzNjA4NDEzMzIsNDM5Njg1
+OTQ4LC0xMjIyODcwNDEyLDEwNTQ4NTU2MTUsLTEwNjkwNTE1MT
+AsLTkwNTc0NzkyNiwtMTI5OTg0NTQzMywtNDAxMzIyNDIxLDEw
+ODkyODkwNTVdfQ==
 -->
