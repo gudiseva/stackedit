@@ -172,19 +172,24 @@
 `SELECT COUNT(*) FROM CITY WHERE POPULATION > 100000;`
 
 ### Revising Aggregations - The Sum Function
-> `SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT = LOWER('CALIFORNIA');`
+> 
+`SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT = LOWER('CALIFORNIA');`
 
 ### Revising Aggregations - Averages
-> `SELECT ROUND(AVG(CAST(POPULATION AS FLOAT)), 3) FROM CITY WHERE DISTRICT = LOWER('CALIFORNIA');`
+> 
+`SELECT ROUND(AVG(CAST(POPULATION AS FLOAT)), 3) FROM CITY WHERE DISTRICT = LOWER('CALIFORNIA');`
 
 ### Average Population
-> `SELECT ROUND(AVG(POPULATION), 2, 0) FROM CITY;`
+> 
+`SELECT ROUND(AVG(POPULATION), 2, 0) FROM CITY;`
 
 ### Japan Population
-> `SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE = LOWER('JPN');`
+> 
+`SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE = LOWER('JPN');`
 
 ### Population Density Difference
-> `SELECT MAX(POPULATION) - MIN(POPULATION) AS DIFFERENCE FROM CITY;`
+> 
+`SELECT MAX(POPULATION) - MIN(POPULATION) AS DIFFERENCE FROM CITY;`
 
 ### The Blunder
 > TBD
@@ -192,10 +197,12 @@
 ### Top Earners
 - SELECT  employee_id, name, months, salary, (salary * months) AS earnings FROM Employee;
 
-> `SELECT TOP 1 (salary * months) AS earnings, count(*) FROM Employee GROUP BY (salary * months) ORDER BY earnings DESC;`
+> 
+`SELECT TOP 1 (salary * months) AS earnings, count(*) FROM Employee GROUP BY (salary * months) ORDER BY earnings DESC;`
 
 ### Weather Observation Station 2
-> `SELECT ROUND(CAST(SUM(LAT_N) AS DECIMAL(10,2)), 2, 0) AS lat, ROUND(CAST(SUM(LONG_W) AS DECIMAL(10,2)), 2, 0) AS lon FROM STATION;`
+> 
+`SELECT ROUND(CAST(SUM(LAT_N) AS DECIMAL(10,2)), 2, 0) AS lat, ROUND(CAST(SUM(LONG_W) AS DECIMAL(10,2)), 2, 0) AS lon FROM STATION;`
 
 ### Weather Observation Station 13
 > 
@@ -248,15 +255,16 @@
     FROM STATION;
 
 ### Weather Observation Station 19
-- /*
---- A = MIN(LAT_N)
---- B = MAX(LAT_N)
---- C = MIN(LONG_W)
---- D = MAX(LONG_W)
---- P1(A, C)
---- P2(B, D)
-`Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)`
-- */
+
+    - /*
+    --- A = MIN(LAT_N)
+    --- B = MAX(LAT_N)
+    --- C = MIN(LONG_W)
+    --- D = MAX(LONG_W)
+    --- P1(A, C)
+    --- P2(B, D)
+    `Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)`
+    - */
 
 > 
 
@@ -523,11 +531,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODAxODA1NCw3Njc2MjA5ODAsMTk2MD
-c2MTYyNCwtMTU5MDY3OTU1OCwtMTMwMTEyMDYxNiwzMDE5NDYy
-NTIsLTIxMzU1NTEwOTMsNzIwOTQyNDAzLDE2MjQ2NjU4NTYsMj
-EyODkzNTI0NSwtNzU3MTk4MjM2LDM2MDg0MTMzMiw0Mzk2ODU5
-NDgsLTEyMjI4NzA0MTIsMTA1NDg1NTYxNSwtMTA2OTA1MTUxMC
-wtOTA1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00MDEzMjI0MjEsMTA4
-OTI4OTA1NV19
+eyJoaXN0b3J5IjpbNDI3MDY1NDAyLDc2NzYyMDk4MCwxOTYwNz
+YxNjI0LC0xNTkwNjc5NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1
+MiwtMjEzNTU1MTA5Myw3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMT
+I4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0
+OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC
+05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5
+Mjg5MDU1XX0=
 -->
