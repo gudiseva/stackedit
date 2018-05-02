@@ -374,42 +374,48 @@
     ORDER BY FRIEND_DETAILS.FRIEND_SALARY;
 
 ### Projects
-> SELECT S_DATE, MIN(E_DATE)
-FROM 
-    (SELECT start_date AS S_DATE FROM PROJECTS WHERE start_date NOT IN (SELECT end_date FROM PROJECTS)) TABLE1,
-    (SELECT end_date AS E_DATE FROM PROJECTS WHERE end_date NOT IN (SELECT start_date FROM PROJECTS)) TABLE2
-WHERE S_DATE < E_DATE
-GROUP BY S_DATE
-ORDER BY datediff(day, S_DATE, MIN(E_DATE)), S_DATE;
+> 
+
+    SELECT S_DATE, MIN(E_DATE)
+    FROM 
+        (SELECT start_date AS S_DATE FROM PROJECTS WHERE start_date NOT IN (SELECT end_date FROM PROJECTS)) TABLE1,
+        (SELECT end_date AS E_DATE FROM PROJECTS WHERE end_date NOT IN (SELECT start_date FROM PROJECTS)) TABLE2
+    WHERE S_DATE < E_DATE
+    GROUP BY S_DATE
+    ORDER BY datediff(day, S_DATE, MIN(E_DATE)), S_DATE;
 
 ### 15 Days of Learning SQL
 **[Not Submitted]**
-> WITH Common_Table_Expression AS
-(
-   SELECT S.submission_date AS SUB_DATE, COUNT(S.submission_id) AS SUB_COUNT, S.hacker_id AS HACK_ID, H.name AS HACK_NAME, 
-    ROW_NUM = ROW_NUMBER() OVER (
-        PARTITION BY S.submission_date 
-        ORDER BY S.submission_date, COUNT(S.submission_id) DESC, S.hacker_id
+> 
+
+    WITH Common_Table_Expression AS
+    (
+       SELECT S.submission_date AS SUB_DATE, COUNT(S.submission_id) AS SUB_COUNT, S.hacker_id AS HACK_ID, H.name AS HACK_NAME, 
+        ROW_NUM = ROW_NUMBER() OVER (
+            PARTITION BY S.submission_date 
+            ORDER BY S.submission_date, COUNT(S.submission_id) DESC, S.hacker_id
+        )
+       FROM Submissions S
+        JOIN Hackers H
+        ON S.hacker_id = H.hacker_id
+       GROUP BY S.submission_date, S.hacker_id, H.name
+       HAVING COUNT(S.submission_id) >= 1
     )
-   FROM Submissions S
-    JOIN Hackers H
-    ON S.hacker_id = H.hacker_id
-   GROUP BY S.submission_date, S.hacker_id, H.name
-   HAVING COUNT(S.submission_id) >= 1
-)
-SELECT SUB_DATE, SUB_COUNT, HACK_ID, HACK_NAME FROM Common_Table_Expression WHERE ROW_NUM = 1;
+    SELECT SUB_DATE, SUB_COUNT, HACK_ID, HACK_NAME FROM Common_Table_Expression WHERE ROW_NUM = 1;
 
 
 ## Alternative Queries
 
 ### Draw The Triangle 1
-> DECLARE @var int               `-- Declare`
-SELECT @var = 20                   `-- Initialization`
-WHILE @var > 0                      `-- condition`
-BEGIN                                       `-- Begin`
-PRINT replicate('* ', @var)       `-- Print`
-SET @var = @var - 1               `-- decrement`
-END  
+> 
+
+    DECLARE @var int               -- Declare`
+    SELECT @var = 20               -- Initialization`
+    WHILE @var > 0                  -- condition`
+    BEGIN                                      `-- Begin`
+    PRINT replicate('* ', @var)       `-- Print`
+    SET @var = @var - 1               `-- decrement`
+    END  
 
 ### Draw The Triangle 2
 > DECLARE @var int                  `-- Declare` 
@@ -497,11 +503,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODQ1NDAwMCwtMTU5MDY3OTU1OCwtMT
-MwMTEyMDYxNiwzMDE5NDYyNTIsLTIxMzU1NTEwOTMsNzIwOTQy
-NDAzLDE2MjQ2NjU4NTYsMjEyODkzNTI0NSwtNzU3MTk4MjM2LD
-M2MDg0MTMzMiw0Mzk2ODU5NDgsLTEyMjI4NzA0MTIsMTA1NDg1
-NTYxNSwtMTA2OTA1MTUxMCwtOTA1NzQ3OTI2LC0xMjk5ODQ1ND
-MzLC00MDEzMjI0MjEsMTA4OTI4OTA1NSwxODU4ODY3NjgxLC04
-NTk2OTUwNTBdfQ==
+eyJoaXN0b3J5IjpbMjUxNTY5ODM2LC0xNTkwNjc5NTU4LC0xMz
+AxMTIwNjE2LDMwMTk0NjI1MiwtMjEzNTU1MTA5Myw3MjA5NDI0
+MDMsMTYyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NTcxOTgyMzYsMz
+YwODQxMzMyLDQzOTY4NTk0OCwtMTIyMjg3MDQxMiwxMDU0ODU1
+NjE1LC0xMDY5MDUxNTEwLC05MDU3NDc5MjYsLTEyOTk4NDU0Mz
+MsLTQwMTMyMjQyMSwxMDg5Mjg5MDU1LDE4NTg4Njc2ODEsLTg1
+OTY5NTA1MF19
 -->
