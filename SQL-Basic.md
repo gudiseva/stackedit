@@ -439,18 +439,18 @@
 
     DECLARE @var int               	-- Declare
     SELECT @var = 20               	-- Initialization
-    WHILE @var > 0                  	-- condition
-    BEGIN                             		-- Begin
+    WHILE @var > 0                  -- Condition
+    BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
     SET @var = @var - 1           	-- decrement
     END  
 
 ### Draw The Triangle 2
-> DECLARE @var int                  `-- Declare` 
-SELECT @var = 1                        `-- initialization` 
-WHILE @var <= 20                    `-- Condition`
-BEGIN                                         `-- Begin`
-PRINT replicate('* ', @var)         `-- Print`
+> DECLARE @var int                  -- Declare
+SELECT @var = 1                        -- initialization
+WHILE @var <= 20                    -- Condition
+BEGIN                                         -- Begin
+PRINT replicate('* ', @var)         -- Print
 SET @var = @var + 1                 `-- Set`
 END                                            `-- end`
 
@@ -531,11 +531,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4ODg5MjA0LDc2NzYyMDk4MCwxOTYwNz
-YxNjI0LC0xNTkwNjc5NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1
-MiwtMjEzNTU1MTA5Myw3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMT
-I4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0
-OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC
-05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5
-Mjg5MDU1XX0=
+eyJoaXN0b3J5IjpbLTY4OTU1MDM0OCw3Njc2MjA5ODAsMTk2MD
+c2MTYyNCwtMTU5MDY3OTU1OCwtMTMwMTEyMDYxNiwzMDE5NDYy
+NTIsLTIxMzU1NTEwOTMsNzIwOTQyNDAzLDE2MjQ2NjU4NTYsMj
+EyODkzNTI0NSwtNzU3MTk4MjM2LDM2MDg0MTMzMiw0Mzk2ODU5
+NDgsLTEyMjI4NzA0MTIsMTA1NDg1NTYxNSwtMTA2OTA1MTUxMC
+wtOTA1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00MDEzMjI0MjEsMTA4
+OTI4OTA1NV19
 -->
