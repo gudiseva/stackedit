@@ -86,30 +86,34 @@
 
 ### Occupations
 **[Not Submitted]**
-> SELECT Doctor_O, Professor_O, Singer_O, Actor_O
-FROM
-(
-    SELECT
-        CASE WHEN OCCUPATION = 'Doctor' THEN NAME ELSE NULL END AS Doctor_O,
-        CASE WHEN OCCUPATION = 'Professor' THEN NAME ELSE NULL END AS Professor_O, 
-        CASE WHEN OCCUPATION = 'Singer' THEN NAME ELSE NULL END AS Singer_O, 
-        CASE WHEN OCCUPATION = 'Actor' THEN NAME ELSE NULL END As Actor_O
-    FROM OCCUPATIONS
-    --ORDER BY NAME
-)
-TEMP1
-WHERE Doctor_O IS NOT NULL OR Professor_O IS NOT NULL OR Singer_O IS NOT NULL OR Actor_O IS NOT NULL
-ORDER BY 1, 2, 3, 4;
+> 
+
+    SELECT Doctor_O, Professor_O, Singer_O, Actor_O
+    FROM
+    (
+        SELECT
+            CASE WHEN OCCUPATION = 'Doctor' THEN NAME ELSE NULL END AS Doctor_O,
+            CASE WHEN OCCUPATION = 'Professor' THEN NAME ELSE NULL END AS Professor_O, 
+            CASE WHEN OCCUPATION = 'Singer' THEN NAME ELSE NULL END AS Singer_O, 
+            CASE WHEN OCCUPATION = 'Actor' THEN NAME ELSE NULL END As Actor_O
+        FROM OCCUPATIONS
+        --ORDER BY NAME
+    )
+    TEMP1
+    WHERE Doctor_O IS NOT NULL OR Professor_O IS NOT NULL OR Singer_O IS NOT NULL OR Actor_O IS NOT NULL
+    ORDER BY 1, 2, 3, 4;
 
 ### Binary Tree Nodes
-> SELECT N, (
-    CASE WHEN N = ANY (SELECT DISTINCT P FROM BST) AND P IS NOT NULL THEN 'Inner'
-         WHEN P IS NULL THEN 'Root'
-         ELSE 'Leaf'
-    END
-    ) NODE_TYPE
-FROM BST
-ORDER BY N, P;
+> 
+
+    SELECT N, (
+        CASE WHEN N = ANY (SELECT DISTINCT P FROM BST) AND P IS NOT NULL THEN 'Inner'
+             WHEN P IS NULL THEN 'Root'
+             ELSE 'Leaf'
+        END
+        ) NODE_TYPE
+    FROM BST
+    ORDER BY N, P;
 
 ### New Companies
 > SELECT T1.company_code, T1.founder, COUNT(DISTINCT T2.lead_manager_code), COUNT(DISTINCT T3.senior_manager_code), COUNT(DISTINCT T4.manager_code), COUNT(DISTINCT T5.employee_code)
@@ -459,7 +463,7 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY3MTUwODIsLTE1OTA2Nzk1NTgsLT
+eyJoaXN0b3J5IjpbLTIwMTc5MzUzMDYsLTE1OTA2Nzk1NTgsLT
 EzMDExMjA2MTYsMzAxOTQ2MjUyLC0yMTM1NTUxMDkzLDcyMDk0
 MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5ODIzNi
 wzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLDEwNTQ4
