@@ -439,7 +439,7 @@
 > 
 
     DECLARE @var int               	-- Declare
-    SELECT @var = 20               	-- Initialization
+    SELECT @var = 20               	-- Initialisation
     WHILE @var > 0                  -- Condition
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
@@ -450,12 +450,13 @@
 > 
 
     DECLARE @var int               	-- Declare
-    SELECT @var = 1               	-- Initialization
+    SELECT @var = 1               	-- Initialisation
     WHILE @var <= 20                -- Condition
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
     SET @var = @var + 1           	-- Set
     END  				-- End
+
 
 ### FIND PRIME NUMBER
 > 
@@ -538,11 +539,11 @@
     PRINT @prime
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMDYzMjYzLDIxMjQwNjA3MDAsLTE4OT
-c1NjI1NzAsNzY3NjIwOTgwLDE5NjA3NjE2MjQsLTE1OTA2Nzk1
-NTgsLTEzMDExMjA2MTYsMzAxOTQ2MjUyLC0yMTM1NTUxMDkzLD
-cyMDk0MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5
-ODIzNiwzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLD
-EwNTQ4NTU2MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5
-OTg0NTQzM119
+eyJoaXN0b3J5IjpbMTU2OTczOTA5OSw0NzIwNjMyNjMsMjEyND
+A2MDcwMCwtMTg5NzU2MjU3MCw3Njc2MjA5ODAsMTk2MDc2MTYy
+NCwtMTU5MDY3OTU1OCwtMTMwMTEyMDYxNiwzMDE5NDYyNTIsLT
+IxMzU1NTEwOTMsNzIwOTQyNDAzLDE2MjQ2NjU4NTYsMjEyODkz
+NTI0NSwtNzU3MTk4MjM2LDM2MDg0MTMzMiw0Mzk2ODU5NDgsLT
+EyMjI4NzA0MTIsMTA1NDg1NTYxNSwtMTA2OTA1MTUxMCwtOTA1
+NzQ3OTI2XX0=
 -->
