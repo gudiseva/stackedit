@@ -446,13 +446,15 @@
     END  
 
 ### Draw The Triangle 2
-> DECLARE @var int                  -- Declare
-SELECT @var = 1                        -- initialization
-WHILE @var <= 20                    -- Condition
-BEGIN                                         -- Begin
-PRINT replicate('* ', @var)         -- Print
-SET @var = @var + 1                 `-- Set`
-END                                            `-- end`
+> 
+
+    DECLARE @var int                  	-- Declare
+    SELECT @var = 1                     -- Initialization
+    WHILE @var <= 20                   	-- Condition
+    BEGIN                               -- Begin
+    PRINT replicate('* ', @var)        	-- Print
+    SET @var = @var + 1               	-- Set
+    END                                   -- end
 
 
 ### FIND PRIME NUMBER
@@ -531,11 +533,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTU1MDM0OCw3Njc2MjA5ODAsMTk2MD
-c2MTYyNCwtMTU5MDY3OTU1OCwtMTMwMTEyMDYxNiwzMDE5NDYy
-NTIsLTIxMzU1NTEwOTMsNzIwOTQyNDAzLDE2MjQ2NjU4NTYsMj
-EyODkzNTI0NSwtNzU3MTk4MjM2LDM2MDg0MTMzMiw0Mzk2ODU5
-NDgsLTEyMjI4NzA0MTIsMTA1NDg1NTYxNSwtMTA2OTA1MTUxMC
-wtOTA1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00MDEzMjI0MjEsMTA4
-OTI4OTA1NV19
+eyJoaXN0b3J5IjpbLTIwNjE2Mzc5MDYsNzY3NjIwOTgwLDE5Nj
+A3NjE2MjQsLTE1OTA2Nzk1NTgsLTEzMDExMjA2MTYsMzAxOTQ2
+MjUyLC0yMTM1NTUxMDkzLDcyMDk0MjQwMywxNjI0NjY1ODU2LD
+IxMjg5MzUyNDUsLTc1NzE5ODIzNiwzNjA4NDEzMzIsNDM5Njg1
+OTQ4LC0xMjIyODcwNDEyLDEwNTQ4NTU2MTUsLTEwNjkwNTE1MT
+AsLTkwNTc0NzkyNiwtMTI5OTg0NTQzMywtNDAxMzIyNDIxLDEw
+ODkyODkwNTVdfQ==
 -->
