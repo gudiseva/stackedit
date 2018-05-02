@@ -450,11 +450,11 @@
 > 
 
     DECLARE @var int               	-- Declare
-    SELECT @var = 20               	-- Initialization
-    WHILE @var > 0                  -- Condition
+    SELECT @var = 1               	-- Initialization
+    WHILE @var <= 20                  -- Condition
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
-    SET @var = @var - 1           	-- Decrement
+    SET @var = @var + 1           	-- Set
     END  
 > 
 
@@ -548,11 +548,11 @@
     PRINT @prime
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4Njg4MDc3LC0xODk3NTYyNTcwLDc2Nz
-YyMDk4MCwxOTYwNzYxNjI0LC0xNTkwNjc5NTU4LC0xMzAxMTIw
-NjE2LDMwMTk0NjI1MiwtMjEzNTU1MTA5Myw3MjA5NDI0MDMsMT
-YyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQx
-MzMyLDQzOTY4NTk0OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC
-0xMDY5MDUxNTEwLC05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQw
-MTMyMjQyMV19
+eyJoaXN0b3J5IjpbMjEyNDA2MDcwMCwtMTg5NzU2MjU3MCw3Nj
+c2MjA5ODAsMTk2MDc2MTYyNCwtMTU5MDY3OTU1OCwtMTMwMTEy
+MDYxNiwzMDE5NDYyNTIsLTIxMzU1NTEwOTMsNzIwOTQyNDAzLD
+E2MjQ2NjU4NTYsMjEyODkzNTI0NSwtNzU3MTk4MjM2LDM2MDg0
+MTMzMiw0Mzk2ODU5NDgsLTEyMjI4NzA0MTIsMTA1NDg1NTYxNS
+wtMTA2OTA1MTUxMCwtOTA1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00
+MDEzMjI0MjFdfQ==
 -->
