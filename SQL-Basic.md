@@ -452,8 +452,8 @@
     DECLARE @var int					-- Declare
     SELECT @var = 1						-- Initialization
     WHILE @var <= 20					-- Condition
-    BEGIN								-- Begin
-    PRINT replicate('* ', @var)			-- Print
+    BEGIN						-- Begin
+    PRINT replicate('* ', @var)					-- Print
     SET @var = @var + 1					-- Set
     END									-- End
 
@@ -539,7 +539,7 @@
     PRINT @prime
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2NTI4Nzk4LC0xODk3NTYyNTcwLDc2Nz
+eyJoaXN0b3J5IjpbMTE2ODM1MDA2LC0xODk3NTYyNTcwLDc2Nz
 YyMDk4MCwxOTYwNzYxNjI0LC0xNTkwNjc5NTU4LC0xMzAxMTIw
 NjE2LDMwMTk0NjI1MiwtMjEzNTU1MTA5Myw3MjA5NDI0MDMsMT
 YyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQx
