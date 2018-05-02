@@ -256,15 +256,15 @@
 
 ### Weather Observation Station 19
 
-    - /*
-    --- A = MIN(LAT_N)
-    --- B = MAX(LAT_N)
-    --- C = MIN(LONG_W)
-    --- D = MAX(LONG_W)
-    --- P1(A, C)
-    --- P2(B, D)
+    /*
+    -- A = MIN(LAT_N)
+    -- B = MAX(LAT_N)
+    -- C = MIN(LONG_W)
+    -- D = MAX(LONG_W)
+    -- P1(A, C)
+    -- P2(B, D)
     `Euclidean distance = SQRT((B - A) ^ 2 + (D - C) ^ 2)`
-    - */
+    */
 
 > 
 
@@ -531,7 +531,7 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3MDY1NDAyLDc2NzYyMDk4MCwxOTYwNz
+eyJoaXN0b3J5IjpbNTY4ODg5MjA0LDc2NzYyMDk4MCwxOTYwNz
 YxNjI0LC0xNTkwNjc5NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1
 MiwtMjEzNTU1MTA5Myw3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMT
 I4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0
