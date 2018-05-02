@@ -448,12 +448,12 @@
 ### Draw The Triangle 2
 > 
 
-    DECLARE @var int                  	-- Declare
-    SELECT @var = 1                     -- Initialization
-    WHILE @var <= 20                   	-- Condition
-    BEGIN                               -- Begin
-    PRINT replicate('* ', @var)        	-- Print
-    SET @var = @var + 1               	-- Set
+    DECLARE @var int					-- Declare
+    SELECT @var = 1						-- Initialization
+    WHILE @var <= 20					-- Condition
+    BEGIN								-- Begin
+    PRINT replicate('* ', @var)			-- Print
+    SET @var = @var + 1					-- Set
     END                                 -- End
 
 
@@ -538,11 +538,11 @@
     PRINT @prime
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc1NjI1NzAsNzY3NjIwOTgwLDE5Nj
-A3NjE2MjQsLTE1OTA2Nzk1NTgsLTEzMDExMjA2MTYsMzAxOTQ2
-MjUyLC0yMTM1NTUxMDkzLDcyMDk0MjQwMywxNjI0NjY1ODU2LD
-IxMjg5MzUyNDUsLTc1NzE5ODIzNiwzNjA4NDEzMzIsNDM5Njg1
-OTQ4LC0xMjIyODcwNDEyLDEwNTQ4NTU2MTUsLTEwNjkwNTE1MT
-AsLTkwNTc0NzkyNiwtMTI5OTg0NTQzMywtNDAxMzIyNDIxLDEw
-ODkyODkwNTVdfQ==
+eyJoaXN0b3J5IjpbMTE2NjY0OTExNCwtMTg5NzU2MjU3MCw3Nj
+c2MjA5ODAsMTk2MDc2MTYyNCwtMTU5MDY3OTU1OCwtMTMwMTEy
+MDYxNiwzMDE5NDYyNTIsLTIxMzU1NTEwOTMsNzIwOTQyNDAzLD
+E2MjQ2NjU4NTYsMjEyODkzNTI0NSwtNzU3MTk4MjM2LDM2MDg0
+MTMzMiw0Mzk2ODU5NDgsLTEyMjI4NzA0MTIsMTA1NDg1NTYxNS
+wtMTA2OTA1MTUxMCwtOTA1NzQ3OTI2LC0xMjk5ODQ1NDMzLC00
+MDEzMjI0MjFdfQ==
 -->
