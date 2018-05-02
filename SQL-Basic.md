@@ -31,7 +31,7 @@
 
 ### Weather Observation Station 5
 > `SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L, CITY;`
->
+
 > `SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L DESC, CITY DESC;`
 
 ### Weather Observation Station 6
@@ -68,13 +68,12 @@
 ## Advanced Select
 
 ### Type of Triange
-> 
-   SELECT CASE WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
-                WHEN A = B AND B = C THEN 'Equilateral'
-                WHEN A = B OR A = C OR B = C THEN 'Isosceles'
-                ELSE 'Scalene'
-            END
-    FROM TRIANGLES;
+> SELECT CASE WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
+            WHEN A = B AND B = C THEN 'Equilateral'
+            WHEN A = B OR A = C OR B = C THEN 'Isosceles'
+            ELSE 'Scalene'
+        END
+FROM TRIANGLES;
 
 ### The PADS
 > select concat(name, '(', substring(occupation, 1, 1), ')') from OCCUPATIONS order by name;
@@ -456,7 +455,7 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTA1NTI5NCwtMTU5MDY3OTU1OCwtMT
+eyJoaXN0b3J5IjpbMTU3MzM2MjA4OCwtMTU5MDY3OTU1OCwtMT
 MwMTEyMDYxNiwzMDE5NDYyNTIsLTIxMzU1NTEwOTMsNzIwOTQy
 NDAzLDE2MjQ2NjU4NTYsMjEyODkzNTI0NSwtNzU3MTk4MjM2LD
 M2MDg0MTMzMiw0Mzk2ODU5NDgsLTEyMjI4NzA0MTIsMTA1NDg1
