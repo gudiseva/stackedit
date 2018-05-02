@@ -31,7 +31,7 @@
 
 ### Weather Observation Station 5
 > `SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L, CITY;`
-
+>
 > `SELECT TOP 1 CITY, LEN(CITY) AS L FROM STATION ORDER BY L DESC, CITY DESC;`
 
 ### Weather Observation Station 6
@@ -68,17 +68,21 @@
 ## Advanced Select
 
 ### Type of Triange
-> SELECT CASE WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
-            WHEN A = B AND B = C THEN 'Equilateral'
-            WHEN A = B OR A = C OR B = C THEN 'Isosceles'
-            ELSE 'Scalene'
-        END
-FROM TRIANGLES;
+> 
+
+    SELECT CASE WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
+                WHEN A = B AND B = C THEN 'Equilateral'
+                WHEN A = B OR A = C OR B = C THEN 'Isosceles'
+                ELSE 'Scalene'
+            END
+    FROM TRIANGLES;
 
 ### The PADS
-> select concat(name, '(', substring(occupation, 1, 1), ')') from OCCUPATIONS order by name;
-select concat('There are a total of ', count(occupation), ' ', lower(occupation), 's.') from OCCUPATIONS
-group by occupation order by count(occupation), occupation;
+> 
+
+    select concat(name, '(', substring(occupation, 1, 1), ')') from OCCUPATIONS order by name;
+    select concat('There are a total of ', count(occupation), ' ', lower(occupation), 's.') from OCCUPATIONS
+    group by occupation order by count(occupation), occupation;
 
 ### Occupations
 **[Not Submitted]**
@@ -455,11 +459,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzM2MjA4OCwtMTU5MDY3OTU1OCwtMT
-MwMTEyMDYxNiwzMDE5NDYyNTIsLTIxMzU1NTEwOTMsNzIwOTQy
-NDAzLDE2MjQ2NjU4NTYsMjEyODkzNTI0NSwtNzU3MTk4MjM2LD
-M2MDg0MTMzMiw0Mzk2ODU5NDgsLTEyMjI4NzA0MTIsMTA1NDg1
-NTYxNSwtMTA2OTA1MTUxMCwtOTA1NzQ3OTI2LC0xMjk5ODQ1ND
-MzLC00MDEzMjI0MjEsMTA4OTI4OTA1NSwxODU4ODY3NjgxLC04
-NTk2OTUwNTBdfQ==
+eyJoaXN0b3J5IjpbLTE3NTY3MTUwODIsLTE1OTA2Nzk1NTgsLT
+EzMDExMjA2MTYsMzAxOTQ2MjUyLC0yMTM1NTUxMDkzLDcyMDk0
+MjQwMywxNjI0NjY1ODU2LDIxMjg5MzUyNDUsLTc1NzE5ODIzNi
+wzNjA4NDEzMzIsNDM5Njg1OTQ4LC0xMjIyODcwNDEyLDEwNTQ4
+NTU2MTUsLTEwNjkwNTE1MTAsLTkwNTc0NzkyNiwtMTI5OTg0NT
+QzMywtNDAxMzIyNDIxLDEwODkyODkwNTUsMTg1ODg2NzY4MSwt
+ODU5Njk1MDUwXX0=
 -->
