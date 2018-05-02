@@ -444,7 +444,7 @@
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
     SET @var = @var - 1           	-- Decrement
-    END  
+    END  										-- End
 
 ### Draw The Triangle 2
 > 
@@ -455,7 +455,7 @@
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
     SET @var = @var + 1           	-- Set
-    END  
+    END  										-- End
 > 
 
     DECLARE @var int					-- Declare
@@ -548,11 +548,11 @@
     PRINT @prime
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzMyMDkzMiwyMTI0MDYwNzAwLC0xOD
-k3NTYyNTcwLDc2NzYyMDk4MCwxOTYwNzYxNjI0LC0xNTkwNjc5
-NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1MiwtMjEzNTU1MTA5My
-w3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NTcx
-OTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0OCwtMTIyMjg3MDQxMi
-wxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC05MDU3NDc5MjYsLTEy
-OTk4NDU0MzNdfQ==
+eyJoaXN0b3J5IjpbLTEyMDY2MTcwODIsMjEyNDA2MDcwMCwtMT
+g5NzU2MjU3MCw3Njc2MjA5ODAsMTk2MDc2MTYyNCwtMTU5MDY3
+OTU1OCwtMTMwMTEyMDYxNiwzMDE5NDYyNTIsLTIxMzU1NTEwOT
+MsNzIwOTQyNDAzLDE2MjQ2NjU4NTYsMjEyODkzNTI0NSwtNzU3
+MTk4MjM2LDM2MDg0MTMzMiw0Mzk2ODU5NDgsLTEyMjI4NzA0MT
+IsMTA1NDg1NTYxNSwtMTA2OTA1MTUxMCwtOTA1NzQ3OTI2LC0x
+Mjk5ODQ1NDMzXX0=
 -->
