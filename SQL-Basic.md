@@ -287,30 +287,36 @@
     AND COUNTRY.Continent = LOWER('Africa');
 
 ### Average Population of Each Continent
-> SELECT COUNTRY.Continent, ROUND(AVG(CITY.POPULATION), 2, 0)
-FROM CITY, COUNTRY
-WHERE CITY.CountryCode = COUNTRY.Code
-GROUP BY COUNTRY.Continent;
+> 
+
+    SELECT COUNTRY.Continent, ROUND(AVG(CITY.POPULATION), 2, 0)
+    FROM CITY, COUNTRY
+    WHERE CITY.CountryCode = COUNTRY.Code
+    GROUP BY COUNTRY.Continent;
 
 ### The Report
-> SELECT CASE WHEN Grades.Grade < 8 THEN NULL ELSE Students.Name END, Grades.Grade, Students.Marks
-FROM Students, Grades
-WHERE Students.Marks >= Grades.Min_Mark AND Students.Marks <= Grades.Max_Mark
-ORDER BY
-    Grades.Grade DESC,
-    CASE WHEN Grades.Grade >= 8 THEN Students.Name END ASC,
-    CASE WHEN Grades.Grade < 8 THEN Students.Marks END ASC;
+> 
+
+    SELECT CASE WHEN Grades.Grade < 8 THEN NULL ELSE Students.Name END, Grades.Grade, Students.Marks
+    FROM Students, Grades
+    WHERE Students.Marks >= Grades.Min_Mark AND Students.Marks <= Grades.Max_Mark
+    ORDER BY
+        Grades.Grade DESC,
+        CASE WHEN Grades.Grade >= 8 THEN Students.Name END ASC,
+        CASE WHEN Grades.Grade < 8 THEN Students.Marks END ASC;
 
 ### Top Competitors
-> SELECT Submissions.hacker_id, Hackers.name
-FROM Submissions
-    JOIN Challenges ON Submissions.challenge_id = Challenges.challenge_id
-    JOIN Difficulty ON Challenges.difficulty_level = Difficulty.difficulty_level
-    JOIN Hackers ON Submissions.hacker_id = Hackers.hacker_id
-WHERE Submissions.score = Difficulty.score
-GROUP BY Submissions.hacker_id, Hackers.name
-HAVING COUNT(Submissions.hacker_id) > 1
-ORDER BY COUNT(Submissions.hacker_id) DESC, Submissions.hacker_id;
+> 
+
+    SELECT Submissions.hacker_id, Hackers.name
+    FROM Submissions
+        JOIN Challenges ON Submissions.challenge_id = Challenges.challenge_id
+        JOIN Difficulty ON Challenges.difficulty_level = Difficulty.difficulty_level
+        JOIN Hackers ON Submissions.hacker_id = Hackers.hacker_id
+    WHERE Submissions.score = Difficulty.score
+    GROUP BY Submissions.hacker_id, Hackers.name
+    HAVING COUNT(Submissions.hacker_id) > 1
+    ORDER BY COUNT(Submissions.hacker_id) DESC, Submissions.hacker_id;
 
 ### Ollivander's Inventory
 > TBD
@@ -319,47 +325,53 @@ ORDER BY COUNT(Submissions.hacker_id) DESC, Submissions.hacker_id;
 > TBD
 
 ### Contest Leaderboard
-> SELECT INNER_TABLE.HACK_ID, INNER_TABLE.NAME, SUM(INNER_TABLE.MAX_SCORE) AS SUM_MAX_SCORE
-FROM
-(
-    SELECT Submissions.hacker_id AS HACK_ID, Hackers.name AS NAME, MAX(Submissions.score) AS MAX_SCORE
-    FROM Submissions
-        JOIN Hackers ON Submissions.hacker_id = Hackers.hacker_id
-    GROUP BY Submissions.hacker_id, Hackers.name, Submissions.challenge_id
-) INNER_TABLE
-GROUP BY INNER_TABLE.HACK_ID, INNER_TABLE.NAME
-HAVING SUM(INNER_TABLE.MAX_SCORE) <> 0
-ORDER BY SUM(INNER_TABLE.MAX_SCORE) DESC, INNER_TABLE.HACK_ID;
+> 
+
+    SELECT INNER_TABLE.HACK_ID, INNER_TABLE.NAME, SUM(INNER_TABLE.MAX_SCORE) AS SUM_MAX_SCORE
+    FROM
+    (
+        SELECT Submissions.hacker_id AS HACK_ID, Hackers.name AS NAME, MAX(Submissions.score) AS MAX_SCORE
+        FROM Submissions
+            JOIN Hackers ON Submissions.hacker_id = Hackers.hacker_id
+        GROUP BY Submissions.hacker_id, Hackers.name, Submissions.challenge_id
+    ) INNER_TABLE
+    GROUP BY INNER_TABLE.HACK_ID, INNER_TABLE.NAME
+    HAVING SUM(INNER_TABLE.MAX_SCORE) <> 0
+    ORDER BY SUM(INNER_TABLE.MAX_SCORE) DESC, INNER_TABLE.HACK_ID;
 
 --- OR ---
 
-> SELECT INNER_TABLE.HACK_ID, (SELECT Hackers.name FROM Hackers WHERE Hackers.hacker_id = INNER_TABLE.HACK_ID) NAME, SUM(INNER_TABLE.MAX_SCORE) AS SUM_MAX_SCORE
-FROM
-(
-    SELECT Submissions.hacker_id AS HACK_ID, MAX(Submissions.score) AS MAX_SCORE
-    FROM Submissions
-    GROUP BY Submissions.hacker_id, Submissions.challenge_id
-) INNER_TABLE
-GROUP BY INNER_TABLE.HACK_ID
-HAVING SUM(INNER_TABLE.MAX_SCORE) <> 0
-ORDER BY SUM(INNER_TABLE.MAX_SCORE) DESC, INNER_TABLE.HACK_ID;
+> 
+
+    SELECT INNER_TABLE.HACK_ID, (SELECT Hackers.name FROM Hackers WHERE Hackers.hacker_id = INNER_TABLE.HACK_ID) NAME, SUM(INNER_TABLE.MAX_SCORE) AS SUM_MAX_SCORE
+    FROM
+    (
+        SELECT Submissions.hacker_id AS HACK_ID, MAX(Submissions.score) AS MAX_SCORE
+        FROM Submissions
+        GROUP BY Submissions.hacker_id, Submissions.challenge_id
+    ) INNER_TABLE
+    GROUP BY INNER_TABLE.HACK_ID
+    HAVING SUM(INNER_TABLE.MAX_SCORE) <> 0
+    ORDER BY SUM(INNER_TABLE.MAX_SCORE) DESC, INNER_TABLE.HACK_ID;
 
 ### Placements
-> WITH STUDENT_DETAILS AS (
-    SELECT F.ID AS STUDENT_ID, S.Name AS STUDENT_NAME, P.Salary AS STUDENT_SALARY
-    FROM Students S, Friends F, Packages P
-    WHERE F.ID = S.ID AND F.ID = P.ID
-    ),
-FRIEND_DETAILS AS (
-    SELECT F.ID AS STUDENT_ID, F.Friend_ID AS FRIEND_ID, S.Name AS FRIEND_NAME, P.Salary AS FRIEND_SALARY
-    FROM Students S, Friends F, Packages P
-    WHERE F.Friend_ID = S.ID AND F.Friend_ID = P.ID
-    )
-SELECT STUDENT_DETAILS.STUDENT_NAME
-FROM STUDENT_DETAILS, FRIEND_DETAILS
-WHERE FRIEND_DETAILS.STUDENT_ID = STUDENT_DETAILS.STUDENT_ID
-AND FRIEND_DETAILS.FRIEND_SALARY > STUDENT_DETAILS.STUDENT_SALARY
-ORDER BY FRIEND_DETAILS.FRIEND_SALARY;
+> 
+
+    WITH STUDENT_DETAILS AS (
+        SELECT F.ID AS STUDENT_ID, S.Name AS STUDENT_NAME, P.Salary AS STUDENT_SALARY
+        FROM Students S, Friends F, Packages P
+        WHERE F.ID = S.ID AND F.ID = P.ID
+        ),
+    FRIEND_DETAILS AS (
+        SELECT F.ID AS STUDENT_ID, F.Friend_ID AS FRIEND_ID, S.Name AS FRIEND_NAME, P.Salary AS FRIEND_SALARY
+        FROM Students S, Friends F, Packages P
+        WHERE F.Friend_ID = S.ID AND F.Friend_ID = P.ID
+        )
+    SELECT STUDENT_DETAILS.STUDENT_NAME
+    FROM STUDENT_DETAILS, FRIEND_DETAILS
+    WHERE FRIEND_DETAILS.STUDENT_ID = STUDENT_DETAILS.STUDENT_ID
+    AND FRIEND_DETAILS.FRIEND_SALARY > STUDENT_DETAILS.STUDENT_SALARY
+    ORDER BY FRIEND_DETAILS.FRIEND_SALARY;
 
 ### Projects
 > SELECT S_DATE, MIN(E_DATE)
@@ -485,11 +497,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDQ3MDcyLC0xNTkwNjc5NTU4LC0xMz
-AxMTIwNjE2LDMwMTk0NjI1MiwtMjEzNTU1MTA5Myw3MjA5NDI0
-MDMsMTYyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NTcxOTgyMzYsMz
-YwODQxMzMyLDQzOTY4NTk0OCwtMTIyMjg3MDQxMiwxMDU0ODU1
-NjE1LC0xMDY5MDUxNTEwLC05MDU3NDc5MjYsLTEyOTk4NDU0Mz
-MsLTQwMTMyMjQyMSwxMDg5Mjg5MDU1LDE4NTg4Njc2ODEsLTg1
-OTY5NTA1MF19
+eyJoaXN0b3J5IjpbMTE3ODQ1NDAwMCwtMTU5MDY3OTU1OCwtMT
+MwMTEyMDYxNiwzMDE5NDYyNTIsLTIxMzU1NTEwOTMsNzIwOTQy
+NDAzLDE2MjQ2NjU4NTYsMjEyODkzNTI0NSwtNzU3MTk4MjM2LD
+M2MDg0MTMzMiw0Mzk2ODU5NDgsLTEyMjI4NzA0MTIsMTA1NDg1
+NTYxNSwtMTA2OTA1MTUxMCwtOTA1NzQ3OTI2LC0xMjk5ODQ1ND
+MzLC00MDEzMjI0MjEsMTA4OTI4OTA1NSwxODU4ODY3NjgxLC04
+NTk2OTUwNTBdfQ==
 -->
