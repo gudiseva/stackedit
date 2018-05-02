@@ -442,7 +442,7 @@
     WHILE @var > 0                  -- Condition
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
-    SET @var = @var - 1           	-- decrement
+    SET @var = @var - 1           	-- Decrement
     END  
 
 ### Draw The Triangle 2
@@ -454,36 +454,38 @@
     BEGIN                               -- Begin
     PRINT replicate('* ', @var)        	-- Print
     SET @var = @var + 1               	-- Set
-    END                                   -- end
+    END                                 -- End
 
 
 ### FIND PRIME NUMBER
-> DECLARE @start int
-DECLARE @end int
-DECLARE @number int
-DECLARE @flag int
+> 
 
-> SET @number = 29
-SET @start = 2
-SET @end = @number
-
-> PRINT 'NUMBER ENTERED: ' + CONVERT(VARCHAR, @number)
-
-> WHILE @start < @end
-BEGIN
-    SET @flag = 0
-    IF(@number % @start = 0) 
-        BEGIN
-            SET @flag = 1
-            PRINT CONVERT(VARCHAR, @number) + ' IS NOT PRIME'
-            BREAK
-        END
-    SET @start = @start + 1
-END
-    IF(@flag = 0)
-        BEGIN
-            PRINT CONVERT(VARCHAR, @number) + ' IS PRIME'
-        END
+    DECLARE @start int
+    DECLARE @end int
+    DECLARE @number int
+    DECLARE @flag int
+    
+    SET @number = 29
+    SET @start = 2
+    SET @end = @number
+    
+    PRINT 'NUMBER ENTERED: ' + CONVERT(VARCHAR, @number)
+    
+    WHILE @start < @end
+    BEGIN
+        SET @flag = 0
+        IF(@number % @start = 0) 
+            BEGIN
+                SET @flag = 1
+                PRINT CONVERT(VARCHAR, @number) + ' IS NOT PRIME'
+                BREAK
+            END
+        SET @start = @start + 1
+    END
+        IF(@flag = 0)
+            BEGIN
+                PRINT CONVERT(VARCHAR, @number) + ' IS PRIME'
+            END
 
 
 ### Print Prime Numbers
@@ -495,7 +497,7 @@ DECLARE @reset int
 DECLARE @prime varchar(1000)
 DECLARE @flag int
 
-> SET @start = 2
+SET @start = 2
 SET @end = 1000
 SET @number = @start
 SET @reset = @start
@@ -533,11 +535,11 @@ BEGIN
 END
 PRINT @prime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE2Mzc5MDYsNzY3NjIwOTgwLDE5Nj
-A3NjE2MjQsLTE1OTA2Nzk1NTgsLTEzMDExMjA2MTYsMzAxOTQ2
-MjUyLC0yMTM1NTUxMDkzLDcyMDk0MjQwMywxNjI0NjY1ODU2LD
-IxMjg5MzUyNDUsLTc1NzE5ODIzNiwzNjA4NDEzMzIsNDM5Njg1
-OTQ4LC0xMjIyODcwNDEyLDEwNTQ4NTU2MTUsLTEwNjkwNTE1MT
-AsLTkwNTc0NzkyNiwtMTI5OTg0NTQzMywtNDAxMzIyNDIxLDEw
-ODkyODkwNTVdfQ==
+eyJoaXN0b3J5IjpbNzM2MjkwODk0LDc2NzYyMDk4MCwxOTYwNz
+YxNjI0LC0xNTkwNjc5NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1
+MiwtMjEzNTU1MTA5Myw3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMT
+I4OTM1MjQ1LC03NTcxOTgyMzYsMzYwODQxMzMyLDQzOTY4NTk0
+OCwtMTIyMjg3MDQxMiwxMDU0ODU1NjE1LC0xMDY5MDUxNTEwLC
+05MDU3NDc5MjYsLTEyOTk4NDU0MzMsLTQwMTMyMjQyMSwxMDg5
+Mjg5MDU1XX0=
 -->
