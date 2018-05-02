@@ -444,7 +444,7 @@
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
     SET @var = @var - 1           	-- Decrement
-    END  			-- End
+    END  				-- End
 
 ### Draw The Triangle 2
 > 
@@ -455,7 +455,7 @@
     BEGIN                           -- Begin
     PRINT replicate('* ', @var)   	-- Print
     SET @var = @var + 1           	-- Set
-    END  			-- End
+    END  				-- End
 > 
 
     DECLARE @var int					-- Declare
@@ -548,7 +548,7 @@
     PRINT @prime
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDkxMjYxOCwyMTI0MDYwNzAwLC0xOD
+eyJoaXN0b3J5IjpbMjA2NjQzMjQyMiwyMTI0MDYwNzAwLC0xOD
 k3NTYyNTcwLDc2NzYyMDk4MCwxOTYwNzYxNjI0LC0xNTkwNjc5
 NTU4LC0xMzAxMTIwNjE2LDMwMTk0NjI1MiwtMjEzNTU1MTA5My
 w3MjA5NDI0MDMsMTYyNDY2NTg1NiwyMTI4OTM1MjQ1LC03NTcx
