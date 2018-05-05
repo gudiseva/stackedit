@@ -5,7 +5,7 @@
 ### Question #1:
 Which of the following sorting algorithms has the best asymptotic runtime complexity?
 
-> -- Pick one of the choices
+> Pick one of the choices
 > 
 > --- Bubble Sort
 > 
@@ -18,5 +18,6 @@ Which of the following sorting algorithms has the best asymptotic runtime comple
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU2NDExOTNdfQ==
+eyJoaXN0b3J5IjpbLTExNTExMjg4MDMsLTE4MzU2NDExOTNdfQ
+==
 -->
