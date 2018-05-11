@@ -21,6 +21,8 @@
 
     D:\WORKSPACE\git_projects> git remote add origin https://github.com/gudiseva/stackedit.git
 
+    D:\WORKSPACE\git_projects> git pull --rebase origin master
+
     D:\WORKSPACE\git_projects> git push -u origin master
 
 ## Push an existing repository from the command line
