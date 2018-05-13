@@ -156,26 +156,25 @@ Q. Which of the following are the ways to sample data from Hive tables?
 > -   Row Count Sampling
 
 Q. Which of the following are the reason that map-only joins are faster than joins which run both map and reduce phases?
-Ans.
--  Complete MapReduce operations have additional steps such as shuffle and sort between the map and reduce phases which gets eliminated in map-only joins.
--  Improved processing time because one phase is entirely eliminated.
--  Map-only joins reduce data transfer within a cluster.
+> Ans.
+> -  Complete MapReduce operations have additional steps such as shuffle and sort between the map and reduce phases which gets eliminated in map-only joins.
+> -  Improved processing time because one phase is entirely eliminated.
+> -  Map-only joins reduce data transfer within a cluster.
 
 Q. When the table on the right side of a join operation is much smaller than the table on the left side of a join operation, which of the following are map-only joins?
-Ans.
--  Left-outer join
+> Ans. Left-outer join
 
 Q. What keyword would you use to run a window operation on logical groups of data e.g. grouped on the category column of a table?
-Ans. partitioned by category
+> Ans. partitioned by category
 
 Q. Analytical processing jobs include all of these characteristics:
-Ans.
--   Works on huge datasets from multiple sources
--   Tends to involve long running jobs
--   Reads data, does not usually edit or update it
+> Ans.
+> -   Works on huge datasets from multiple sources
+> -   Tends to involve long running jobs
+> -   Reads data, does not usually edit or update it
 
 Q. Which are possible ways in which join performance can be optimized?
-Ans. Structuring joins such that the reduce phase of the underlying MapReduce is eliminated.
+> Ans. Structuring joins such that the reduce phase of the underlying MapReduce is eliminated.
 
 Q. Partitioning the Reviews data on the **unique review ID** column is not a good idea. Why is that the case?
 Ans. It would result in millions of partitions, one for every review and would overwhelm the NameNode in Hadoop which keeps track of directories in HDFS.
@@ -231,9 +230,8 @@ Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
 Q. How do partitioning and bucketing help in making Hive queries run faster?
 Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYyMjI1OTUsLTE1OTM5NjIwMzksLT
-g0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAxMDAzLC0yMDIx
-MjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1NiwtMjY3NjY3MT
-AyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
-
+eyJoaXN0b3J5IjpbMzQ5NTEyOTgwLC0xNTkzOTYyMDM5LC04ND
+A1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMwMTAwMywtMjAyMTI5
+MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMi
+wtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
