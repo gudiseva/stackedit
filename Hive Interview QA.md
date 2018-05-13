@@ -91,7 +91,13 @@ The sizes of the tables are as follows:
 
 If you had to join all 3 tables together what is the order in which you would specify the tables in the join operation in order to have the fastest join?
 Ans. Products, Reviews, Orders
+
+Q. Why is the left semi-join faster than the IN/EXISTS subqueries?
+Ans. The left semi-join scans the table on the right side of the join only until the matching record is found, it does not scan the entire table.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOT
-M2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbMTEyNzA2NzY1OCwtMzYzODQzNjU2LC0yNj
+c2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUx
+MTJdfQ==
 -->
