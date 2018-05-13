@@ -53,10 +53,10 @@ DESC DATETODAY;
 ## Pluralsight :: 
 
 Q. What command would you use to add partition data from a location on HDFS, to an existing EXTERNAL table?
-Ans. alter table Reviews add partition (category="Fashion") location '/tables/reviews/Fashion'
+> Ans. alter table Reviews add partition (category="Fashion") location '/tables/reviews/Fashion'
 
 Q. Why does hive.exec.dynamic.partition.mode=nonstrict need to be set when using all dynamic partitions in Hive?
-Ans. The default mode is the strict mode which requires that the table have at least one static partition.
+> Ans. The default mode is the strict mode which requires that the table have at least one static partition.
 
 Q. Which of the following is an advantage of bucketing tables?
 Ans. Join operations can run faster as records can be looked up more quickly.
@@ -229,7 +229,7 @@ Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
 Q. How do partitioning and bucketing help in making Hive queries run faster?
 Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODk5NjAyMywtMTU5Mzk2MjAzOSwtOD
+eyJoaXN0b3J5IjpbMTY5Mzk1ODU4NywtMTU5Mzk2MjAzOSwtOD
 QwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEzMDEwMDMsLTIwMjEy
 OTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNjU2LC0yNjc2NjcxMD
 IsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
