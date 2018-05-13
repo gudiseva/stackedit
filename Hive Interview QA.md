@@ -60,8 +60,11 @@ Ans. The default mode is the strict mode which requires that the table have at l
 Q. Which of the following is an advantage of bucketing tables?
 Ans. Join operations can run faster as records can be looked up more quickly.
 
+Q. Why is bucket sampling more efficient than other ways of sampling Hive table data?
+Ans. It scans only the records in a single bucket and not the entire table for sample records.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjAzMjUzMTgsLTI2NzY2NzEwMiwtMT
+eyJoaXN0b3J5IjpbLTExMTExODk0NzcsLTI2NzY2NzEwMiwtMT
 kzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
