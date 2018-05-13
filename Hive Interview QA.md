@@ -202,13 +202,16 @@ Q. Consider an e-commerce site with these tables
 
 The sizes of the tables are as follows:
 
-Orders: 100GB
-Products: 500MB
-Reviews: 1GB
+    Orders: 100GB
+    Products: 500MB
+    Reviews: 1GB
 
 If the most common join operation performed was on the Products and Reviews tables and you wanted to make the join operation between these tables as fast as you possibly could, what design decisions would you take?
+
+Ans. Bucket the table on the product id column, have an equal number of buckets on each table and sort each bucket on product id, join on the product id column.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg0MjI0OTMsMTA0MTMwMTAwMywtMj
+eyJoaXN0b3J5IjpbLTEzNjUwNjc4NTUsMTA0MTMwMTAwMywtMj
 AyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2
 NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl
 19
