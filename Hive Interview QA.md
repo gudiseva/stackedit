@@ -141,9 +141,11 @@ Ans.
              - 0000-1(file)
         - category=Fashion (directory)
 
+Q. Which of these is a difference between bucketing and partitioning?
+Ans.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc0NzIxMjYsMTY4MTc2NDA5MiwtMz
+eyJoaXN0b3J5IjpbLTE2MjQ5MDgxMDYsMTY4MTc2NDA5MiwtMz
 YzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2
 NjQ3MSwyOTY5MDUxMTJdfQ==
 -->
