@@ -46,8 +46,9 @@ https://www.guru99.com/hive-queries-implementation.html
 10. Tez - Hortonworks optimize Hive on Tez
 11. Max Date in Hive -> Convert to UNIX Timestamp and apply Max on that column
 12. Filter only on Weekdays
-13. SELECT FROM_UNIXTIME(UNIX_TIMESTAMP('2018-04-18 00:00:00'),
+SELECT FROM_UNIXTIME(UNIX_TIMESTAMP('2018-04-18 00:00:00'), 'EEEE');
+S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg2MDMyNzEsLTE5MzY3OTAyOTUsMT
-gxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbMTE3ODM3MTUxMCwtMTkzNjc5MDI5NSwxOD
+E2NzY2NDcxLDI5NjkwNTExMl19
 -->
