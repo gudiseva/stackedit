@@ -118,7 +118,7 @@ Q. Which of these is an advantage of using window functions?
 > - Eliminates the use of a script for certain operations and reduces them to a single query
 
 Q. What is the command to see what partitions exist in a Hive table?
-Ans.
+> Ans.
 show partitions `<tablename>`
 
 Q. Consider a table storing information on product reviews on an e-commerce site. The table named Reviews contains the following information:
@@ -134,7 +134,7 @@ Q. Consider a table storing information on product reviews on an e-commerce site
 Let's say this table is partitioned on the product  **category**  column.
 
 How will the directory structure look in this Reviews table?
-Ans. 
+> Ans. 
 
     Reviews
         - category=Mobiles (directory)
@@ -143,16 +143,18 @@ Ans.
         - category=Fashion (directory)
 
 Q. Which of these is a difference between bucketing and partitioning?
-Ans.
--  The number of buckets in a table is fixed while the number of partitions depends on the data.
--  Buckets are usually around the same size, partition sizes can vary greatly.
--  Bucketing is based on a hash value of a column and partitioning is based on actual column values.
+> Ans.
+> -  The number of buckets in a table is fixed while the number of partitions depends on the data.
+> -  Buckets are usually around the same size, partition sizes can vary greatly.
+> -  Bucketing is based on a hash value of a column and partitioning is based on actual column values.
+
 Q. Which of the following are the ways to sample data from Hive tables?
-Ans.
--   Bucket Sampling
--   The LIMIT Keyword
--   Block Sampling
--   Row Count Sampling
+> Ans.
+> -   Bucket Sampling
+> -   The LIMIT Keyword
+> -   Block Sampling
+> -   Row Count Sampling
+
 Q. Which of the following are the reason that map-only joins are faster than joins which run both map and reduce phases?
 Ans.
 -  Complete MapReduce operations have additional steps such as shuffle and sort between the map and reduce phases which gets eliminated in map-only joins.
@@ -229,7 +231,7 @@ Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
 Q. How do partitioning and bucketing help in making Hive queries run faster?
 Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIzNTMwMDEsLTE1OTM5NjIwMzksLT
+eyJoaXN0b3J5IjpbLTIxMjYyMjI1OTUsLTE1OTM5NjIwMzksLT
 g0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAxMDAzLC0yMDIx
 MjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1NiwtMjY3NjY3MT
 AyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
