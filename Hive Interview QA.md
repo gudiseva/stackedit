@@ -122,20 +122,28 @@ show partitions `<tablename>`
 
 Q. Consider a table storing information on product reviews on an e-commerce site. The table named Reviews contains the following information:
 
-Reviews
-- id
-- username
-- text
-- product id
-- category
-- date  
+    Reviews
+    - id
+    - username
+    - text
+    - product id
+    - category
+    - date  
 
 Let's say this table is partitioned on the product  **category**  column.
 
 How will the directory structure look in this Reviews table?
+Ans. 
+
+    Reviews
+        - category=Mobiles (directory)
+             - 0000-0 (file)
+             - 0000-1(file)
+        - category=Fashion (directory)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODE5OTkwMSwxNjgxNzY0MDkyLC0zNj
-M4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2
-NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTE4Nzc0NzIxMjYsMTY4MTc2NDA5MiwtMz
+YzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2
+NjQ3MSwyOTY5MDUxMTJdfQ==
 -->
