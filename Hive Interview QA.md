@@ -180,9 +180,36 @@ Ans. It would result in millions of partitions, one for every review and would o
 Q. What is a hash function that is used to bucket tables?
 Ans. A function which takes in an argument from a large range and converts it to a value from a smaller set.
 
+Q. Consider an e-commerce site with these tables
 
+    Orders
+    - order id
+    - product id
+    - customer id
+    - quantity
+      
+    Products
+    - product id
+    - product name
+    - cost
+      
+    Reviews
+    - review id
+    - product id
+    - order id
+    - username
+    - category  
+
+The sizes of the tables are as follows:
+
+Orders: 100GB
+Products: 500MB
+Reviews: 1GB
+
+If the most common join operation performed was on the Products and Reviews tables and you wanted to make the join operation between these tables as fast as you possibly could, what design decisions would you take?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTMwMTAwMywtMjAyMTI5MjMxNCwxNj
-gxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5
-MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTIxMjg0MjI0OTMsMTA0MTMwMTAwMywtMj
+AyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2
+NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl
+19
 -->
