@@ -49,7 +49,13 @@ https://www.guru99.com/hive-queries-implementation.html
 SELECT FROM_UNIXTIME(UNIX_TIMESTAMP('2018-04-18 00:00:00'), 'EEEE');
 SELECT DATE1, FROM_UNIXTIME(UNIX_TIMESTAMP(DATE1, 'YYYY-MM-DD'), 'E') FROM DATETODAY;
 DESC DATETODAY;
+
+## Pluralsight :: 
+What command would you use to add partition data from a location on HDFS, to an existing EXTERNAL table?
+alter table Reviews add partition (category="Fashion") location '/tables/reviews/Fashion'
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxOD
-E2NzY2NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbMTAwNzk3MDE1MiwtMjY3NjY3MTAyLC0xOT
+M2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 -->
