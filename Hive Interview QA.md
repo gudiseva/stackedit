@@ -152,8 +152,16 @@ Ans.
 -   The LIMIT Keyword
 -   Block Sampling
 -   Row Count Sampling
+Q. Which of the following are the reason that map-only joins are faster than joins which run both map and reduce phases?
+Ans.
+-  Complete MapReduce operations have additional steps such as shuffle and sort between the map and reduce phases which gets eliminated in map-only joins.
+-   Improved processing time because one phase is entirely eliminated.
+    
+-   Incorrect -
+    
+    Map-only joins reduce data transfer within a cluster.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNzE2MjYyLDE2ODE3NjQwOTIsLTM2Mz
-g0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0
-NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbLTU0Mjk3MjEyNSwxNjgxNzY0MDkyLC0zNj
+M4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2
+NDcxLDI5NjkwNTExMl19
 -->
