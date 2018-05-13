@@ -65,32 +65,33 @@ Ans. It scans only the records in a single bucket and not the entire table for s
 
 Q. Consider an e-commerce site with these tables
 
-Orders
-- order id
-- product id
-- customer id
-- quantity
-  
-Products
-- product id
-- product name
-- cost
-  
-Reviews
-- review id
-- product id
-- order id
-- username
-- category  
+    Orders
+    - order id
+    - product id
+    - customer id
+    - quantity
+      
+    Products
+    - product id
+    - product name
+    - cost
+      
+    Reviews
+    - review id
+    - product id
+    - order id
+    - username
+    - category  
 
 The sizes of the tables are as follows:
 
-Orders: 100GB
-Products: 500MB
-Reviews: 1GB  
+    Orders: 100GB
+    Products: 500MB
+    Reviews: 1GB  
 
 If you had to join all 3 tables together what is the order in which you would specify the tables in the join operation in order to have the fastest join?
+Ans. Products, Reviews, Orders
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYyMjcxODYsLTI2NzY2NzEwMiwtMT
-kzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOT
+M2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 -->
