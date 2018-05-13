@@ -1,4 +1,4 @@
-## Java Interview Questions
+## Java Interview Questions and Answers
 
 Q. Difference ArrayList and LinkedList
 
@@ -7,7 +7,9 @@ Q. Difference Class and Object
 Q. Difference Static and Instance Variables
 
 Q. Difference Functional and Object Oriented Programming
- and Answers
+
+
+ 
 
 Q. Generics - bonding reqd
 
@@ -77,6 +79,6 @@ Q. SOLID Principles
 4. Interface Segregation Principle (ISP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3MTAwNDcxLC02MjAzNjQ3ODksMTYzMD
-A3Mzg0OV19
+eyJoaXN0b3J5IjpbMTQ1MDgxMzg3MSwzMTcxMDA0NzEsLTYyMD
+M2NDc4OSwxNjMwMDczODQ5XX0=
 -->
