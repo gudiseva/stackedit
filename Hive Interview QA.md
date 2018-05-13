@@ -177,9 +177,12 @@ Ans. Structuring joins such that the reduce phase of the underlying MapReduce is
 Q. Partitioning the Reviews data on the **unique review ID** column is not a good idea. Why is that the case?
 Ans. It would result in millions of partitions, one for every review and would overwhelm the NameNode in Hadoop which keeps track of directories in HDFS.
 
+Q. What is a hash function that is used to bucket tables?
+Ans. A function which takes in an argument from a large range and converts it to a value from a smaller set.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwOTQ4NTU2LC0yMDIxMjkyMzE0LDE2OD
-E3NjQwOTIsLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOTM2Nzkw
-Mjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbMTA0MTMwMTAwMywtMjAyMTI5MjMxNCwxNj
+gxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5
+MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
