@@ -32,6 +32,18 @@ To arrange one element in each row of array...they ll use explode..it ll be in a
 
 Q. Cost based optimization; Calcite
 
+# Sagarsoft
+1. Set mappers in Hive
+2. Set reducers in Hive
+3. How many mappers are created?
+4. Errors / Failures in Hive
+5. Clustered By, Partitioned By
+6. Map Joins
+7. Merge Sort
+8. How do you handle Data skew
+9. Hive Performance tuning parameters
+10. Tez - Hortonworks optimize Hive on Tez
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
 -->
