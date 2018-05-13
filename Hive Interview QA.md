@@ -50,7 +50,7 @@ SELECT FROM_UNIXTIME(UNIX_TIMESTAMP('2018-04-18 00:00:00'), 'EEEE');
 SELECT DATE1, FROM_UNIXTIME(UNIX_TIMESTAMP(DATE1, 'YYYY-MM-DD'), 'E') FROM DATETODAY;
 DESC DATETODAY;
 
-## Pluralsight :: 
+## Pluralsight ::  startup, Loony Corn,](https://app.pluralsight.com/player?course=hive-complex-analytical-queries&author=janani-ravi&name=hive-complex-analytical-queries-m0&clip=0&mode=live&start=28)
 
 Q. What command would you use to add partition data from a location on HDFS, to an existing EXTERNAL table?
 > Ans. alter table Reviews add partition (category="Fashion") location '/tables/reviews/Fashion'
@@ -232,9 +232,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzkwMzEyMiwtMTU5Mzk2MjAzOSwtOD
-QwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEzMDEwMDMsLTIwMjEy
-OTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNjU2LC0yNjc2NjcxMD
-IsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NjA4OTQ4MTUsLTE1OTM5NjIwMzksLT
+g0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAxMDAzLC0yMDIx
+MjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1NiwtMjY3NjY3MT
+AyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 
 -->
