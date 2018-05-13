@@ -109,8 +109,24 @@ Ans.
 -   Hive runs MapReduce under the hood, and abstracts away all the complexity of running MapReduce jobs.
 -   Hive uses HiveQL, a query language very similar to SQL which makes it accessible and easy to use.
  -  Hive runs on Hadoop and uses its distributed computing environment to process large datasets.
+
+Q. Which of these is NOT an advantage of using window functions?
+Ans.
+- Eliminates the use of intermediate tables and temporary data
+    
+-   Correct -
+    
+    Runs queries faster by processing the dataset more efficiently
+    
+-   Incorrect -
+    
+    Allows complex queries to be expressed more simply
+    
+-   Your choice: incorrect -
+    
+    Eliminates the use of a script for certain operations and reduces them to a single query
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTgwMjkzMSwtMzYzODQzNjU2LC0yNj
-c2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUx
-MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODkxMTE4NTIsLTM2Mzg0MzY1NiwtMj
+Y3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1
+MTEyXX0=
 -->
