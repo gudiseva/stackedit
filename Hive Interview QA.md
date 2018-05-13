@@ -95,9 +95,15 @@ Ans. Products, Reviews, Orders
 Q. Why is the left semi-join faster than the IN/EXISTS subqueries?
 Ans. The left semi-join scans the table on the right side of the join only until the matching record is found, it does not scan the entire table.
 
+Q. How would you specify a window between the first row in a result set and the current row?
+Ans. rows between unbounded preceding and current row
+
+Q. How would you specify a window which included exactly 5 records as it moves over the results?
+Ans. rows between 4 preceding and current row
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzA2NzY1OCwtMzYzODQzNjU2LC0yNj
+eyJoaXN0b3J5IjpbLTE1NzEwMjcwMSwtMzYzODQzNjU2LC0yNj
 c2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUx
 MTJdfQ==
 -->
