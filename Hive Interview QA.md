@@ -120,8 +120,22 @@ Q. What is the command to see what partitions exist in a Hive table?
 Ans.
 show partitions `<tablename>`
 
+Q. Consider a table storing information on product reviews on an e-commerce site. The table named Reviews contains the following information:
+
+Reviews
+- id
+- username
+- text
+- product id
+- category
+- date  
+
+Let's say this table is partitioned on the product  **category**  column.
+
+How will the directory structure look in this Reviews table?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDA4Mzg1MSwxNjgxNzY0MDkyLC0zNj
+eyJoaXN0b3J5IjpbMTUzODE5OTkwMSwxNjgxNzY0MDkyLC0zNj
 M4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2
 NDcxLDI5NjkwNTExMl19
 -->
