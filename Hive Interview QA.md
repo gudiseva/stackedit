@@ -158,9 +158,12 @@ Ans.
 -  Improved processing time because one phase is entirely eliminated.
 -  Map-only joins reduce data transfer within a cluster.
 
+Q. When the table on the right side of a join operation is much smaller than the table on the left side of a join operation, which of the following are map-only joins?
+Ans.
+-  Left-outer join
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3OTU3OTQ3LDE2ODE3NjQwOTIsLTM2Mz
-g0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0
-NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbMTcwNjQxMTg3OCwxNjgxNzY0MDkyLC0zNj
+M4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2
+NDcxLDI5NjkwNTExMl19
 -->
