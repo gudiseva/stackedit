@@ -77,5 +77,6 @@ Q. SOLID Principles
 4. Interface Segregation Principle (ISP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDM2NDc4OSwxNjMwMDczODQ5XX0=
+eyJoaXN0b3J5IjpbMzE3MTAwNDcxLC02MjAzNjQ3ODksMTYzMD
+A3Mzg0OV19
 -->
