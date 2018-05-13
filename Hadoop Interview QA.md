@@ -1,4 +1,5 @@
-### Hadoop Interview Questions and Answers
+# Hadoop Interview Questions and Answers
+
 
 Q. Difference between Cloudera and Hortonworks?
 
@@ -60,5 +61,5 @@ Q. Distributed cache
 
 Q. Difference Hadoop 1 and Hadoop 2?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTE4NTM3Ml19
+eyJoaXN0b3J5IjpbLTkzNjY5NzM2NiwxODcxMTg1MzcyXX0=
 -->
