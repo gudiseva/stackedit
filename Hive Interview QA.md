@@ -117,10 +117,11 @@ Ans.
 - Eliminates the use of a script for certain operations and reduces them to a single query
 
 Q. What is the command to see what partitions exist in a Hive table?
+Ans.
+show partitions `<tablename>`
 
--   Incorrect -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5MjI3Nzg3LDE2ODE3NjQwOTIsLTM2Mz
-g0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0
-NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbLTM0MDA4Mzg1MSwxNjgxNzY0MDkyLC0zNj
+M4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2
+NDcxLDI5NjkwNTExMl19
 -->
