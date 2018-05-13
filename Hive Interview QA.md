@@ -171,8 +171,10 @@ Ans.
 -   Tends to involve long running jobs
 -   Reads data, does not usually edit or update it
 
+Q. Which are possible ways in which join performance can be optimized?
+Ans. Structuring joins such that the reduce phase of the underlying MapReduce is eliminated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDczNjY1MDAsMTY4MTc2NDA5MiwtMz
-YzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2
-NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbLTIwOTc3ODg1MiwxNjgxNzY0MDkyLC0zNj
+M4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2
+NDcxLDI5NjkwNTExMl19
 -->
