@@ -116,8 +116,11 @@ Ans.
 - Allows complex queries to be expressed more simply
 - Eliminates the use of a script for certain operations and reduces them to a single query
 
+Q. What is the command to see what partitions exist in a Hive table?
+
+-   Incorrect -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTc2NDA5MiwtMzYzODQzNjU2LC0yNj
-c2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUx
-MTJdfQ==
+eyJoaXN0b3J5IjpbODA5MjI3Nzg3LDE2ODE3NjQwOTIsLTM2Mz
+g0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0
+NzEsMjk2OTA1MTEyXX0=
 -->
