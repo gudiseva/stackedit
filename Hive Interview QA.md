@@ -52,11 +52,6 @@ DESC DATETODAY;
 
 ## Pluralsight :: 
 
-|  |  |
-|--|--|
-|  |  |
-
-
 Q. What command would you use to add partition data from a location on HDFS, to an existing EXTERNAL table?
 Ans. alter table Reviews add partition (category="Fashion") location '/tables/reviews/Fashion'
 
@@ -234,7 +229,7 @@ Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
 Q. How do partitioning and bucketing help in making Hive queries run faster?
 Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDY5MDM1OSwtMTU5Mzk2MjAzOSwtOD
+eyJoaXN0b3J5IjpbMTczODk5NjAyMywtMTU5Mzk2MjAzOSwtOD
 QwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEzMDEwMDMsLTIwMjEy
 OTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNjU2LC0yNjc2NjcxMD
 IsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
