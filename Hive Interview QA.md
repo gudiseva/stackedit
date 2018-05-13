@@ -51,11 +51,12 @@ SELECT DATE1, FROM_UNIXTIME(UNIX_TIMESTAMP(DATE1, 'YYYY-MM-DD'), 'E') FROM DATET
 DESC DATETODAY;
 
 ## Pluralsight :: 
-What command would you use to add partition data from a location on HDFS, to an existing EXTERNAL table?
-alter table Reviews add partition (category="Fashion") location '/tables/reviews/Fashion'
+Q. What command would you use to add partition data from a location on HDFS, to an existing EXTERNAL table?
+Ans. alter table Reviews add partition (category="Fashion") location '/tables/reviews/Fashion'
 
-
+Q. Why does hive.exec.dynamic.partition.mode=nonstrict need to be set when using all dynamic partitions in Hive?
+Ans. The default mode is the strict mode which requires that the table have at least one static partition.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzk3MDE1MiwtMjY3NjY3MTAyLC0xOT
-M2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbLTEyNzI0ODA2OTUsLTI2NzY2NzEwMiwtMT
+kzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
