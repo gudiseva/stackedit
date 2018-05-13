@@ -59,10 +59,10 @@ Q. Why does hive.exec.dynamic.partition.mode=nonstrict need to be set when using
 > Ans. The default mode is the strict mode which requires that the table have at least one static partition.
 
 Q. Which of the following is an advantage of bucketing tables?
-Ans. Join operations can run faster as records can be looked up more quickly.
+> Ans. Join operations can run faster as records can be looked up more quickly.
 
 Q. Why is bucket sampling more efficient than other ways of sampling Hive table data?
-Ans. It scans only the records in a single bucket and not the entire table for sample records.
+> Ans. It scans only the records in a single bucket and not the entire table for sample records.
 
 Q. Consider an e-commerce site with these tables
 
@@ -91,31 +91,31 @@ The sizes of the tables are as follows:
     Reviews: 1GB  
 
 If you had to join all 3 tables together what is the order in which you would specify the tables in the join operation in order to have the fastest join?
-Ans. Products, Reviews, Orders
+> Ans. Products, Reviews, Orders
 
 Q. Why is the left semi-join faster than the IN/EXISTS subqueries?
-Ans. The left semi-join scans the table on the right side of the join only until the matching record is found, it does not scan the entire table.
+> Ans. The left semi-join scans the table on the right side of the join only until the matching record is found, it does not scan the entire table.
 
 Q. How would you specify a window between the first row in a result set and the current row?
-Ans. rows between unbounded preceding and current row
+> Ans. rows between unbounded preceding and current row
 
 Q. How would you specify a window which included exactly 5 records as it moves over the results?
-Ans. rows between 4 preceding and current row
+> Ans. rows between 4 preceding and current row
 
 Q. Why do analysts not use MapReduce for all their data processing needs?
-Ans. MapReduce is not very accessible as it requires coding in a language such as Java and Python.
+> Ans. MapReduce is not very accessible as it requires coding in a language such as Java and Python.
 
 Q. All of these are good reasons to use Hive for data processing EXCEPT:
-Ans. 
--   Hive runs MapReduce under the hood, and abstracts away all the complexity of running MapReduce jobs.
--   Hive uses HiveQL, a query language very similar to SQL which makes it accessible and easy to use.
- -  Hive runs on Hadoop and uses its distributed computing environment to process large datasets.
+> Ans. 
+> -   Hive runs MapReduce under the hood, and abstracts away all the complexity of running MapReduce jobs.
+> -   Hive uses HiveQL, a query language very similar to SQL which makes it accessible and easy to use.
+> -  Hive runs on Hadoop and uses its distributed computing environment to process large datasets.
 
 Q. Which of these is an advantage of using window functions?
-Ans.
-- Eliminates the use of intermediate tables and temporary data  
-- Allows complex queries to be expressed more simply
-- Eliminates the use of a script for certain operations and reduces them to a single query
+> Ans.
+> - Eliminates the use of intermediate tables and temporary data  
+> - Allows complex queries to be expressed more simply
+> - Eliminates the use of a script for certain operations and reduces them to a single query
 
 Q. What is the command to see what partitions exist in a Hive table?
 Ans.
@@ -229,9 +229,9 @@ Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
 Q. How do partitioning and bucketing help in making Hive queries run faster?
 Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Mzk1ODU4NywtMTU5Mzk2MjAzOSwtOD
-QwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEzMDEwMDMsLTIwMjEy
-OTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNjU2LC0yNjc2NjcxMD
-IsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbLTE0ODIzNTMwMDEsLTE1OTM5NjIwMzksLT
+g0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAxMDAzLC0yMDIx
+MjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1NiwtMjY3NjY3MT
+AyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 
 -->
