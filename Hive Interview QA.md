@@ -225,10 +225,11 @@ Let's say this table is partitioned on the product  **category**  column.
 On the same Reviews table which of the following queries would run faster?
 Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
 
-
+Q. How do partitioning and bucketing help in making Hive queries run faster?
+Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMD
-QxMzAxMDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0
-MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0Nz
-EsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbLTE1OTM5NjIwMzksLTg0MDU0NzcyMSwtMT
+M2NTA2Nzg1NSwxMDQxMzAxMDAzLC0yMDIxMjkyMzE0LDE2ODE3
+NjQwOTIsLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMj
+k1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 -->
