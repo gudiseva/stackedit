@@ -162,8 +162,12 @@ Q. When the table on the right side of a join operation is much smaller than the
 Ans.
 -  Left-outer join
 
+Q. What keyword would you use to run a window operation on logical groups of data e.g. grouped on the category column of a table?
+Ans. partitioned by category
+
+Q
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjQxMTg3OCwxNjgxNzY0MDkyLC0zNj
-M4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2
-NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbNjE1Njc5MTY2LDE2ODE3NjQwOTIsLTM2Mz
+g0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0
+NzEsMjk2OTA1MTEyXX0=
 -->
