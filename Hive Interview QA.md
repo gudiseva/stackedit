@@ -177,10 +177,10 @@ Q. Which are possible ways in which join performance can be optimized?
 > Ans. Structuring joins such that the reduce phase of the underlying MapReduce is eliminated.
 
 Q. Partitioning the Reviews data on the **unique review ID** column is not a good idea. Why is that the case?
-Ans. It would result in millions of partitions, one for every review and would overwhelm the NameNode in Hadoop which keeps track of directories in HDFS.
+> Ans. It would result in millions of partitions, one for every review and would overwhelm the NameNode in Hadoop which keeps track of directories in HDFS.
 
 Q. What is a hash function that is used to bucket tables?
-Ans. A function which takes in an argument from a large range and converts it to a value from a smaller set.
+> Ans. A function which takes in an argument from a large range and converts it to a value from a smaller set.
 
 Q. Consider an e-commerce site with these tables
 
@@ -210,7 +210,7 @@ The sizes of the tables are as follows:
 
 If the most common join operation performed was on the Products and Reviews tables and you wanted to make the join operation between these tables as fast as you possibly could, what design decisions would you take?
 
-Ans. Bucket the table on the product id column, have an equal number of buckets on each table and sort each bucket on product id, join on the product id column.
+> Ans. Bucket the table on the product id column, have an equal number of buckets on each table and sort each bucket on product id, join on the product id column.
 
 Q. Consider a table storing information on product reviews on an e-commerce site. The table named Reviews contains the following information:
 
@@ -225,13 +225,16 @@ Q. Consider a table storing information on product reviews on an e-commerce site
 Let's say this table is partitioned on the product  **category**  column.
 
 On the same Reviews table which of the following queries would run faster?
-Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
+> Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
 
 Q. How do partitioning and bucketing help in making Hive queries run faster?
-Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
+> Ans. They break the dataset into smaller, more manageable parts so queries operate on only a subset of data.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5NTEyOTgwLC0xNTkzOTYyMDM5LC04ND
-A1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMwMTAwMywtMjAyMTI5
-MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMi
-wtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbMTg3NzkwMzEyMiwtMTU5Mzk2MjAzOSwtOD
+QwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEzMDEwMDMsLTIwMjEy
+OTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNjU2LC0yNjc2NjcxMD
+IsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
+
 -->
