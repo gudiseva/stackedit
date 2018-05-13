@@ -165,9 +165,14 @@ Ans.
 Q. What keyword would you use to run a window operation on logical groups of data e.g. grouped on the category column of a table?
 Ans. partitioned by category
 
-Q
+Q. Analytical processing jobs include all of these characteristics:
+Ans.
+-   Works on huge datasets from multiple sources
+-   Tends to involve long running jobs
+-   Reads data, does not usually edit or update it
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1Njc5MTY2LDE2ODE3NjQwOTIsLTM2Mz
-g0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0
-NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbLTE0NDczNjY1MDAsMTY4MTc2NDA5MiwtMz
+YzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2
+NjQ3MSwyOTY5MDUxMTJdfQ==
 -->
