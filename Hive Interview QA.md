@@ -143,9 +143,11 @@ Ans.
 
 Q. Which of these is a difference between bucketing and partitioning?
 Ans.
-
+-  The number of buckets in a table is fixed while the number of partitions depends on the data.
+-  Buckets are usually around the same size, partition sizes can vary greatly.
+-  Bucketing is based on a hash value of a column and partitioning is based on actual column values.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ5MDgxMDYsMTY4MTc2NDA5MiwtMz
+eyJoaXN0b3J5IjpbLTEyNjQxNDY2NzEsMTY4MTc2NDA5MiwtMz
 YzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2
 NjQ3MSwyOTY5MDUxMTJdfQ==
 -->
