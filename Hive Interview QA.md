@@ -101,9 +101,10 @@ Ans. rows between unbounded preceding and current row
 Q. How would you specify a window which included exactly 5 records as it moves over the results?
 Ans. rows between 4 preceding and current row
 
-
+Q. Why do analysts not use MapReduce for all their data processing needs?
+Ans. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzEwMjcwMSwtMzYzODQzNjU2LC0yNj
+eyJoaXN0b3J5IjpbLTk4ODIyNTg2MSwtMzYzODQzNjU2LC0yNj
 c2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUx
 MTJdfQ==
 -->
