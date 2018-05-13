@@ -174,9 +174,12 @@ Ans.
 Q. Which are possible ways in which join performance can be optimized?
 Ans. Structuring joins such that the reduce phase of the underlying MapReduce is eliminated.
 
+Q. Partitioning the Reviews data on the **unique review ID** column is not a good idea. Why is that the case?
+Ans. It would result in millions of partitions, one for every review and would overwhelm the NameNode in Hadoop which keeps track of directories in HDFS.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMz
-YzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2
-NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbNTkwOTQ4NTU2LC0yMDIxMjkyMzE0LDE2OD
+E3NjQwOTIsLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOTM2Nzkw
+Mjk1LDE4MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 -->
