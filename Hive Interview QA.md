@@ -210,9 +210,25 @@ If the most common join operation performed was on the Products and Reviews tabl
 
 Ans. Bucket the table on the product id column, have an equal number of buckets on each table and sort each bucket on product id, join on the product id column.
 
+Q. Consider a table storing information on product reviews on an e-commerce site. The table named Reviews contains the following information:
+
+    Reviews
+    - id
+    - username
+    - text
+    - product id
+    - category
+    - date  
+
+Let's say this table is partitioned on the product  **category**  column.
+
+On the same Reviews table which of the following queries would run faster?
+Ans. select * from Reviews where category="Furniture" and date = "12/1/2016"
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUwNjc4NTUsMTA0MTMwMTAwMywtMj
-AyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2
-NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl
-19
+eyJoaXN0b3J5IjpbLTg0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMD
+QxMzAxMDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0
+MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0Nz
+EsMjk2OTA1MTEyXX0=
 -->
