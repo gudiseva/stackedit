@@ -107,16 +107,10 @@ Ans. MapReduce is not very accessible as it requires coding in a language such a
 Q. All of these are good reasons to use Hive for data processing EXCEPT:
 Ans. 
 -   Hive runs MapReduce under the hood, and abstracts away all the complexity of running MapReduce jobs.
-    
--   Incorrect -
-    
-    Hive uses HiveQL, a query language very similar to SQL which makes it accessible and easy to use.
-    
--   Incorrect -
-    
-    Hive runs on Hadoop and uses its distributed computing environment to process large datasets.
+-   Hive uses HiveQL, a query language very similar to SQL which makes it accessible and easy to use.
+ -  Hive runs on Hadoop and uses its distributed computing environment to process large datasets.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzAxNjYzMSwtMzYzODQzNjU2LC0yNj
+eyJoaXN0b3J5IjpbMTIzNTgwMjkzMSwtMzYzODQzNjU2LC0yNj
 c2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUx
 MTJdfQ==
 -->
