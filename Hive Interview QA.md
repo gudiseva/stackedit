@@ -56,7 +56,12 @@ Ans. alter table Reviews add partition (category="Fashion") location '/tables/re
 
 Q. Why does hive.exec.dynamic.partition.mode=nonstrict need to be set when using all dynamic partitions in Hive?
 Ans. The default mode is the strict mode which requires that the table have at least one static partition.
+
+Q. Which of the following is an advantage of bucketing tables?
+Ans. Join operations can run faster as records can be looked up more quickly.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI0ODA2OTUsLTI2NzY2NzEwMiwtMT
+eyJoaXN0b3J5IjpbLTE4MjAzMjUzMTgsLTI2NzY2NzEwMiwtMT
 kzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
