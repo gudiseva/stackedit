@@ -63,8 +63,34 @@ Ans. Join operations can run faster as records can be looked up more quickly.
 Q. Why is bucket sampling more efficient than other ways of sampling Hive table data?
 Ans. It scans only the records in a single bucket and not the entire table for sample records.
 
+Q. Consider an e-commerce site with these tables
 
+Orders
+- order id
+- product id
+- customer id
+- quantity
+  
+Products
+- product id
+- product name
+- cost
+  
+Reviews
+- review id
+- product id
+- order id
+- username
+- category  
+
+The sizes of the tables are as follows:
+
+Orders: 100GB
+Products: 500MB
+Reviews: 1GB  
+
+If you had to join all 3 tables together what is the order in which you would specify the tables in the join operation in order to have the fastest join?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTExODk0NzcsLTI2NzY2NzEwMiwtMT
+eyJoaXN0b3J5IjpbLTEyMTYyMjcxODYsLTI2NzY2NzEwMiwtMT
 kzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
