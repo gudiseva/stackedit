@@ -146,8 +146,11 @@ Ans.
 -  The number of buckets in a table is fixed while the number of partitions depends on the data.
 -  Buckets are usually around the same size, partition sizes can vary greatly.
 -  Bucketing is based on a hash value of a column and partitioning is based on actual column values.
+Q. Which of the following are the ways to sample data from Hive tables?
+Ans.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQxNDY2NzEsMTY4MTc2NDA5MiwtMz
-YzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2
-NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbMjg0ODg4NDYsMTY4MTc2NDA5MiwtMzYzOD
+QzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3
+MSwyOTY5MDUxMTJdfQ==
 -->
