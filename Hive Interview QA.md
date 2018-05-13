@@ -148,9 +148,12 @@ Ans.
 -  Bucketing is based on a hash value of a column and partitioning is based on actual column values.
 Q. Which of the following are the ways to sample data from Hive tables?
 Ans.
-
+-   Bucket Sampling
+-   The LIMIT Keyword
+-   Block Sampling
+-   Row Count Sampling
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0ODg4NDYsMTY4MTc2NDA5MiwtMzYzOD
-QzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3
-MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbMjcxNzE2MjYyLDE2ODE3NjQwOTIsLTM2Mz
+g0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0
+NzEsMjk2OTA1MTEyXX0=
 -->
