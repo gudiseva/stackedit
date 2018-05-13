@@ -44,8 +44,9 @@ https://www.guru99.com/hive-queries-implementation.html
 8. How do you handle Data skew
 9. Hive Performance tuning parameters
 10. Tez - Hortonworks optimize Hive on Tez
-11. Max Date in Hive -> Convert to UNIX Timestamp and do max
+11. Max Date in Hive -> Convert to UNIX Timestamp and apply Max on that column
+12. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAyMzY5MDUsLTE5MzY3OTAyOTUsMT
-gxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbMTg4OTE0MzY4NSwtMTkzNjc5MDI5NSwxOD
+E2NzY2NDcxLDI5NjkwNTExMl19
 -->
