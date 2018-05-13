@@ -38,12 +38,14 @@ Q. Cost based optimization; Calcite
 3. How many mappers are created?
 4. Errors / Failures in Hive
 5. Clustered By, Partitioned By
-6. Map Joins
-7. Merge Sort
-8. How do you handle Data skew
-9. Hive Performance tuning parameters
-10. Tez - Hortonworks optimize Hive on Tez
+https://www.guru99.com/hive-queries-implementation.html
+7. Map Joins
+8. Merge Sort
+9. How do you handle Data skew
+10. Hive Performance tuning parameters
+11. Tez - Hortonworks optimize Hive on Tez
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOT
+Y5MDUxMTJdfQ==
 -->
