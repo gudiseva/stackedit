@@ -7,8 +7,9 @@ Hadoop 2.7.1+ hbase version 1.2x supported
 
 | Hadoop | HBase |
 |--|--|
-| 2.7.1 |  |
+| 2.7.1+ | 1.2.x |
+|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUwNTQyMiwxMTY3MzczNDIwXX0=
+eyJoaXN0b3J5IjpbMTIzNzA2MjI2MiwxMTY3MzczNDIwXX0=
 -->
