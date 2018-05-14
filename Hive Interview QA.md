@@ -5,12 +5,13 @@ Q. What is hive metastore?
 ```mermaid
 graph LR
 	subgraph one
-      A[Driver] -- Link text --> B(Metastore)
-      B(Metastore) -- Link text --> C((Derby))
+      A1[Driver] -- Link text --> B1(Metastore)
+      B1(Metastore) -- Link text --> C1((Derby))
     end
 	subgraph two
-      C[Driver] -- Link text --> D(Metastore)
-      E(Metastore) -- Link text --> F((Derby))
+      A21[Driver] -- Link text --> B21(Metastore)
+      A22[Driver] -- Link text --> B22(Metastore)
+      ---B2(Metastore) -- Link text --> C2((Derby))
     end
 
 
@@ -248,9 +249,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcwMjc4NDAsLTQ2NjMzMjI1MywtMT
-U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
-MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
-U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
-OTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbMTkyODEyNjkyOCwtNDY2MzMyMjUzLC0xNT
+kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
+MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
+YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
+NjkwNTExMl19
 -->
