@@ -3,19 +3,18 @@
 Q. What is hive metastore?
 
 ```mermaid
-graph LR
+graph TBLR
 	subgraph Embedded Metastore
       A1[Driver] --> B1(Metastore)
       B1(Metastore) --> C1((Derby))
     end
 	subgraph Local Metastore
-	subgraph test
       A21[Driver] --> B21(Metastore)
       A22[Driver] --> B22(Metastore)
       B21(Metastore) --> C2((MySql))
       B22(Metastore) --> C2((MySql))
     end
-	subgraph Remote Metastore
+  	subgraph Remote Metastore
       A31[Driver] --> B31(Metastore Server JVM)
       A31[Driver] --> B32(MetastoreServerJVM)
       A32[Driver] --> B31(Metastore Server JVM)
@@ -258,7 +257,7 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODczMTA5ODAsLTQ2NjMzMjI1MywtMT
+eyJoaXN0b3J5IjpbLTE3MjY0NDU0MzYsLTQ2NjMzMjI1MywtMT
 U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
 MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
 U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
