@@ -5,7 +5,7 @@ Q. What is hive metastore?
 ```mermaid
 graph LR
 A[Driver] -- Link text --> B(Metastore)
-B(Metastore) -- Link text --> C(Metastore)
+B(Metastore) -- Link text --> C((Derby))
 
 
 Q. Difference between managed and external tables?
@@ -238,9 +238,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzQ5NDYwNSwtNDY2MzMyMjUzLC0xNT
-kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
-MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
-YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
-NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTY1Nzc5MzM0LC00NjYzMzIyNTMsLTE1OT
+M5NjIwMzksLTg0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAx
+MDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1Ni
+wtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2
+OTA1MTEyXX0=
 -->
