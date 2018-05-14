@@ -39,6 +39,7 @@ graph LR
 
 > Q. Difference between managed and external tables?
 
+
 If you want multiple tools and multiple users to operate on the data at the same time than create an external table.
 
 As all the data ultimately stored on files on hdfs
@@ -269,9 +270,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTEwNDU1NiwtNDY2MzMyMjUzLC0xNT
-kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
-MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
-YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
-NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTQ2MDU4NjQ3MCwxOTQxMTA0NTU2LC00Nj
+YzMzIyNTMsLTE1OTM5NjIwMzksLTg0MDU0NzcyMSwtMTM2NTA2
+Nzg1NSwxMDQxMzAxMDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOT
+IsLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4
+MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 -->
