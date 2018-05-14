@@ -47,7 +47,7 @@ graph LR
 |As all the data ultimately stored on files on HDFS.  Another difference:- |For a partitioned table, the partitions are stored in the database(this allows hive to use lists of partitions without going to the file-system and finding them, etc. These sorts of things are the 'metadata'.|
 |When you drop an internal table, it drops the data, and it also drops the metadata.| When you drop an external table, it only drops the meta data. That means Hive is ignorant of that data now. It does not touch the data itself.|
 
-Q. UDF's in Pig and Hive?  When is it used?
+### Q. UDF's in Pig and Hive?  When is it used?
 
 Q.  When to choose Hive or Pig in the project?
  
@@ -269,7 +269,7 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIzMzk2NDcsMTk0MTEwNDU1NiwtND
+eyJoaXN0b3J5IjpbLTE2NjE5MjI0OTgsMTk0MTEwNDU1NiwtND
 Y2MzMyMjUzLC0xNTkzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUw
 Njc4NTUsMTA0MTMwMTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MD
 kyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwx
