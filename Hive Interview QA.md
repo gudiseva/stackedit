@@ -41,9 +41,9 @@ graph LR
 
 |Managed Table|External Table  |
 |--|--|
-| NA | If you want multiple tools and multiple users to operate on the data at the same time than create an external table. |
+|Hive has a relational database on the Master Node it uses to keep track of state | If you want multiple tools and multiple users to operate on the data at the same time than create an external table. |
 |As all the data ultimately stored on files on HDFS.|Another difference:|
-|When you drop an internal table, it drops the data, and it also drops the metadata.|When you drop an external table, it only drops the meta data. That means hive is ignorant of that data now. It does not touch the data itself.  |
+|When you drop an internal table, it drops the data, and it also drops the metadata.| When you drop an external table, it only drops the meta data. That means Hive is ignorant of that data now. It does not touch the data itself.  |
 
 
 
@@ -272,9 +272,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzA5NDYsMTk0MTEwNDU1NiwtNDY2Mz
-MyMjUzLC0xNTkzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4
-NTUsMTA0MTMwMTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC
-0zNjM4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2
-NzY2NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbMTY4MTU0Nzk2MCwxOTQxMTA0NTU2LC00Nj
+YzMzIyNTMsLTE1OTM5NjIwMzksLTg0MDU0NzcyMSwtMTM2NTA2
+Nzg1NSwxMDQxMzAxMDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOT
+IsLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4
+MTY3NjY0NzEsMjk2OTA1MTEyXX0=
 -->
