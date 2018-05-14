@@ -6,6 +6,10 @@ Ans. Hive Metastore is a central repository for Hive metadata. It has 2 componen
 1.  A Service to which the **Hive Driver** connects to and queries for the database schema.
 2.  A backing database to store the metadata.
 
+There are three modes to configure Hive Metastore:
+
+ - Embedded Metastore
+ - Local MetastoreRemote Metastore
 
 ```mermaid
 
@@ -264,9 +268,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjk0NjU4NSwtNDY2MzMyMjUzLC0xNT
-kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
-MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
-YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
-NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTIwNTg5NDk0MTUsLTQ2NjMzMjI1MywtMT
+U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
+MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
+U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
+OTY5MDUxMTJdfQ==
 -->
