@@ -77,6 +77,7 @@ Q. Cost based optimization; Calcite
 5. Clustered By, Partitioned By
 https://www.guru99.com/hive-queries-implementation.html
 6. Map Joins
+https://weidongzhou.wordpress.com/category/big-data/hadoop/hive/
 7. Merge Sort
 8. How do you handle Data skew
 9. Hive Performance tuning parameters
@@ -269,9 +270,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE5MjI0OTgsMTk0MTEwNDU1NiwtND
-Y2MzMyMjUzLC0xNTkzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUw
-Njc4NTUsMTA0MTMwMTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MD
-kyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwx
-ODE2NzY2NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTE1NDI5MjcxNjUsLTE2NjE5MjI0OTgsMT
+k0MTEwNDU1NiwtNDY2MzMyMjUzLC0xNTkzOTYyMDM5LC04NDA1
+NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMwMTAwMywtMjAyMTI5Mj
+MxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMiwt
+MTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
