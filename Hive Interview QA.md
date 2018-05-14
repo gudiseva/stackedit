@@ -42,12 +42,12 @@ graph LR
 |Managed Table|External Table  |
 |--|--|
 | NA | If you want multiple tools and multiple users to operate on the data at the same time than create an external table. |
-|Managed Table|External Table  |
+|As all the data ultimately stored on files on hdfs.  Another difference:-|
+|When you drop an internal table, it drops the data, and it also drops the metadata.|When you drop an external table, it only drops the meta data. That means hive is ignorant of that data now. It does not touch the data itself.  |
 
-As all the data ultimately stored on files on hdfs
-Another difference:-
-When you drop an internal table, it drops the data, and it also drops the metadata.
-When you drop an external table, it only drops the meta data. That means hive is ignorant of that data now. It does not touch the data itself.
+
+
+
 
 
 Q. UDF's in Pig and Hive?  When is it used?
@@ -272,9 +272,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA1NTcyODMsMTk0MTEwNDU1NiwtND
-Y2MzMyMjUzLC0xNTkzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUw
-Njc4NTUsMTA0MTMwMTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MD
-kyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwx
-ODE2NzY2NDcxLDI5NjkwNTExMl19
+eyJoaXN0b3J5IjpbNDU4NDc3MzAxLDE5NDExMDQ1NTYsLTQ2Nj
+MzMjI1MywtMTU5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3
+ODU1LDEwNDEzMDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5Mi
+wtMzYzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgx
+Njc2NjQ3MSwyOTY5MDUxMTJdfQ==
 -->
