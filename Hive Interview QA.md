@@ -37,8 +37,9 @@ graph LR
     end
 ```
 
-Q. Difference between managed and external tables?
-Yeh its like if you want multiple tool and multiple users to operate on your data at the same time than create an external table
+> Q. Difference between managed and external tables?
+
+If you want multiple tools and multiple users to operate on your data at the same time than create an external table
 As all the data ultimately stored on files on hdfs
 Another difference:-
 When you drop an internal table, it drops the data, and it also drops the metadata.
@@ -267,7 +268,7 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI1MjUyMjgsLTQ2NjMzMjI1MywtMT
+eyJoaXN0b3J5IjpbLTE1Nzc2MTI3NzYsLTQ2NjMzMjI1MywtMT
 U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
 MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
 U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
