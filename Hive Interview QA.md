@@ -15,12 +15,12 @@ graph LR
       B22(Metastore) --> C2((MySql))
     end
 	subgraph Remote Metastore
-      A31[Driver] -- Link text --> B31(Metastore Server JVM)
-      A31[Driver] -- Link text --> B32(MetastoreServerJVM)
-      A32[Driver] -- Link text --> B31(Metastore Server JVM)
-      A32[Driver] -- Link text --> B32(Metastore Server JVM)
-      B31(Metastore) -- Link text --> C3((PostgreSQL))
-      B32(Metastore) -- Link text --> C3((PostgreSQL))
+      A31[Driver] --> B31(Metastore Server JVM)
+      A31[Driver] --> B32(MetastoreServerJVM)
+      A32[Driver] --> B31(Metastore Server JVM)
+      A32[Driver] --> B32(Metastore Server JVM)
+      B31(Metastore Server JVM) --> C3((PostgreSQL))
+      B32(Metastore Server JVM) --> C3((PostgreSQL))
     end
 
 
@@ -257,9 +257,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDIxODI3NjYsLTQ2NjMzMjI1MywtMT
-U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
-MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
-U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
-OTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbOTMxNDc2NTMwLC00NjYzMzIyNTMsLTE1OT
+M5NjIwMzksLTg0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAx
+MDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1Ni
+wtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2
+OTA1MTEyXX0=
 -->
