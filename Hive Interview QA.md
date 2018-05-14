@@ -2,6 +2,14 @@
 
 Q. What is hive metastore?
 
+```mermaid
+graph LR
+A[Driver] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+
+
 Q. Difference between managed and external tables?
 Yeh its like if you want multiple tool and multiple users to operate on your data at the same time than create an external table
 As all the data ultimately stored on files on hdfs
@@ -232,9 +240,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjMzMjI1MywtMTU5Mzk2MjAzOSwtOD
-QwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEzMDEwMDMsLTIwMjEy
-OTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNjU2LC0yNjc2NjcxMD
-IsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwyOTY5MDUxMTJdfQ==
-
+eyJoaXN0b3J5IjpbLTEwNzk4ODczOTAsLTQ2NjMzMjI1MywtMT
+U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
+MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
+U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
+OTY5MDUxMTJdfQ==
 -->
