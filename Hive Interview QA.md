@@ -39,8 +39,10 @@ graph LR
 
 > Q. Difference between managed and external tables?
 
-
-If you want multiple tools and multiple users to operate on the data at the same time than create an external table.
+|Managed Table|External Table  |
+|--|--|
+| NA | If you want multiple tools and multiple users to operate on the data at the same time than create an external table. |
+|Managed Table|External Table  |
 
 As all the data ultimately stored on files on hdfs
 Another difference:-
@@ -270,9 +272,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDU4NjQ3MCwxOTQxMTA0NTU2LC00Nj
-YzMzIyNTMsLTE1OTM5NjIwMzksLTg0MDU0NzcyMSwtMTM2NTA2
-Nzg1NSwxMDQxMzAxMDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOT
-IsLTM2Mzg0MzY1NiwtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4
-MTY3NjY0NzEsMjk2OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbLTE1OTA1NTcyODMsMTk0MTEwNDU1NiwtND
+Y2MzMyMjUzLC0xNTkzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUw
+Njc4NTUsMTA0MTMwMTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MD
+kyLC0zNjM4NDM2NTYsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwx
+ODE2NzY2NDcxLDI5NjkwNTExMl19
 -->
