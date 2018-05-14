@@ -4,7 +4,7 @@ Q. What is hive metastore?
 
 ```mermaid
 graph LR
-A[Driver] -- Link text --> B((Circle))
+A[Driver] -- Link text --> B(Metastore) -- Link text --> E(Metastore)
 A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
@@ -240,9 +240,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk4ODczOTAsLTQ2NjMzMjI1MywtMT
-U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
-MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
-U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
-OTY5MDUxMTJdfQ==
+eyJoaXN0b3J5IjpbNTU4Mjg1ODc4LC00NjYzMzIyNTMsLTE1OT
+M5NjIwMzksLTg0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAx
+MDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1Ni
+wtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2
+OTA1MTEyXX0=
 -->
