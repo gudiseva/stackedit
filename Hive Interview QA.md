@@ -15,7 +15,7 @@ graph LR
       B22(Metastore) -- Link text --> C2((MySql))
     end
 	subgraph three
-      A31[Driver] -- Link text --> B31(MetastoreServerJVM)
+      A31[Driver] -- Link text --> B31(Metastore Server JVM)
       A31[Driver] -- Link text --> B32(MetastoreServerJVM)
       A32[Driver] -- Link text --> B31(Metastore Server JVM)
       A32[Driver] -- Link text --> B32(Metastore Server JVM)
@@ -257,9 +257,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyMzU2MzMxLC00NjYzMzIyNTMsLTE1OT
-M5NjIwMzksLTg0MDU0NzcyMSwtMTM2NTA2Nzg1NSwxMDQxMzAx
-MDAzLC0yMDIxMjkyMzE0LDE2ODE3NjQwOTIsLTM2Mzg0MzY1Ni
-wtMjY3NjY3MTAyLC0xOTM2NzkwMjk1LDE4MTY3NjY0NzEsMjk2
-OTA1MTEyXX0=
+eyJoaXN0b3J5IjpbLTg0NzQ1ODM2MywtNDY2MzMyMjUzLC0xNT
+kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
+MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
+YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
+NjkwNTExMl19
 -->
