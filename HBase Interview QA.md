@@ -4,6 +4,11 @@ STARTERKIT10
 
 In hadoop 2.7 hbase is not supported
 Hadoop 2.7.1+ hbase version 1.2x supported
+
+| Hadoop | HBase |
+|--|--|
+| 2.7.1 |  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzM3MzQyMF19
+eyJoaXN0b3J5IjpbLTE1OTUwNTQyMiwxMTY3MzczNDIwXX0=
 -->
