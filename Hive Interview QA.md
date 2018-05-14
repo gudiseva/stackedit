@@ -1,15 +1,17 @@
 # Hive Interview Questions and Answers
 
 Q. What is hive metastore?
-Ans. Hive Metastore is a central repository for Hive metadata. It has 2 components:
 
-1.  A Service to which the **Hive Driver** connects to and queries for the database schema.
-2.  A backing database to store the metadata.
+> Ans. Hive Metastore is a central repository for Hive metadata. It has 2 components:
+
+> 1. A Service to which the **Hive Driver** connects to and queries for the database schema.
+ 2. A backing database to store the metadata.
 
 There are three modes to configure Hive Metastore:
 
  - Embedded Metastore
- - Local MetastoreRemote Metastore
+ - Local Metastore
+ - Remote Metastore
 
 ```mermaid
 
@@ -268,7 +270,7 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg5NDk0MTUsLTQ2NjMzMjI1MywtMT
+eyJoaXN0b3J5IjpbLTE5OTMxMDkxODYsLTQ2NjMzMjI1MywtMT
 U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
 MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
 U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
