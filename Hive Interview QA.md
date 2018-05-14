@@ -11,7 +11,8 @@ graph LR
 	subgraph two
       A21[Driver] -- Link text --> B21(Metastore)
       A22[Driver] -- Link text --> B22(Metastore)
-      ---B2(Metastore) -- Link text --> C2((Derby))
+      B21(Metastore) -- Link text --> C2((Derby))
+      B22(Metastore) -- Link text --> C2((Derby))
     end
 
 
@@ -249,9 +250,9 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODEyNjkyOCwtNDY2MzMyMjUzLC0xNT
-kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
-MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
-YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
-NjkwNTExMl19
+eyJoaXN0b3J5IjpbLTE4NjA3MTk1NDUsLTQ2NjMzMjI1MywtMT
+U5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3ODU1LDEwNDEz
+MDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5MiwtMzYzODQzNj
+U2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgxNjc2NjQ3MSwy
+OTY5MDUxMTJdfQ==
 -->
