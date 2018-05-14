@@ -44,7 +44,7 @@ graph LR
 |Hive has a relational database on the Master Node it uses to keep track of state.  The table schema is stored in the database. | If you want multiple tools and multiple users to operate on the data at the same time than create an external table. |
 |As all the data ultimately stored on files on HDFS.|Another difference:|
 |When you drop an internal table, it drops the data, and it also drops the metadata.| When you drop an external table, it only drops the meta data. That means Hive is ignorant of that data now. It does not touch the data itself.|
-|For partitioned table, the partitions are stored in the database(this allows hive to use lists of partitions without going to the file-system and finding them, etc||
+|||
 
 
 
@@ -272,7 +272,7 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTA0ODM3LDE5NDExMDQ1NTYsLTQ2Nj
+eyJoaXN0b3J5IjpbNDkxNjE5NzM4LDE5NDExMDQ1NTYsLTQ2Nj
 MzMjI1MywtMTU5Mzk2MjAzOSwtODQwNTQ3NzIxLC0xMzY1MDY3
 ODU1LDEwNDEzMDEwMDMsLTIwMjEyOTIzMTQsMTY4MTc2NDA5Mi
 wtMzYzODQzNjU2LC0yNjc2NjcxMDIsLTE5MzY3OTAyOTUsMTgx
