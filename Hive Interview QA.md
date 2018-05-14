@@ -4,7 +4,9 @@ Q. What is hive metastore?
 Ans. Hive Metastore is a central repository for Hive metadata. It has 2 components:
 
 1.  A Service to which the **Hive Driver** connects to and queries for the database schema.
-2.  A backing database to store the metadata**.** Currently Hive supports 5 backend databases: Derby, MySQL, MS SQL Server, Oracle and Postgres.
+2.  A backing database to store the metadata.
+
+
 ```mermaid
 
 graph LR
@@ -262,7 +264,7 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDQ0MzMwNSwtNDY2MzMyMjUzLC0xNT
+eyJoaXN0b3J5IjpbLTIyNjk0NjU4NSwtNDY2MzMyMjUzLC0xNT
 kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
 MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
 YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
