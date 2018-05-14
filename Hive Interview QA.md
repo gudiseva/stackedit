@@ -5,9 +5,9 @@ Q. What is hive metastore?
 ```mermaid
 graph LR
 	subgraph one
-A[Driver] -- Link text --> B(Metastore)
-	B(Metastore) -- Link text --> C((Derby))
-	end
+      A[Driver] -- Link text --> B(Metastore)
+    B(Metastore) -- Link text --> C((Derby))
+    end
 
 Q. Difference between managed and external tables?
 Yeh its like if you want multiple tool and multiple users to operate on your data at the same time than create an external table
@@ -239,7 +239,7 @@ Q. How do partitioning and bucketing help in making Hive queries run faster?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTcxNTY1NSwtNDY2MzMyMjUzLC0xNT
+eyJoaXN0b3J5IjpbMTA5NjA2OTk2MSwtNDY2MzMyMjUzLC0xNT
 kzOTYyMDM5LC04NDA1NDc3MjEsLTEzNjUwNjc4NTUsMTA0MTMw
 MTAwMywtMjAyMTI5MjMxNCwxNjgxNzY0MDkyLC0zNjM4NDM2NT
 YsLTI2NzY2NzEwMiwtMTkzNjc5MDI5NSwxODE2NzY2NDcxLDI5
