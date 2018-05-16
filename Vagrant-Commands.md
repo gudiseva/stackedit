@@ -11,7 +11,7 @@
 
 ## SSH into Vagrant VM
 
-    $ vagrant ssh <box_name>
+    $ vagrant ssh <vm_name>
 
 ## List the Vagrant box that was initialized
 
@@ -31,7 +31,7 @@
 
 ## Destroy Vagrant VMs
 
-    $ vagrant destroy -f consul-server
+    $ vagrant destroy -f <vm_name>
 
 ###### Note: The source code and the content of the data directory will remain unchanged. Only the VM instance will be destroyed.
 ######  To build the machine again, use the 'vagrant up' command. This command is useful if you want to save disk space.
@@ -41,10 +41,11 @@
 
     $ vagrant provision
 
-## Reload the Vagrant VM. Useful when you need to change network or synced folder settings
+## Reload the Vagrant VM
 
     $ vagrant reload
 
+###### Useful when you need to change network or synced folder settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzYxOTM5NV19
+eyJoaXN0b3J5IjpbLTE2ODQ5NjIwNjJdfQ==
 -->
