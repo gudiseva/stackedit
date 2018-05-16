@@ -13,11 +13,11 @@
 
     $ vagrant ssh <box_name>
 
-## List all the Vagrant boxes
+## List the Vagrant box that was initialized
 
     $ vagrant box list
 
-## Status of Vagrant boxes
+## Status of Vagrant VMs
 
     $ vagrant status
 
@@ -25,11 +25,11 @@
 
     $ vagrant share
 
-## Halt Vagrant VM
+## Halt Vagrant VMs
 
     $ vagrant halt
 
-## Destroy Vagrant VM
+## Destroy Vagrant VMs
 
     $ vagrant destroy -f consul-server
 
@@ -46,5 +46,5 @@
     $ vagrant reload
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTk0MTQ2MV19
+eyJoaXN0b3J5IjpbMTg3NzYxOTM5NV19
 -->
