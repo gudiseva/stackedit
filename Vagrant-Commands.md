@@ -21,9 +21,9 @@
 
     $ vagrant status
 
-## Share Vagrant VM via a temporary and unique url
+## Resume a susShare Vagrant VM via a temporary and unique url
 
-    $ vagrant share
+    $ vagrant resume
 
 ## Halt Vagrant VMs
 
@@ -47,5 +47,5 @@
 
 ###### Useful when you need to change network or synced folder settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ5NjIwNjJdfQ==
+eyJoaXN0b3J5IjpbMTgzMzM0NzE3LC0xNjg0OTYyMDYyXX0=
 -->
