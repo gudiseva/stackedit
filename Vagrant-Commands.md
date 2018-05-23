@@ -49,3 +49,11 @@
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTYxNjM0NDAwOSwtMTY4NDk2MjA2Ml19
 -->
+
+## Install the Vagrant VBGuest
+
+    $ vagrant plugin install vagrant-vbguest
+
+## Install the Vagrant HostsUpdater
+
+    $ vagrant plugin install vagrant-hostsupdater
