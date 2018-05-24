@@ -62,6 +62,13 @@ eyJoaXN0b3J5IjpbLTYxNjM0NDAwOSwtMTY4NDk2MjA2Ml19
 ## Install the Vagrant HostsUpdater
 
     $ vagrant plugin install vagrant-hostsupdater
+
+## Tasklist
+C:\> tasklist /fi "status eq running"
+ tasklist /fi "imagename eq VBOX*.exe"
+taskkill /F /IM VBoxSVC.exe
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjA5MzgxNCw3NzY4NDMyNTVdfQ==
+eyJoaXN0b3J5IjpbNzYyNjc3NTA0LDE2NTIwOTM4MTQsNzc2OD
+QzMjU1XX0=
 -->
