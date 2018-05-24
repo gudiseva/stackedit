@@ -21,6 +21,10 @@
 
     $ vagrant status
 
+## Status of all the Vagrant VMs
+
+    $ vagrant global-status
+
 ## Resume a suspended Vagrant VM
 
     $ vagrant resume
@@ -58,5 +62,5 @@ eyJoaXN0b3J5IjpbLTYxNjM0NDAwOSwtMTY4NDk2MjA2Ml19
 
     $ vagrant plugin install vagrant-hostsupdater
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2ODQzMjU1XX0=
+eyJoaXN0b3J5IjpbLTgwNDkzNjk4Miw3NzY4NDMyNTVdfQ==
 -->
