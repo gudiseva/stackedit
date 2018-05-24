@@ -56,11 +56,12 @@ eyJoaXN0b3J5IjpbLTYxNjM0NDAwOSwtMTY4NDk2MjA2Ml19
 
 ## Install the Vagrant VBGuest
 
+    $ vagrant plugin install vagrant-winnfsd
     $ vagrant plugin install vagrant-vbguest
 
 ## Install the Vagrant HostsUpdater
 
     $ vagrant plugin install vagrant-hostsupdater
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDkzNjk4Miw3NzY4NDMyNTVdfQ==
+eyJoaXN0b3J5IjpbMTY1MjA5MzgxNCw3NzY4NDMyNTVdfQ==
 -->
