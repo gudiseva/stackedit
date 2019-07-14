@@ -65,8 +65,8 @@ def test(x: Int, y: Int) = x * x
 	Ans. CBV = CBN	
 
 
-> Nag Arvind Gudiseva
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4OTkyOTddfQ==
+eyJoaXN0b3J5IjpbNDM5NjczNTQzLDc1ODk5Mjk3XX0=
 -->
