@@ -61,7 +61,4 @@ Ans. CBV is slower than CBN
 |	49					|	49					|
 Ans. CBV = CBN	
 </code></pre>
-<blockquote>
-<p>Nag Arvind Gudiseva</p>
-</blockquote>
 
