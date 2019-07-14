@@ -34,14 +34,14 @@ square(3) + square(2+2)
 #### Question #1 - Evaluation Strategy : Which is the fastest?
 def test(x: Int, y: Int) = x * x
 
-test(2,3)
+##### test(2,3)
 	|	CBV			|	CBN			|
 	|	test(2,3)	|	test(2,3)	|
 	|	2 * 2		|	2 * 2		|
 	|	4			|	4			|
 Ans. CBV = CBN
 
-test(3+4, 8)
+##### test(3+4, 8)
 	|	CBV				|	CBN				|
 	|	test(3+4,8)		|	test(3+4,8)		|
 	|	test(7,8)		|	(3+4) * (3+4)	|
@@ -50,7 +50,7 @@ test(3+4, 8)
 	|					|	49				|
 Ans. CBV is faster than CBN
 	
-test(7, 2*4)
+##### test(7, 2*4)
 	|	CBV				|	CBN				|
 	|	test(7,2*4)		|	test(7,2*4)		|
 	|	test(7,8)		|	7 * 7			|
@@ -58,7 +58,7 @@ test(7, 2*4)
 	|	49				|					|
 Ans. CBV is slower than CBN
 
-test(3+4, 2*4)
+##### test(3+4, 2*4)
 	|	CBV					|	CBN					|
 	|	test(3+4,2*4)		|	test(3+4,2*4)		|
 	|	test(7,2*4)			|	(3+4) * (3+4)		|
@@ -70,5 +70,5 @@ Ans. CBV = CBN
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDU2ODI5MSwxOTg4MTc3NDAxXX0=
+eyJoaXN0b3J5IjpbMTg2MTA2Njc4NywxOTg4MTc3NDAxXX0=
 -->
