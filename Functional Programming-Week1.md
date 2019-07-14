@@ -1,13 +1,6 @@
----
+# Functional Programming - Elements
 
-
----
-
-<h1 id="functional-programming---elements">Functional Programming - Elements</h1>
-<h2 id="substitution-model"># Functional Programming - Elements
-
-## Substitution Model</h2>
-<p>
+## Substitution Model
 
 def square (x: Double) = x * x<br>
 def sumOfSquares (x: Double, y: Double) = square(x) + square(y)</p>
@@ -91,5 +84,5 @@ def test(x: Int, y: Int) = x * x</p>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgyNDk4NTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NDE3NjUyMzVdfQ==
 -->
