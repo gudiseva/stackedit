@@ -2,38 +2,29 @@
 
 ## Substitution Model
 
-def square (x: Double) = x * x<br>
-def sumOfSquares (x: Double, y: Double) = square(x) + square(y)</p>
-<h2 id="evaluation-strategy">Evaluation Strategy</h2>
-<h3 id="call-by-value">call-by-value</h3>
-<p>
+def square (x: Double) = x * x
+def sumOfSquares (x: Double, y: Double) = square(x) + square(y)
 
 ## Evaluation Strategy
 
 ### call-by-value
-sumOfSquares(3, 2+2)<br>
-sumOfSquares(3, 4)<br>
-square(3) + square(4)<br>
-3 * 3 + square(4)<br>
-9 + square(4)<br>
-9 + 4 * 4<br>
-9 + 16<br>
-25</p>
-<h3 id="call-by-name">call-by-name</h3>
-<p>
+sumOfSquares(3, 2+2)
+sumOfSquares(3, 4)
+square(3) + square(4)
+3 * 3 + square(4)
+9 + square(4)
+9 + 4 * 4
+9 + 16
 25
 
-
 ### call-by-name
-sumOfSquares(3, 2+2)<br>
-square(3) + square(2+2)<br>
-3 * 3 + square(2+2)<br>
-9 + square(2+2)<br>
-9 + (2+2) * (2+2)<br>
-9 + 4 * (2+2)<br>
-9 + 4 * 4<br>
-25</p>
-<h4 id="question-1---evaluation-strategy--which-is-the-fastest">
+sumOfSquares(3, 2+2)
+square(3) + square(2+2)
+3 * 3 + square(2+2)
+9 + square(2+2)
+9 + (2+2) * (2+2)
+9 + 4 * (2+2)
+9 + 4 * 4
 25
 
 #### Question #1 - Evaluation Strategy : Which is the fastest?</h4>
@@ -84,5 +75,5 @@ def test(x: Int, y: Int) = x * x</p>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE3NjUyMzVdfQ==
+eyJoaXN0b3J5IjpbLTEwNzk5NDIxNzhdfQ==
 -->
