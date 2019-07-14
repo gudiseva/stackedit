@@ -100,6 +100,6 @@ Inclusive leadership - 4 Leadership Attributes:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU2NDg0NDUsLTE5NDkxNjk2MjBdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MTMxNTI3OTEsLTEyMDU2NDg0NDUsLT
+E5NDkxNjk2MjBdfQ==
 -->
