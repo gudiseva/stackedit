@@ -37,7 +37,6 @@ def test(x: Int, y: Int) = x * x
 	|	4			|	4			|
 	Ans. CBV = CBN
 
-
 ##### test(3+4, 8)
 	|	CBV				|	CBN				|
 	|	test(3+4,8)		|	test(3+4,8)		|
@@ -46,9 +45,7 @@ def test(x: Int, y: Int) = x * x
 	|	49				|	7 * 7			|
 	|					|	49				|
 	Ans. CBV is faster than CBN
-</code></pre>
-<h5 id="test7-24">test(7, 2*4)</h5>
-<pre><code>	
+
 ##### test(7, 2*4)
 	|	CBV				|	CBN				|
 	|	test(7,2*4)		|	test(7,2*4)		|
@@ -56,9 +53,7 @@ def test(x: Int, y: Int) = x * x
 	|	7 * 7			|	49				|
 	|	49				|					|
 	Ans. CBV is slower than CBN
-</code></pre>
-<h5 id="test34-24">test(3+4, 2*4)</h5>
-<pre><code>
+
 ##### test(3+4, 2*4)
 	|	CBV					|	CBN					|
 	|	test(3+4,2*4)		|	test(3+4,2*4)		|
@@ -67,9 +62,7 @@ def test(x: Int, y: Int) = x * x
 	|	7 * 7				|	7 * 7				|
 	|	49					|	49					|
 	Ans. CBV = CBN	
-</code></pre>
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMTIxODBdfQ==
+eyJoaXN0b3J5IjpbMzE1MTkzMDE1XX0=
 -->
