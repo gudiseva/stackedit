@@ -27,11 +27,8 @@ square(3) + square(2+2)
 9 + 4 * 4
 25
 
-#### Question #1 - Evaluation Strategy : Which is the fastest?</h4>
-<p>
-def test(x: Int, y: Int) = x * x</p>
-<h5 id="test23">test(2,3)</h5>
-<pre><code>
+#### Question #1 - Evaluation Strategy : Which is the fastest?
+def test(x: Int, y: Int) = x * x
 
 ##### test(2,3)
 	|	CBV			|	CBN			|
@@ -39,9 +36,8 @@ def test(x: Int, y: Int) = x * x</p>
 	|	2 * 2		|	2 * 2		|
 	|	4			|	4			|
 	Ans. CBV = CBN
-</code></pre>
-<h5 id="test34-8">test(3+4, 8)</h5>
-<pre><code>
+
+
 ##### test(3+4, 8)
 	|	CBV				|	CBN				|
 	|	test(3+4,8)		|	test(3+4,8)		|
@@ -75,5 +71,5 @@ def test(x: Int, y: Int) = x * x</p>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk5NDIxNzhdfQ==
+eyJoaXN0b3J5IjpbNjUwMTIxODBdfQ==
 -->
