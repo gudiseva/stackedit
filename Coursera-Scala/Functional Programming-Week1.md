@@ -138,10 +138,11 @@ The above is an expression and not a statement.
 | def | val |
 |--|--|
 | by-name | by-value |
-| It's right hand is evaluated on each use | The RHS is  |
+| RHS is evaluated on each use | RHS is evaluated at the point of the definition itself |
+|  | Thereafter the name refers to the value |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MTQwMzA4LDE3NTQxMTcwOTUsLTQ5OD
-g1MDEzMCw2MzM1MTc2NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAx
-XX0=
+eyJoaXN0b3J5IjpbMTYyOTE5OTQxMywxNzU0MTE3MDk1LC00OT
+g4NTAxMzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQw
+MV19
 -->
