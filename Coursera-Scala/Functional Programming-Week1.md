@@ -101,6 +101,14 @@ Ans. CBV = CBN
 
 #### Evaluations
 ##### constOne(1+2, loop)
+|  |  |
+|--|--|
+| constOne(1+2, loop) |  |
+| ! |  |
+| constOne(3, loop) |  |
+| ! |  |
+|  |  |
+
 | CBV | CBN |
 |--|--|
 | constOne(1+2, loop) | constOne(1+2, loop) |
@@ -145,7 +153,8 @@ The above is an expression and not a statement.
 |  | `val y = square(x)` |
 |  | y above refers to 4, not square(2) |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQxMTQzMjcsLTYzMzUxNjA4NSwxNj
-I5MTk5NDEzLDE3NTQxMTcwOTUsLTQ5ODg1MDEzMCw2MzM1MTc2
-NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAxXX0=
+eyJoaXN0b3J5IjpbLTE1NzA0MDQwNDYsLTE1NDQxMTQzMjcsLT
+YzMzUxNjA4NSwxNjI5MTk5NDEzLDE3NTQxMTcwOTUsLTQ5ODg1
+MDEzMCw2MzM1MTc2NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAxXX
+0=
 -->
