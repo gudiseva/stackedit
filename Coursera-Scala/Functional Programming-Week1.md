@@ -124,8 +124,16 @@ Ans. CBV = CBN
 The above is an expression and not a statement.
 
 `x>=0` is a *predicate*, of type Boolean.
+
+#### short-circuit evaluation
+!true --> false
+!false --> true
+true && e -> e
+false && e -> false
+true || e -> true
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc3ODQ1MDUsMTc1NDExNzA5NSwtND
-k4ODUwMTMwLDYzMzUxNzY0MiwxODYxMDY2Nzg3LDE5ODgxNzc0
-MDFdfQ==
+eyJoaXN0b3J5IjpbMjc3MTQwNDkwLDE3NTQxMTcwOTUsLTQ5OD
+g1MDEzMCw2MzM1MTc2NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAx
+XX0=
 -->
