@@ -35,15 +35,11 @@
 def test(x: Int, y: Int) = x * x
 
 ##### test(2,3)
-	|	CBV			|	CBN			|
-	|	| CBV | CBN |
+| CBV | CBN |
 |--|--|
-| `test(2,3)	|	` | `test(2,3)	|
-	|	2 * 2		|	2 * 2		|
-	|	4			|	4			|` |
-| `2 * 2` | `2 * 2` |
-| `4` | `4` |
-
+| test(2,3) | test(2,3) |
+| 2 * 2 | 2 * 2 |
+| 4 | 4 |
 
 Ans. CBV = CBN
 
@@ -147,6 +143,6 @@ constOne(loop, 1+2)
 The above is used for expressions and not statements
 `x>=0` is a *predicate*, of type Boolean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTkyODM3Niw2MzM1MTc2NDIsMTg2MT
+eyJoaXN0b3J5IjpbLTQ5ODg1MDEzMCw2MzM1MTc2NDIsMTg2MT
 A2Njc4NywxOTg4MTc3NDAxXX0=
 -->
