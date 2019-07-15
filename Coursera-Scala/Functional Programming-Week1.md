@@ -140,9 +140,11 @@ The above is an expression and not a statement.
 | by-name | by-value |
 | RHS is evaluated on each use | RHS is evaluated at the point of the definition itself |
 |  | Thereafter the name refers to the value |
-
+|  | Example: |
+|  | val x Example: |
+|  | Example: |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTE5OTQxMywxNzU0MTE3MDk1LC00OT
-g4NTAxMzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQw
-MV19
+eyJoaXN0b3J5IjpbLTEyMzA0NjM4NDYsMTYyOTE5OTQxMywxNz
+U0MTE3MDk1LC00OTg4NTAxMzAsNjMzNTE3NjQyLDE4NjEwNjY3
+ODcsMTk4ODE3NzQwMV19
 -->
