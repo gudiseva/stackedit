@@ -126,14 +126,16 @@ The above is an expression and not a statement.
 `x>=0` is a *predicate*, of type Boolean.
 
 #### short-circuit evaluation
-!true --> false
-!false --> true
-true && e -> e
-false && e -> false
-true || e -> true
+
+    !true --> false
+    !false --> true
+    true && e --> e
+    false && e --> false
+    true || e --> true
+    false || e --> e
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MTQwNDkwLDE3NTQxMTcwOTUsLTQ5OD
-g1MDEzMCw2MzM1MTc2NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAx
-XX0=
+eyJoaXN0b3J5IjpbMTk0NDY3NzgzMCwxNzU0MTE3MDk1LC00OT
+g4NTAxMzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQw
+MV19
 -->
