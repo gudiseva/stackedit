@@ -58,22 +58,9 @@ Ans. CBV is faster than CBN
 | CBV | CBN |
 |--|--|
 | test(7,2*4) | test(7,2*4) |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-	|	CBV				|	CBN				|
-	|	| CBV | CBN |
-|--|--|
-| `test(7,2*4)		|	` | `test(7,2*4)		|
-	|	` |
-| `test(7,8)		|	7 * 7			|
-	|	7 * 7			|	49				|
-	|	49				|					|` | `7 * 7` |
-| `7 * 7` | `49` |
-| `49` |  |
+| test(7,8) | 7 * 7 |
+| 7 * 7 | 49 |
+| 49 |  |
 
 Ans. CBV is slower than CBN
 
@@ -146,6 +133,6 @@ constOne(loop, 1+2)
 The above is used for expressions and not statements
 `x>=0` is a *predicate*, of type Boolean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTc3MTAxMiwtNDk4ODUwMTMwLDYzMz
-UxNzY0MiwxODYxMDY2Nzg3LDE5ODgxNzc0MDFdfQ==
+eyJoaXN0b3J5IjpbNTk2MzYxODE0LC00OTg4NTAxMzAsNjMzNT
+E3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQwMV19
 -->
