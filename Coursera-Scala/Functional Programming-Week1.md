@@ -121,10 +121,11 @@ Ans. CBV = CBN
 
     def abs(x: Int) = if (x >= 0) x else -x
 
-The above is used for expressions and not statements
+The above is an expression and not a statement.
 
 `x>=0` is a *predicate*, of type Boolean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDExNzA5NSwtNDk4ODUwMTMwLDYzMz
-UxNzY0MiwxODYxMDY2Nzg3LDE5ODgxNzc0MDFdfQ==
+eyJoaXN0b3J5IjpbLTE1Njc3ODQ1MDUsMTc1NDExNzA5NSwtND
+k4ODUwMTMwLDYzMzUxNzY0MiwxODYxMDY2Nzg3LDE5ODgxNzc0
+MDFdfQ==
 -->
