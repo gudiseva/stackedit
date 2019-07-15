@@ -125,7 +125,7 @@ The above is an expression and not a statement.
 
 `x>=0` is a *predicate*, of type Boolean.
 
-#### short-circuit evaluation
+### Re-write Rules (short-circuit evaluation)
 
     !true --> false
     !false --> true
@@ -134,8 +134,10 @@ The above is an expression and not a statement.
     true || e --> true
     false || e --> e
 
+### Value Definitions
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDY3NzgzMCwxNzU0MTE3MDk1LC00OT
+eyJoaXN0b3J5IjpbMTY2NTg4NzQ1MCwxNzU0MTE3MDk1LC00OT
 g4NTAxMzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQw
 MV19
 -->
