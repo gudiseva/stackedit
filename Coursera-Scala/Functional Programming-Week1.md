@@ -110,9 +110,9 @@ Ans. CBV = CBN
 ##### constOne(loop, 1+2)
 | CBV | CBN |
 |--|--|
-| constOne(loop, 1+2) | constOne(loop, 1+2) |
-| constOne(loop, 3) | 1 |
+| constOne(loop, 1+2) |  |
 | loop <-> loop |  |
+
 
 ## Conditionals and Value Definitions
 
@@ -145,7 +145,8 @@ The above is an expression and not a statement.
 |  | `val y = square(x)` |
 |  | y above refers to 4, not square(2) |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNjM0MzYyLC0xNTQ0MTE0MzI3LC02Mz
-M1MTYwODUsMTYyOTE5OTQxMywxNzU0MTE3MDk1LC00OTg4NTAx
-MzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQwMV19
+eyJoaXN0b3J5IjpbMTk5NTcyMzM3MiwtMTU0NDExNDMyNywtNj
+MzNTE2MDg1LDE2MjkxOTk0MTMsMTc1NDExNzA5NSwtNDk4ODUw
+MTMwLDYzMzUxNzY0MiwxODYxMDY2Nzg3LDE5ODgxNzc0MDFdfQ
+==
 -->
