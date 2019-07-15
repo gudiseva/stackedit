@@ -46,11 +46,11 @@ Ans. CBV = CBN
 ##### test(3+4, 8)
 | CBV | CBN |
 |--|--|
-| test(3+4,8) | test(3+4,8) |
-| test(7,8) | (3+4) * (3+4) |
-| 7 * 7 | 7 * (3+4) |
-| 49 | 7 * 7 |
-|  |  |
+| `test(3+4,8)` | `test(3+4,8)` |
+| `test(7,8)` | `(3+4) * (3+4)` |
+| `7 * 7` | `7 * (3+4)` |
+| `49` | `7 * 7` |
+|  | `49` |
 
 	|	CBV				|	CBN				|
 	|	
@@ -151,6 +151,6 @@ constOne(loop, 1+2)
 The above is used for expressions and not statements
 `x>=0` is a *predicate*, of type Boolean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk3MjU1LC00OTg4NTAxMzAsNjMzNT
+eyJoaXN0b3J5IjpbNzE2NTU0NTcyLC00OTg4NTAxMzAsNjMzNT
 E3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQwMV19
 -->
