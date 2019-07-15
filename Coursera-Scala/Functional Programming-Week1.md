@@ -100,14 +100,14 @@ Ans. CBV = CBN
     def constOne(x: Int, y: => Int) = 1
 
 #### Evaluations
-constOne(1+2, loop)
+##### constOne(1+2, loop)
 | CBV | CBN |
 |--|--|
 | constOne(1+2, loop) | constOne(1+2, loop) |
 | constOne(3, loop) | 1 |
 | loop <-> loop |  |
 
-constOne(loop, 1+2)
+##### constOne(loop, 1+2)
 | CBV | CBN |
 |--|--|
 | constOne(loop, 1+2) | constOne(loop, 1+2) |
@@ -122,8 +122,9 @@ constOne(loop, 1+2)
     def abs(x: Int) = if (x >= 0) x else -x
 
 The above is used for expressions and not statements
+
 `x>=0` is a *predicate*, of type Boolean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTk0NjQ0MywtNDk4ODUwMTMwLDYzMz
+eyJoaXN0b3J5IjpbMTc1NDExNzA5NSwtNDk4ODUwMTMwLDYzMz
 UxNzY0MiwxODYxMDY2Nzg3LDE5ODgxNzc0MDFdfQ==
 -->
