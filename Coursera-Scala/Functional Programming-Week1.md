@@ -140,12 +140,12 @@ The above is an expression and not a statement.
 | by-name | by-value |
 | RHS is evaluated on each use | RHS is evaluated at the point of the definition itself |
 |  | Thereafter the name refers to the value |
-|  | Example: 
-|  | val x = 2 
-|  | val y = square(x) 
+|  | Example: |
+|  | `val x = 2` |
+|  | `val y = square(x)` |
 |  | y above refers to 4, not square(2) |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzUxNjA4NSwxNjI5MTk5NDEzLDE3NT
-QxMTcwOTUsLTQ5ODg1MDEzMCw2MzM1MTc2NDIsMTg2MTA2Njc4
-NywxOTg4MTc3NDAxXX0=
+eyJoaXN0b3J5IjpbLTE1NDQxMTQzMjcsLTYzMzUxNjA4NSwxNj
+I5MTk5NDEzLDE3NTQxMTcwOTUsLTQ5ODg1MDEzMCw2MzM1MTc2
+NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAxXX0=
 -->
