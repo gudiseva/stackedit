@@ -144,8 +144,11 @@ The above is an expression and not a statement.
 |  | `val x = 2` |
 |  | `val y = square(x)` |
 |  | y above refers to 4, not square(2) |
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NDUxODc4LC0xNTQ0MTE0MzI3LC02Mz
-M1MTYwODUsMTYyOTE5OTQxMywxNzU0MTE3MDk1LC00OTg4NTAx
-MzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMTk4ODE3NzQwMV19
+eyJoaXN0b3J5IjpbLTkzODY5MjIyMiw3MTQ0NTE4NzgsLTE1ND
+QxMTQzMjcsLTYzMzUxNjA4NSwxNjI5MTk5NDEzLDE3NTQxMTcw
+OTUsLTQ5ODg1MDEzMCw2MzM1MTc2NDIsMTg2MTA2Njc4NywxOT
+g4MTc3NDAxXX0=
 -->
