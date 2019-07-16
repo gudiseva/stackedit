@@ -166,11 +166,16 @@ The above is an expression and not a statement.
 
     val y = x + 1; y * y
 
-### Semicolons and infix op
+### Semicolons and infix operators
+- Write multi-line expression in parentheses:
+
+> (someLongExp
+> + someOtherExp)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzQ1NTUxMiwtODA3NzIyNTkxLC0xNz
-k5NjMyOTEzLC03MzY3ODI3MzAsLTExOTYxOTgxMTcsNzE0NDUx
-ODc4LC0xNTQ0MTE0MzI3LC02MzM1MTYwODUsMTYyOTE5OTQxMy
-wxNzU0MTE3MDk1LC00OTg4NTAxMzAsNjMzNTE3NjQyLDE4NjEw
-NjY3ODcsMTk4ODE3NzQwMV19
+eyJoaXN0b3J5IjpbLTE3MTQ1NjgxODEsLTgwNzcyMjU5MSwtMT
+c5OTYzMjkxMywtNzM2NzgyNzMwLC0xMTk2MTk4MTE3LDcxNDQ1
+MTg3OCwtMTU0NDExNDMyNywtNjMzNTE2MDg1LDE2MjkxOTk0MT
+MsMTc1NDExNzA5NSwtNDk4ODUwMTMwLDYzMzUxNzY0MiwxODYx
+MDY2Nzg3LDE5ODgxNzc0MDFdfQ==
 -->
