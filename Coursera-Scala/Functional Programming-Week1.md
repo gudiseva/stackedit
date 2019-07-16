@@ -168,15 +168,15 @@ The above is an expression and not a statement.
 
 ### Semicolons and infix operators
 - Write multi-line expression in parentheses:
-> (someLongExp 
-> "+" someOtherExp)
+> (someLongExpression 
+> "+" someOtherExpression)
 
 - Write the operator on the first line, because this tells the Scala compiler that the expression is not yet finished:
-> someLongExp +
+> someLongExpression +
 > someOtherExpression
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTc3MjQ5MSwtODA3NzIyNTkxLC0xNz
+eyJoaXN0b3J5IjpbMTE4MjE5OTkzMCwtODA3NzIyNTkxLC0xNz
 k5NjMyOTEzLC03MzY3ODI3MzAsLTExOTYxOTgxMTcsNzE0NDUx
 ODc4LC0xNTQ0MTE0MzI3LC02MzM1MTYwODUsMTYyOTE5OTQxMy
 wxNzU0MTE3MDk1LC00OTg4NTAxMzAsNjMzNTE3NjQyLDE4NjEw
