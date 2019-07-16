@@ -162,9 +162,13 @@ The above is an expression and not a statement.
 - Reusing outer definitions without passing them explicitly in parameters
 
 ### Semicolons
-if there are more than one statements on a
+- if there are more than one statements on a line, they need to be separated by semicolons:
+
+    val y = x + 1; y * y
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzEzNDQ4MiwtMTc5OTYzMjkxMywtNz
+eyJoaXN0b3J5IjpbLTgwNzcyMjU5MSwtMTc5OTYzMjkxMywtNz
 M2NzgyNzMwLC0xMTk2MTk4MTE3LDcxNDQ1MTg3OCwtMTU0NDEx
 NDMyNywtNjMzNTE2MDg1LDE2MjkxOTk0MTMsMTc1NDExNzA5NS
 wtNDk4ODUwMTMwLDYzMzUxNzY0MiwxODYxMDY2Nzg3LDE5ODgx
