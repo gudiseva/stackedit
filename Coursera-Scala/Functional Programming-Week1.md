@@ -154,9 +154,12 @@ The above is an expression and not a statement.
 - The definitions inside a block are only visible from within the block.
 - The definitions inside a block ***shadow*** definitions of the same names outside the block.
 
+#### Lexical Scoping
+- Definitions of outer blocks are visible inside a block unless they are shadowed.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjc4MjczMCwtMTE5NjE5ODExNyw3MT
-Q0NTE4NzgsLTE1NDQxMTQzMjcsLTYzMzUxNjA4NSwxNjI5MTk5
-NDEzLDE3NTQxMTcwOTUsLTQ5ODg1MDEzMCw2MzM1MTc2NDIsMT
-g2MTA2Njc4NywxOTg4MTc3NDAxXX0=
+eyJoaXN0b3J5IjpbLTE3OTk2MzI5MTMsLTczNjc4MjczMCwtMT
+E5NjE5ODExNyw3MTQ0NTE4NzgsLTE1NDQxMTQzMjcsLTYzMzUx
+NjA4NSwxNjI5MTk5NDEzLDE3NTQxMTcwOTUsLTQ5ODg1MDEzMC
+w2MzM1MTc2NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAxXX0=
 -->
