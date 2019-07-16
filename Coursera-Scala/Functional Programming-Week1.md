@@ -157,9 +157,13 @@ The above is an expression and not a statement.
 #### Lexical Scoping
 - Definitions of outer blocks are visible inside a block unless they are shadowed.
 
+#### Nesting
+- name space control
+reusing outer definitions without passing them explicitly in parameters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk2MzI5MTMsLTczNjc4MjczMCwtMT
-E5NjE5ODExNyw3MTQ0NTE4NzgsLTE1NDQxMTQzMjcsLTYzMzUx
-NjA4NSwxNjI5MTk5NDEzLDE3NTQxMTcwOTUsLTQ5ODg1MDEzMC
-w2MzM1MTc2NDIsMTg2MTA2Njc4NywxOTg4MTc3NDAxXX0=
+eyJoaXN0b3J5IjpbMTI5OTI3ODc3NSwtMTc5OTYzMjkxMywtNz
+M2NzgyNzMwLC0xMTk2MTk4MTE3LDcxNDQ1MTg3OCwtMTU0NDEx
+NDMyNywtNjMzNTE2MDg1LDE2MjkxOTk0MTMsMTc1NDExNzA5NS
+wtNDk4ODUwMTMwLDYzMzUxNzY0MiwxODYxMDY2Nzg3LDE5ODgx
+Nzc0MDFdfQ==
 -->
