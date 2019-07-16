@@ -145,15 +145,18 @@ The above is an expression and not a statement.
 |  | `val y = square(x)` |
 |  | y above refers to 4, not square(2) |
 
-## Recursive Functions
+### Recursive Functions
 - In recursive function, RHS calls itself
 - Recursive functions need an explicit return type
 - For non-recursive functions, the return type is optional
 
+### Blocks and Visibility
+- The definitions inside a block are only visible from within the block.
+- The definitions inside a block shadow definitions of the same names outside the block.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYxOTgxMTcsNzE0NDUxODc4LC0xNT
-Q0MTE0MzI3LC02MzM1MTYwODUsMTYyOTE5OTQxMywxNzU0MTE3
-MDk1LC00OTg4NTAxMzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMT
-k4ODE3NzQwMV19
+eyJoaXN0b3J5IjpbLTIwMzc2NTI1NTQsLTExOTYxOTgxMTcsNz
+E0NDUxODc4LC0xNTQ0MTE0MzI3LC02MzM1MTYwODUsMTYyOTE5
+OTQxMywxNzU0MTE3MDk1LC00OTg4NTAxMzAsNjMzNTE3NjQyLD
+E4NjEwNjY3ODcsMTk4ODE3NzQwMV19
 -->
