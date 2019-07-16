@@ -158,10 +158,13 @@ The above is an expression and not a statement.
 - Definitions of outer blocks are visible inside a block unless they are shadowed.
 
 #### Nesting
-- name space control
-reusing outer definitions without passing them explicitly in parameters
+- Name space control
+- Reusing outer definitions without passing them explicitly in parameters
+
+### Semicolons
+if there are more than one statements on a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTI3ODc3NSwtMTc5OTYzMjkxMywtNz
+eyJoaXN0b3J5IjpbMTM0NzEzNDQ4MiwtMTc5OTYzMjkxMywtNz
 M2NzgyNzMwLC0xMTk2MTk4MTE3LDcxNDQ1MTg3OCwtMTU0NDEx
 NDMyNywtNjMzNTE2MDg1LDE2MjkxOTk0MTMsMTc1NDExNzA5NS
 wtNDk4ODUwMTMwLDYzMzUxNzY0MiwxODYxMDY2Nzg3LDE5ODgx
