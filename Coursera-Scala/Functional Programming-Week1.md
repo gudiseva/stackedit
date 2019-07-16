@@ -152,11 +152,11 @@ The above is an expression and not a statement.
 
 ### Blocks and Visibility
 - The definitions inside a block are only visible from within the block.
-- The definitions inside a block shadow definitions of the same names outside the block.
+- The definitions inside a block ***shadow*** definitions of the same names outside the block.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc2NTI1NTQsLTExOTYxOTgxMTcsNz
-E0NDUxODc4LC0xNTQ0MTE0MzI3LC02MzM1MTYwODUsMTYyOTE5
-OTQxMywxNzU0MTE3MDk1LC00OTg4NTAxMzAsNjMzNTE3NjQyLD
-E4NjEwNjY3ODcsMTk4ODE3NzQwMV19
+eyJoaXN0b3J5IjpbLTczNjc4MjczMCwtMTE5NjE5ODExNyw3MT
+Q0NTE4NzgsLTE1NDQxMTQzMjcsLTYzMzUxNjA4NSwxNjI5MTk5
+NDEzLDE3NTQxMTcwOTUsLTQ5ODg1MDEzMCw2MzM1MTc2NDIsMT
+g2MTA2Njc4NywxOTg4MTc3NDAxXX0=
 -->
