@@ -146,11 +146,13 @@ The above is an expression and not a statement.
 |  | y above refers to 4, not square(2) |
 
 ## Recursive Functions
-Recursive Function -> RHS calls itself
-Need an explicit return type
-For non-recursive functions, the return type is op
+- In recursive function, RHS calls itself
+- Recursive functions need an explicit return type
+- For non-recursive functions, the return type is optional
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM4MDk4MDIsNzE0NDUxODc4LC0xNT
+eyJoaXN0b3J5IjpbLTExOTYxOTgxMTcsNzE0NDUxODc4LC0xNT
 Q0MTE0MzI3LC02MzM1MTYwODUsMTYyOTE5OTQxMywxNzU0MTE3
 MDk1LC00OTg4NTAxMzAsNjMzNTE3NjQyLDE4NjEwNjY3ODcsMT
 k4ODE3NzQwMV19
