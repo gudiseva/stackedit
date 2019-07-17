@@ -14,11 +14,14 @@
 
 Example:
 `(x: Int, y: Int) => x * x * x`
---- `(x: Int, y: Int)` is the parameter of the function
---- `x * x * x` is the body of the function
+--- `(x: Int, y: Int)` is the ***parameter*** of the function
+--- `x * x * x` is the ***body*** of the function
 
 An Anonymous function can always be expressed using def as follows:
-def f() = ; f
+`def f(x: Int, y: Int) = x * x * x; f`
+
+where ***f*** is an 
+
 ### String Literals
 - We do not define a String using def.
 Instead of
@@ -32,5 +35,5 @@ We can write
 -  These are called *Anonymous Functions*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDA4MTk5Myw5MjEyMzMxNTldfQ==
+eyJoaXN0b3J5IjpbLTU1NTg1MzkxNiw5MjEyMzMxNTldfQ==
 -->
