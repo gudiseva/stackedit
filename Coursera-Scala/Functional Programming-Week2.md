@@ -9,6 +9,10 @@
 - The type `A => B` is the type of a ***function*** that takes an argument of type A and returns a result of type B.
 - `Int => Int` is the type of functions that map integers to integers.
 
+## Anonymous Functions
+
+### String Literals
+We
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODg0OTA5NCw5MjEyMzMxNTldfQ==
+eyJoaXN0b3J5IjpbNjEyMDM3MjUwLDkyMTIzMzE1OV19
 -->
