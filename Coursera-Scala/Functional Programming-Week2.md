@@ -5,6 +5,8 @@
 
 > Functions that take other functions as parameters or that return functions as results are called ***higher order functions***.
 
+## Function Types
+The type A => B is the type of a function that takes an argument
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxMjMzMTU5XX0=
+eyJoaXN0b3J5IjpbMTAzOTQ4NjkyOSw5MjEyMzMxNTldfQ==
 -->
