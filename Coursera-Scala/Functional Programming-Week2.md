@@ -12,8 +12,10 @@
 ## Anonymous Functions
 ~~Motivation~~: Passing functions as parameters leads to the creation of many small functions.  It becomes tedious to define and name these functions using def.
 
-E.g
-`enter code here`
+Example:
+`(x: Int) => x * x * x`
+--- (x: Int) is the parameter of the function
+--- x * x * x is the body of the function
 
 ### String Literals
 - We do not define a String using def.
@@ -28,5 +30,5 @@ We can write
 -  These are called *Anonymous Functions*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDc3Njk3NCw5MjEyMzMxNTldfQ==
+eyJoaXN0b3J5IjpbNjQ2MTAzNTQzLDkyMTIzMzE1OV19
 -->
