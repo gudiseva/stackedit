@@ -19,9 +19,9 @@ We can write
 	`println("abc")`
 - This is because Strings exist as literals.
 
-### Anonymous Functionsls
-
+### Function Literals
+- Lets us write a function without giving it a name,
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDEwODgzNCw5MjEyMzMxNTldfQ==
+eyJoaXN0b3J5IjpbLTEwMjEwMzc1MTUsOTIxMjMzMTU5XX0=
 -->
