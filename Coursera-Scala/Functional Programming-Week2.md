@@ -13,9 +13,9 @@
 ~~Motivation~~: Passing functions as parameters leads to the creation of many small functions.  It becomes tedious to define and name these functions using def.
 
 Example:
-`(x: Int) => x * x * x`
---- (x: Int) is the parameter of the function
---- x * x * x is the body of the function
+`(x: Int, y: Int) => x * x * x`
+--- `(x: Int, y: Int)` is the parameter of the function
+--- `x * x * x` is the body of the function
 
 ### String Literals
 - We do not define a String using def.
@@ -30,5 +30,5 @@ We can write
 -  These are called *Anonymous Functions*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2MTAzNTQzLDkyMTIzMzE1OV19
+eyJoaXN0b3J5IjpbLTE3MDk1MDc1Myw5MjEyMzMxNTldfQ==
 -->
