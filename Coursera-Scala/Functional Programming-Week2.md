@@ -13,9 +13,11 @@
 
 ### String Literals
 We do not define a String using def.
-Instea
-def str = "abc"; println(str)
-println("abc")
+Instead of
+	`def str = "abc"; println(str)`
+
+We can write
+	`println("abc")`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTY5MzE5Nyw5MjEyMzMxNTldfQ==
+eyJoaXN0b3J5IjpbLTIwMzI3NDUxNjMsOTIxMjMzMTU5XX0=
 -->
