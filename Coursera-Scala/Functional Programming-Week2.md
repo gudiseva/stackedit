@@ -10,6 +10,7 @@
 - `Int => Int` is the type of functions that map integers to integers.
 
 ## Anonymous Functions
+~~Usage~~: Passing functions as parameters leads to the creation of many small functions.  It becomes tedious to define and name these functions using def.
 
 ### String Literals
 - We do not define a String using def.
@@ -24,5 +25,5 @@ We can write
 -  These are called *Anonymous Functions*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk4MzE1MzIsOTIxMjMzMTU5XX0=
+eyJoaXN0b3J5IjpbMTE5Mjc2NTMyNCw5MjEyMzMxNTldfQ==
 -->
