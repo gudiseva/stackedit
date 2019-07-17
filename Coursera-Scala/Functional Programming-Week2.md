@@ -12,7 +12,10 @@
 ## Anonymous Functions
 
 ### String Literals
-We
+We do not define a String using def.
+Instea
+def str = "abc"; println(str)
+println("abc")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyMDM3MjUwLDkyMTIzMzE1OV19
+eyJoaXN0b3J5IjpbMTM5MTY5MzE5Nyw5MjEyMzMxNTldfQ==
 -->
