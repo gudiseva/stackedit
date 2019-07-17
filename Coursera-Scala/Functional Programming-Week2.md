@@ -21,6 +21,7 @@ An Anonymous function can always be expressed using def as follows:
 `def f(x: Int, y: Int) = x * x * x; f`
 where ***f*** is an arbitary, fresh name that is not yet used in the program.
 
+Sometimes, the expression mneeds to be written in a block ***{***, so that the name doesn't get confused with something else:
 `{ def f(x: Int, y: Int) = x * x * x; f }`
 
 ### String Literals
@@ -36,5 +37,5 @@ We can write
 -  These are called *Anonymous Functions*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyOTEzODY1LDkyMTIzMzE1OV19
+eyJoaXN0b3J5IjpbMTUwMTA4MTAyMCw5MjEyMzMxNTldfQ==
 -->
