@@ -12,12 +12,16 @@
 ## Anonymous Functions
 
 ### String Literals
-We do not define a String using def.
+- We do not define a String using def.
 Instead of
 	`def str = "abc"; println(str)`
-
 We can write
 	`println("abc")`
+- This is because Strings exist as literals.
+
+### Anonymous Functionsls
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI3NDUxNjMsOTIxMjMzMTU5XX0=
+eyJoaXN0b3J5IjpbLTY2MDEwODgzNCw5MjEyMzMxNTldfQ==
 -->
