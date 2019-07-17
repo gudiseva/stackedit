@@ -19,8 +19,9 @@ Example:
 
 An Anonymous function can always be expressed using def as follows:
 `def f(x: Int, y: Int) = x * x * x; f`
+where ***f*** is an arbitary, fresh name that is not yet used in the program.
 
-where ***f*** is an 
+`{ def f(x: Int, y: Int) = x * x * x; f }`
 
 ### String Literals
 - We do not define a String using def.
@@ -35,5 +36,5 @@ We can write
 -  These are called *Anonymous Functions*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTg1MzkxNiw5MjEyMzMxNTldfQ==
+eyJoaXN0b3J5IjpbNTcyOTEzODY1LDkyMTIzMzE1OV19
 -->
