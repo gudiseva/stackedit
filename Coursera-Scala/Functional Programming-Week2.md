@@ -21,7 +21,8 @@ We can write
 
 ### Function Literals
 - Lets us write a function without giving it a name,
+-  These are called *Anonymous Functions*.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEwMzc1MTUsOTIxMjMzMTU5XX0=
+eyJoaXN0b3J5IjpbLTE5NDk4MzE1MzIsOTIxMjMzMTU5XX0=
 -->
