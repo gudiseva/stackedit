@@ -10,5 +10,5 @@ Q. Standard Deviation
 
 Q. Liner Regression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjQ4MTM5MV19
+eyJoaXN0b3J5IjpbMTIwNTkxODM2MywtNDYyNDgxMzkxXX0=
 -->
