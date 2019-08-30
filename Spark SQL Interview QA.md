@@ -7,5 +7,6 @@
 3. Optimize Spark Joins
 4.  Dynamic and Static partitioning in Spark SQL?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNDQxMDA2LDE1ODA1OTY4M119
+eyJoaXN0b3J5IjpbMTMwNTg2MDM4OCw0MTE0NDEwMDYsMTU4MD
+U5NjgzXX0=
 -->
