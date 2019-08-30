@@ -52,5 +52,5 @@ hive> exit;
 $ pig
 grunt> quit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTgyODg5MDVdfQ==
+eyJoaXN0b3J5IjpbLTU4MjEzMDg2NiwtMTY1ODI4ODkwNV19
 -->
