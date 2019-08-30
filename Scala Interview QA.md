@@ -2,5 +2,6 @@
 
 Q. Scala Monads
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA0Nzg2NjhdfQ==
+eyJoaXN0b3J5IjpbLTE2ODQxOTk0MTgsLTIwODA0Nzg2NjhdfQ
+==
 -->
