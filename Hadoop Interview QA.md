@@ -61,5 +61,6 @@ Q. Distributed cache
 
 Q. Difference Hadoop 1 and Hadoop 2?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjY5NzM2NiwxODcxMTg1MzcyXX0=
+eyJoaXN0b3J5IjpbNTg4NTIzMTI3LC05MzY2OTczNjYsMTg3MT
+E4NTM3Ml19
 -->
