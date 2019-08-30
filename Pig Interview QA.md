@@ -9,5 +9,5 @@ Q. Load XML
 http://www.sppavankumar.com/xmlloader-for-pig-big-data/
 Above link has info on loading cml file in PIG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDExNDk2MF19
+eyJoaXN0b3J5IjpbLTE1NTA2OTY4NTcsLTc1NDExNDk2MF19
 -->
