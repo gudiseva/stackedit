@@ -18,5 +18,5 @@ Joins are expensive.
 
 Q. Projection -> Transfer only what is required
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE4MTE5MDNdfQ==
+eyJoaXN0b3J5IjpbMTgwMTU0NDIyOSwtMTA1MTgxMTkwM119
 -->
