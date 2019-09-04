@@ -18,7 +18,7 @@ Show Ignite Popups -> True
 Foreground Color
 : Black
 
-Stype
+Style
 : Solid
 
 Text
@@ -27,15 +27,14 @@ Text
 #### Retracement -> Settings
 Current Retracement Series
 : 0
-	33.33
+33.33
 66.66
 100
+`We should be able to divide the curve into 3 parts`
 
-We should be able to divide the curve into 3 parts
+#### Vertical Line
 
-Vertical Line
-
-Entry Line:
+#### Entry Line
 Foreground Color = Blue
 Style: Solid
 Thickness: 2
@@ -94,6 +93,6 @@ Important Notes: [^1]
 [^1]: There is more liquidity in NSE.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzUzMTAzMCwtMjExMjA0NzYxOCwtMT
+eyJoaXN0b3J5IjpbMTYxNzM1ODI5NCwtMjExMjA0NzYxOCwtMT
 c0MjY5NjU0M119
 -->
