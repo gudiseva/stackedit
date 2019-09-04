@@ -70,16 +70,23 @@ Specific Interval Replication -> Add Custom Interval -> Select All, 125 and 75.
 #### Day Separator
 > Mouse Pointer -> should always be tracker ball
 
-To open 10 charts at a time, Ctrl + double click on the Scrips
+### Notes:
+> To open 10 charts at a time, Ctrl + Double click on the Scrips
+> **IMPORTANT: Always select Adjusted Corp Action**
 
-IMPORTANT: Always select Adjusted Corp Action
-
+### Study
 Right Click -> Study -> Add Study
 Select Average
-Avg Type: S (Simple)
-Avg Period: 50
+
+Avg Type
+: S (Simple)
+
+Avg Period
+: 50
+
 Apply
 
+### DA
 Select DATR <- Daily Avg Range.  E.g. SBIN will move 9 pts upside or downside in this range.
 Apply
 
@@ -102,6 +109,6 @@ Important Notes: [^1]
 [^1]: There is more liquidity in NSE.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQxMTU0MTgsLTIxMTIwNDc2MTgsLT
-E3NDI2OTY1NDNdfQ==
+eyJoaXN0b3J5IjpbLTgwNjUyNjc2OCwtMjExMjA0NzYxOCwtMT
+c0MjY5NjU0M119
 -->
