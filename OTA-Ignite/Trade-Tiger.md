@@ -1,8 +1,8 @@
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
-> # Trade Tiger - 2.5
+# Trade Tiger - 2.5
+
 BPL = Book Profit Loss
 MTM = 
 
@@ -12,5 +12,5 @@ Show Ignite Popups -> True
 There is more liquidity in NSE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjY0MzM2Nl19
+eyJoaXN0b3J5IjpbMTY3OTY0MjE0Ml19
 -->
