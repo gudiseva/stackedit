@@ -76,7 +76,7 @@ Specific Interval Replication -> Add Custom Interval -> Select All, 125 and 75.
 
 ### Study
 Right Click -> Study -> Add Study
-Select Average
+#### Average
 
 Avg Type
 : S (Simple)
@@ -86,8 +86,11 @@ Avg Period
 
 Apply
 
-### DA
-Select DATR <- Daily Avg Range.  E.g. SBIN will move 9 pts upside or downside in this range.
+#### DATR
+DATR
+: Daily Average Range.
+E.g. SBIN will move 9 points upside or downside in this range.
+
 Apply
 
 
@@ -105,10 +108,11 @@ OHLC -> Open, High, Low and Close
 
 
 
-Important Notes: [^1]
+Important Notes: [^1][^2]
 [^1]: There is more liquidity in NSE.
+[^2]: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjUyNjc2OCwtMjExMjA0NzYxOCwtMT
-c0MjY5NjU0M119
+eyJoaXN0b3J5IjpbMzI5ODM1MjI5LC0yMTEyMDQ3NjE4LC0xNz
+QyNjk2NTQzXX0=
 -->
