@@ -73,6 +73,7 @@ Specific Interval Replication -> Add Custom Interval -> Select All, 125 and 75.
 
 ### Notes:
 > To open 10 charts at a time, Ctrl + Double click on the Scrips
+
 > **IMPORTANT: Always select Adjusted Corp Action**
 
 ### Study
@@ -99,6 +100,7 @@ Apply
 
 ## Download
 > Ammy
+
 > Anydesk
 
 
@@ -107,6 +109,6 @@ Apply
 [^2]: Tick size in NSE is 5 Paise.  E.g. If stock is trading at 100.  It can go to 100.05, 100.15, but not 100.03.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDIxNzExNywtMjExMjA0NzYxOCwtMT
-c0MjY5NjU0M119
+eyJoaXN0b3J5IjpbLTEwODI5NTA2NTUsMTk0MDIxNzExNywtMj
+ExMjA0NzYxOCwtMTc0MjY5NjU0M119
 -->
