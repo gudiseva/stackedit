@@ -15,20 +15,19 @@ Show Ignite Popups -> True
 
 ### Settings
 #### Graph Settings -> Tools -> Horizontal Line
+Foreground Color
+: Black
 
-Foreground Color: Blck
-Stype: Solid
+Stype
+: Solid
 
+Text
+: Font family: Verdana
 
-Text: Font family: Verdana
-
-
-
-Retracement -> Settings
-
+#### Retracement -> Settings
 Current Retracement Series
-0
-33.33
+: 0
+	33.33
 66.66
 100
 
@@ -95,6 +94,6 @@ Important Notes: [^1]
 [^1]: There is more liquidity in NSE.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjExMDU4NywtMjExMjA0NzYxOCwtMT
+eyJoaXN0b3J5IjpbLTI3MzUzMTAzMCwtMjExMjA0NzYxOCwtMT
 c0MjY5NjU0M119
 -->
