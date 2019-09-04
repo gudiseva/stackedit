@@ -50,9 +50,9 @@ Thickness
 #### Stop Loss Line
 
 ### Ignite Tools
-##Demand Zone
-[X] Enable Right Extn
-[X] Snap to Price
+#### Demand Zone
+- [X] Enable Right Extn
+- [X] Snap to Price
 
 [X] Tool Replication
 Specific Interval Replication
@@ -100,6 +100,6 @@ Important Notes: [^1]
 [^1]: There is more liquidity in NSE.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODUwNDI3NywtMjExMjA0NzYxOCwtMT
+eyJoaXN0b3J5IjpbMjAyODAwNzkyMSwtMjExMjA0NzYxOCwtMT
 c0MjY5NjU0M119
 -->
