@@ -93,26 +93,19 @@ E.g. SBIN will move 9 points upside or downside in this range.
 
 Apply
 
+### Candle
+> OHLC -> Open, High, Low and Close
 
-Tick size in NSE is 5 paise
-E.g. stock is tading at 100.  It can goto 100.05, 100.15, but not 100.03
-
-
-Download:
-Ammy
-Anydesk
+## Download
+> Ammy
+> Anydesk
 
 
-Candle:
-OHLC -> Open, High, Low and Close
-
-
-
-Important Notes: [^1][^2]
+## Important Notes: [^1][^2]
 [^1]: There is more liquidity in NSE.
-[^2]: 
+[^2]: Tick size in NSE is 5 Paise.  E.g. If stock is trading at 100.  It can go to 100.05, 100.15, but not 100.03.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5ODM1MjI5LC0yMTEyMDQ3NjE4LC0xNz
-QyNjk2NTQzXX0=
+eyJoaXN0b3J5IjpbLTE5MTQxMjczMDcsLTIxMTIwNDc2MTgsLT
+E3NDI2OTY1NDNdfQ==
 -->
