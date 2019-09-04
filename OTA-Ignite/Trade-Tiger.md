@@ -60,13 +60,15 @@ Specific Interval Replication -> Add Custom Interval -> Select All, 125 and 75.
 #### Supply Zone
 *Similar Settings*
 
-#EOD Interval - select all the check boxes
+#### EOD Interval
+- [X] Select all the check boxes
 
-Other Lines -> Not required
+#### Other Lines
+*Not required*
 
-Others
-Day Separator
-Mouse Pointer -> should always be tracker ball
+### Others
+#### Day Separator
+> Mouse Pointer -> should always be tracker ball
 
 To open 10 charts at a time, Ctrl + double click on the Scrips
 
@@ -100,6 +102,6 @@ Important Notes: [^1]
 [^1]: There is more liquidity in NSE.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4ODAyOTY3LC0yMTEyMDQ3NjE4LC0xNz
-QyNjk2NTQzXX0=
+eyJoaXN0b3J5IjpbLTIwMDQxMTU0MTgsLTIxMTIwNDc2MTgsLT
+E3NDI2OTY1NDNdfQ==
 -->
