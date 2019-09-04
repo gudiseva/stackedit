@@ -53,14 +53,14 @@ Thickness
 #### Demand Zone
 - [X] Enable Right Extn
 - [X] Snap to Price
+``
+- [X] Tool Replication
+Specific Interval Replication -> Add Custom Interval -> Select All, 125 and 75.
 
-[X] Tool Replication
-Specific Interval Replication
-Add Custom Interval
-Select All and 125 and 75
+#### Supply Zone
+*Similar Settings*
 
-Similar Settings for Supply Zone
-EOD Interval - select all the check boxes
+#EOD Interval - select all the check boxes
 
 Other Lines -> Not required
 
@@ -100,6 +100,6 @@ Important Notes: [^1]
 [^1]: There is more liquidity in NSE.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODAwNzkyMSwtMjExMjA0NzYxOCwtMT
-c0MjY5NjU0M119
+eyJoaXN0b3J5IjpbNTM4ODAyOTY3LC0yMTEyMDQ3NjE4LC0xNz
+QyNjk2NTQzXX0=
 -->
