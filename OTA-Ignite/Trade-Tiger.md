@@ -35,15 +35,22 @@ Current Retracement Series
 #### Vertical Line
 
 #### Entry Line
-Foreground Color = Blue
-Style: Solid
-Thickness: 2
+Foreground Color
+: Blue
 
-Target Line - similar settings
-Stop Loss Line
+Style
+: Solid
 
-Ignite Tools
-Demand Zone
+Thickness
+: 2
+
+#### Target Line
+*Similar settings*
+
+#### Stop Loss Line
+
+### Ignite Tools
+##Demand Zone
 [X] Enable Right Extn
 [X] Snap to Price
 
@@ -93,6 +100,6 @@ Important Notes: [^1]
 [^1]: There is more liquidity in NSE.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzM1ODI5NCwtMjExMjA0NzYxOCwtMT
+eyJoaXN0b3J5IjpbLTMxODUwNDI3NywtMjExMjA0NzYxOCwtMT
 c0MjY5NjU0M119
 -->
