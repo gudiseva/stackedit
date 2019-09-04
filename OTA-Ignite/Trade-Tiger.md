@@ -3,6 +3,7 @@
 
 # Trade Tiger - 2.5
 
+## Definitions
 BPL
 : Book Profit Loss
 
@@ -53,7 +54,7 @@ Thickness
 #### Demand Zone
 - [X] Enable Right Extn
 - [X] Snap to Price
-``
+--
 - [X] Tool Replication
 Specific Interval Replication -> Add Custom Interval -> Select All, 125 and 75.
 
@@ -101,11 +102,11 @@ Apply
 > Anydesk
 
 
-## Important Notes: [^1][^2]
+## Important Notes [^1][^2]
 [^1]: There is more liquidity in NSE.
 [^2]: Tick size in NSE is 5 Paise.  E.g. If stock is trading at 100.  It can go to 100.05, 100.15, but not 100.03.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQxMjczMDcsLTIxMTIwNDc2MTgsLT
-E3NDI2OTY1NDNdfQ==
+eyJoaXN0b3J5IjpbMTk0MDIxNzExNywtMjExMjA0NzYxOCwtMT
+c0MjY5NjU0M119
 -->
