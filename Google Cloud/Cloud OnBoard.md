@@ -1,25 +1,26 @@
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
 # GCP
 
+## Glossary:
 Confusion Matrix
-XG Boost
+XGBoost
 Bandit Test
 A/B Test
 Kubeflow
 Hyperparameter Tuning
 
-# Architectures
+#### Architectures
 gcp.solutions
 
-# Customer Case Study
+#### Customer Case Study
 cloud.google.com/customers
 
-# Labs
+#### Labs
 Qwiklabs
 Dataproc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDk5MzQ4LC0xMDE3MzQ1Mjk5XX0=
+eyJoaXN0b3J5IjpbLTExMTAyODk0NzEsLTEwMTczNDUyOTldfQ
+==
 -->
