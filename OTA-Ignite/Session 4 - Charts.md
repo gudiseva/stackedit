@@ -28,8 +28,12 @@ Range of the Candle
 Body of the Candle
 : Open to Close
 
+Base Candles
+: Supply and Demand is balanced.  Orders are potentially being accumulated by the Institutions.
 
+Leg Candles
+: The greatest imbalance between Supply and Demand is found at the origin of the Leg Candles
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzM2ODYxNzAsNjY5NDcxMjE2LC05MD
-AzOTExNTMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTkzOTA2Njk3NSwtMjA3MzY4NjE3MCw2Nj
+k0NzEyMTYsLTkwMDM5MTE1Myw3MzA5OTgxMTZdfQ==
 -->
