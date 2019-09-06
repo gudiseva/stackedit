@@ -1,5 +1,3 @@
-
-
 # Terminology
 
 Entry is of 2 types:
@@ -8,5 +6,5 @@ Entry is of 2 types:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAzNTI0ODVdfQ==
+eyJoaXN0b3J5IjpbMTYzNTkyNzk5OSwtMTAzMDM1MjQ4NV19
 -->
