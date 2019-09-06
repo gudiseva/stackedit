@@ -48,8 +48,10 @@ Core Strategy
 
 -- Last Candle of Supply Zone is Red
 -- Last Candle of Demand Zone is Green
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDA4MjkxLC0xNjA3NTg1Mzk2LC0xMD
+eyJoaXN0b3J5IjpbLTI5MTE2NDg3LC0xNjA3NTg1Mzk2LC0xMD
 E3MjExMzA0LC0yMDczNjg2MTcwLDY2OTQ3MTIxNiwtOTAwMzkx
 MTUzLDczMDk5ODExNl19
 -->
