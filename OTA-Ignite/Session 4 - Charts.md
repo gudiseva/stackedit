@@ -39,7 +39,10 @@ Candle Body is more than half of the Range.
 
 Core Strategy
 : Use Supply and Demand Zones made of Base Candles surrounded by Leg Candles.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTcyMTEzMDQsLTIwNzM2ODYxNzAsNj
-Y5NDcxMjE2LC05MDAzOTExNTMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0NzQ0OTc3NDAsLTEwMTcyMTEzMDQsLT
+IwNzM2ODYxNzAsNjY5NDcxMjE2LC05MDAzOTExNTMsNzMwOTk4
+MTE2XX0=
 -->
