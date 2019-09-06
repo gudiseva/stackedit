@@ -1,6 +1,3 @@
-
-
-
 # Charts
 
 --- Find the greatest stack of unfilled orders.
@@ -33,6 +30,6 @@ Body of the Candle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5NDcxMjE2LC05MDAzOTExNTMsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIwNzM2ODYxNzAsNjY5NDcxMjE2LC05MD
+AzOTExNTMsNzMwOTk4MTE2XX0=
 -->
