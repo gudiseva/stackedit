@@ -33,13 +33,13 @@ Base Candles
 Orders are potentially being accumulated by the Institutions.
 Candle Body is less than or equal to half of the Range.
 
-Leg Candles
+Leg Candles (Body > 50% of Range
 : The greatest imbalance between Supply and Demand is found at the origin of the Leg Candles.  There is less institutional activity within the Leg Candles Bodies.
 Candle Body is more than half of the Range.
 
 Core Strategy
 : Use Supply and Demand Zones made of Base Candles surrounded by Leg Candles.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk4NDg3NjYsLTIwNzM2ODYxNzAsNj
+eyJoaXN0b3J5IjpbLTExNjY3NTcxMTAsLTIwNzM2ODYxNzAsNj
 Y5NDcxMjE2LC05MDAzOTExNTMsNzMwOTk4MTE2XX0=
 -->
