@@ -12,6 +12,7 @@
 2. Entry 
 1. Stop Loss
 
+## Candle
 `Green` <- _Note: Close is above Open_
 * High
 * Close
@@ -32,6 +33,6 @@ Body of the Candle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMDc4MDM5LC05MDAzOTExNTMsNzMwOT
+eyJoaXN0b3J5IjpbNjY5NDcxMjE2LC05MDAzOTExNTMsNzMwOT
 k4MTE2XX0=
 -->
