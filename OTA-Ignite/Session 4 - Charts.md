@@ -3,10 +3,11 @@
 
 # Charts
 
-- Find the greatest stack of unfilled orders.
-- . Red and Green Candles show ---filled orders---.
-3. Exchange is open for 5 days in a week.
+--- Find the greatest stack of unfilled orders.
+--- Red and Green Candles show ---filled orders---.
+--- Exchange is open for 5 days in a week.
 
+`SET`
 3. Target
 2. Entry 
 1. Stop Loss
@@ -31,6 +32,6 @@ Body of the Candle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTEzNDc2OCwtOTAwMzkxMTUzLDczMD
+eyJoaXN0b3J5IjpbMTg1NjA2NTMxOCwtOTAwMzkxMTUzLDczMD
 k5ODExNl19
 -->
