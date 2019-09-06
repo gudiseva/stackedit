@@ -40,9 +40,16 @@ Candle Body is more than half of the Range.
 Core Strategy
 : Use Supply and Demand Zones made of Base Candles surrounded by Leg Candles.
 
+## 4 types of formations / patterns
+- RBD
+- DBD
+- DBR
+- RBR
 
+-- Last Candle of Supply Zone is Red
+-- Last Candle of Demand Zone is Green
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ0OTc3NDAsLTEwMTcyMTEzMDQsLT
-IwNzM2ODYxNzAsNjY5NDcxMjE2LC05MDAzOTExNTMsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbMTU5MDc5NjM1NiwtMTAxNzIxMTMwNCwtMj
+A3MzY4NjE3MCw2Njk0NzEyMTYsLTkwMDM5MTE1Myw3MzA5OTgx
+MTZdfQ==
 -->
