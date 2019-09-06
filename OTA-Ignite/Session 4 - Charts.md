@@ -9,21 +9,26 @@ Exchange is open for 5 days in a week.
 
 Entry Stop Loss and Target
 
-Green
-High
-Close
-Open
-Low
+``Green``
+* High
+* Close
+* Open
+* Low
 
 Red
-High
-Open
-Close
-Low
+* High
+* Open
+* Close
+* Low
 
-Distance from High to Low 
-Body of the Candle:Opne to Close
+Range of the Candle
+: Distance from High to Low 
+
+Body of the Candle
+: Open to Close
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI1NjM0MjIsLTkwMDM5MTE1Myw3Mz
+eyJoaXN0b3J5IjpbLTEwNjgzNTQ0MzYsLTkwMDM5MTE1Myw3Mz
 A5OTgxMTZdfQ==
 -->
