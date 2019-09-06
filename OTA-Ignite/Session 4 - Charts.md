@@ -12,13 +12,13 @@
 2. Entry 
 1. Stop Loss
 
-`Green`
+`Green` <- Close is abOpen
 * High
 * Close
 * Open
 * Low
 
-`Red`
+`Red` <- Note Close is below the Open
 * High
 * Open
 * Close
@@ -32,6 +32,6 @@ Body of the Candle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjA2NTMxOCwtOTAwMzkxMTUzLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTIxNDQ5MTQ5NTMsLTkwMDM5MTE1Myw3Mz
+A5OTgxMTZdfQ==
 -->
