@@ -29,14 +29,16 @@ Body of the Candle
 : Open to Close
 
 Base Candles
-: Supply and Demand is balanced.  Orders are potentially being accumulated by the Institutions.
+: Supply and Demand is balanced.
+Orders are potentially being accumulated by the Institutions.
+Candle Body is less than or equal to half of the Range.
 
 Leg Candles
 : The greatest imbalance between Supply and Demand is found at the origin of the Leg Candles.  There is less institutional activity within the Leg Candles Bodies.
 
 Core Strategy
-: Supply and Demand Zones made of Bae Candles surrounded by Leg Candles.
+: Use Supply and Demand Zones made of Base Candles surrounded by Leg Candles.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIyOTA0MzQsLTIwNzM2ODYxNzAsNj
-Y5NDcxMjE2LC05MDAzOTExNTMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTUxNjQ2NjU5LC0yMDczNjg2MTcwLDY2OT
+Q3MTIxNiwtOTAwMzkxMTUzLDczMDk5ODExNl19
 -->
