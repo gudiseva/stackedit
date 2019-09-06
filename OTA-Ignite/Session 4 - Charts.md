@@ -28,7 +28,7 @@ Range of the Candle
 Body of the Candle
 : Open to Close
 
-Base Candles `(Base <= 50% of Range)`
+Base Candles `(Bodyase <= 50% of Range)`
 : Supply and Demand is balanced.
 Orders are potentially being accumulated by the Institutions.
 Candle Body is less than or equal to half of the Range.
@@ -49,7 +49,7 @@ Core Strategy
 -- Last Candle of Supply Zone is Red
 -- Last Candle of Demand Zone is Green
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc1ODUzOTYsLTEwMTcyMTEzMDQsLT
-IwNzM2ODYxNzAsNjY5NDcxMjE2LC05MDAzOTExNTMsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTExNzU1OTg2NDYsLTE2MDc1ODUzOTYsLT
+EwMTcyMTEzMDQsLTIwNzM2ODYxNzAsNjY5NDcxMjE2LC05MDAz
+OTExNTMsNzMwOTk4MTE2XX0=
 -->
