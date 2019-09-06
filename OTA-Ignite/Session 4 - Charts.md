@@ -20,7 +20,10 @@ High
 Open
 Close
 Low
+
+Distance from High to Low 
+Body of the Candle:Opne to Close
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2MjA0Mjg2LC05MDAzOTExNTMsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE2NjI1NjM0MjIsLTkwMDM5MTE1Myw3Mz
+A5OTgxMTZdfQ==
 -->
