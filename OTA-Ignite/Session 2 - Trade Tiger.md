@@ -92,6 +92,8 @@ E.g. SBIN will move 9 points upside or downside in this range.
 
 Apply
 
+#### Basing Candle Average
+
 ### Candle
 > OHLC -> Open, High, Low and Close
 
@@ -106,5 +108,5 @@ Apply
 [^2]: Tick size in NSE is 5 Paise.  E.g. If stock is trading at 100.  It can go to 100.05, 100.15, but not 100.03.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxNDgxOTMxXX0=
+eyJoaXN0b3J5IjpbLTE5MTk1NDc1MDldfQ==
 -->
