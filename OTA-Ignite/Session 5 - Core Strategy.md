@@ -13,9 +13,9 @@ supply exceeds demand
 Red - Selling
 Green - Buying
 
-6 
+6 basing candles in a zone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjU0NjcyNywzOTIwOTkyMjEsNjMxMD
-cyMDAxLC0xNjc3MzA4MTI2XX0=
+eyJoaXN0b3J5IjpbNjI5MTY3OTAzLDM5MjA5OTIyMSw2MzEwNz
+IwMDEsLTE2NzczMDgxMjZdfQ==
 -->
