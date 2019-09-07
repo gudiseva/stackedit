@@ -8,8 +8,8 @@ demand exceeds supply
 
 Supply
 : Price turns lower
-Supply exceeds demand
+supply exceeds demand
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODQ2MDg5NSwtMTY3NzMwODEyNl19
+eyJoaXN0b3J5IjpbNjMxMDcyMDAxLC0xNjc3MzA4MTI2XX0=
 -->
