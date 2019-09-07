@@ -16,7 +16,7 @@ Red - Selling
 Green - Buying
 
 DBD - Supply Zone
-RBD - Suuply Zone
+RBD - Supply Zone
 DBR - Demand Zone
 RBR - Demand Zone
 
@@ -26,7 +26,7 @@ RBR - Demand Zone
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQzNjQyMzUsLTEwOTYzMDc1NTgsNj
-I5MTY3OTAzLDM5MjA5OTIyMSw2MzEwNzIwMDEsLTE2NzczMDgx
-MjZdfQ==
+eyJoaXN0b3J5IjpbMjExMTMyMzQxOCwtMTA5NjMwNzU1OCw2Mj
+kxNjc5MDMsMzkyMDk5MjIxLDYzMTA3MjAwMSwtMTY3NzMwODEy
+Nl19
 -->
