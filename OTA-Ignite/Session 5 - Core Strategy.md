@@ -13,8 +13,9 @@ supply exceeds demand
 Red - Selling
 Green - Buying
 
+6 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMDk5MjIxLDYzMTA3MjAwMSwtMTY3Nz
-MwODEyNl19
+eyJoaXN0b3J5IjpbLTc2MjU0NjcyNywzOTIwOTkyMjEsNjMxMD
+cyMDAxLC0xNjc3MzA4MTI2XX0=
 -->
