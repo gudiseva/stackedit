@@ -15,11 +15,18 @@ Retail
 Red - Selling
 Green - Buying
 
+DBD - Supply Zone
+RBD - Suuply Zone
+DBR - Demand Zone
+RBR - Demand Zone
+
+
 6 basing candles in a zone
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYzMDc1NTgsNjI5MTY3OTAzLDM5Mj
-A5OTIyMSw2MzEwNzIwMDEsLTE2NzczMDgxMjZdfQ==
+eyJoaXN0b3J5IjpbLTE1OTQzNjQyMzUsLTEwOTYzMDc1NTgsNj
+I5MTY3OTAzLDM5MjA5OTIyMSw2MzEwNzIwMDEsLTE2NzczMDgx
+MjZdfQ==
 -->
