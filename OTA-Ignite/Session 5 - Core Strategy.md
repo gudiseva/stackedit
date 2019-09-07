@@ -10,6 +10,11 @@ Supply
 : Price turns lower
 supply exceeds demand
 
+Red - Selling
+Green - Buying
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMDcyMDAxLC0xNjc3MzA4MTI2XX0=
+eyJoaXN0b3J5IjpbMzkyMDk5MjIxLDYzMTA3MjAwMSwtMTY3Nz
+MwODEyNl19
 -->
