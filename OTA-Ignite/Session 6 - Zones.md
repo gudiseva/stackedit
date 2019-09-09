@@ -38,12 +38,14 @@ Supply Zone: RBD (Reversal Pattern) and DBD (Continuation Pattern)
 
 Freshness
 : Price has left the zone, but, the price never ever came back to the zone.
+It should always be seen on the Right Hand Side.
+
 
 > Base Candles nos. is 1 to 6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAwNDk2NiwtMTk5Mzk1NzAzMiwtMT
+eyJoaXN0b3J5IjpbLTQ0MDA1NzM4NSwtMTk5Mzk1NzAzMiwtMT
 M5MjQ5MTgxNiwyOTM3NDkwNjgsLTExMDAyNTM2MzcsLTczNzY2
 ODY4N119
 -->
