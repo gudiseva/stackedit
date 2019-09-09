@@ -29,18 +29,17 @@ All Supply and Demand Zones are made of 3 elements
 Demand Zone: DBR (Reversal Pattern) and RBR (Continuation Pattern)
 > Action
 > Buy Retracement 
-Stop Loss is always placed below the Distal Line
+`Stop Loss is always placed below the Distal Line`
 
 Supply Zone: RBD (Reversal Pattern) and DBD (Continuation Pattern)
 > Action
 > Sell Retracement 
-
-Stop Loss is always placed above the Distal Line
+`Stop Loss is always placed above the Distal Line`
 
 > 6 Base Candles
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMDk0OTU4LDI5Mzc0OTA2OCwtMTEwMD
-I1MzYzNywtNzM3NjY4Njg3XX0=
+eyJoaXN0b3J5IjpbLTEzOTI0OTE4MTYsMjkzNzQ5MDY4LC0xMT
+AwMjUzNjM3LC03Mzc2Njg2ODddfQ==
 -->
