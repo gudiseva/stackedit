@@ -31,11 +31,12 @@ Supply Zone: RBD (Reversal Pattern) and DBD (Continuation Pattern)
 > Action
 > Buy Retracement 
 
+Stop Loss is always 
 
 > 6 Base Candles
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzkyNDM5OCwyOTM3NDkwNjgsLTExMD
+eyJoaXN0b3J5IjpbMTQ5MTQxNTE3NCwyOTM3NDkwNjgsLTExMD
 AyNTM2MzcsLTczNzY2ODY4N119
 -->
