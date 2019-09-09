@@ -44,12 +44,16 @@ Violated Zone
 : When the price crosses the Distal Line
 Also, known as cutting-through candles.
 
+#### Home Work
+Mark 1 demand and 1 supply on:
+--Kajaria Ceramix on Weekly Chart
+ MCX on 75 min chart
 
 > Base Candles nos. is 1 to 6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzI5ODMxMSwtNDQwMDU3Mzg1LC0xOT
-kzOTU3MDMyLC0xMzkyNDkxODE2LDI5Mzc0OTA2OCwtMTEwMDI1
-MzYzNywtNzM3NjY4Njg3XX0=
+eyJoaXN0b3J5IjpbMTUyNzM0MTIyNSwxOTczMjk4MzExLC00ND
+AwNTczODUsLTE5OTM5NTcwMzIsLTEzOTI0OTE4MTYsMjkzNzQ5
+MDY4LC0xMTAwMjUzNjM3LC03Mzc2Njg2ODddfQ==
 -->
