@@ -28,11 +28,14 @@ All Supply and Demand Zones are made of 3 elements
 
 Demand Zone: DBR (Reversal Pattern) and RBR (Continuation Pattern)
 Supply Zone: RBD (Reversal Pattern) and DBD (Continuation Pattern)
+> Action
+> Buy Retracement 
+
 
 > 6 Base Candles
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzNzQ5MDY4LC0xMTAwMjUzNjM3LC03Mz
-c2Njg2ODddfQ==
+eyJoaXN0b3J5IjpbLTk1NzkyNDM5OCwyOTM3NDkwNjgsLTExMD
+AyNTM2MzcsLTczNzY2ODY4N119
 -->
