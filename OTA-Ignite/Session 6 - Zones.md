@@ -40,12 +40,16 @@ Freshness
 : Price has left the zone, but, the price never ever came back to the zone.
 It should always be seen on the Right Hand Side.
 
-Viola
+Violated Zone
+: When the price crosses the Distal Line
+Also, known as cutting-through candles.
+
+
 > Base Candles nos. is 1 to 6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDEwODQ1NiwtNDQwMDU3Mzg1LC0xOT
+eyJoaXN0b3J5IjpbMTY1MDg3MTQ5NSwtNDQwMDU3Mzg1LC0xOT
 kzOTU3MDMyLC0xMzkyNDkxODE2LDI5Mzc0OTA2OCwtMTEwMDI1
 MzYzNywtNzM3NjY4Njg3XX0=
 -->
