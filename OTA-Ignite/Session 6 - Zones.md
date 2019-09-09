@@ -36,10 +36,14 @@ Supply Zone: RBD (Reversal Pattern) and DBD (Continuation Pattern)
 > Sell Retracement 
 `Stop Loss is always placed above the Distal Line`
 
+Freshness
+: Price has left the zone, but, the price never ever came back to the zone.
+
 > Base Candles nos. is 1 to 6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM5NTcwMzIsLTEzOTI0OTE4MTYsMj
-kzNzQ5MDY4LC0xMTAwMjUzNjM3LC03Mzc2Njg2ODddfQ==
+eyJoaXN0b3J5IjpbLTEwNTAwNDk2NiwtMTk5Mzk1NzAzMiwtMT
+M5MjQ5MTgxNiwyOTM3NDkwNjgsLTExMDAyNTM2MzcsLTczNzY2
+ODY4N119
 -->
