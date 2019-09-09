@@ -37,7 +37,7 @@ Supply Zone: RBD (Reversal Pattern) and DBD (Continuation Pattern)
 `Stop Loss is always placed above the Distal Line`
 
 Freshness
-: Price has left the zone, but, the price never ever came back to the zone.
+: Price has left the zone, but, the price never ever came back to the zone. (Retrace back to the Proximal Line)
 It should always be seen on the Right Hand Side.
 
 Violated Zone
@@ -49,7 +49,7 @@ Also, known as cutting-through candles.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDg3MTQ5NSwtNDQwMDU3Mzg1LC0xOT
+eyJoaXN0b3J5IjpbMTk3MzI5ODMxMSwtNDQwMDU3Mzg1LC0xOT
 kzOTU3MDMyLC0xMzkyNDkxODE2LDI5Mzc0OTA2OCwtMTEwMDI1
 MzYzNywtNzM3NjY4Njg3XX0=
 -->
