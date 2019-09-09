@@ -1,5 +1,5 @@
 # Core Strategy Formations
-
+There 
 
 CMP
 : Current Market Price
@@ -29,5 +29,5 @@ All Supply and Demand Zones are made of 3 elements
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjMxODg1LC03Mzc2Njg2ODddfQ==
+eyJoaXN0b3J5IjpbLTIwOTgwODczODMsLTczNzY2ODY4N119
 -->
