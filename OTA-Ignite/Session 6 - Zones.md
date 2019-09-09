@@ -1,5 +1,6 @@
 # Core Strategy Formations
-There 
+
+There is a potential big stack of Institutional Orders.
 
 CMP
 : Current Market Price
@@ -29,5 +30,5 @@ All Supply and Demand Zones are made of 3 elements
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTgwODczODMsLTczNzY2ODY4N119
+eyJoaXN0b3J5IjpbLTExMDAyNTM2MzcsLTczNzY2ODY4N119
 -->
