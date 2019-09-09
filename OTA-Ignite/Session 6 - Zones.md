@@ -23,16 +23,16 @@ All Supply and Demand Zones are made of 3 elements
 1. Leg-In -> Can be Rally or Drop
 2. Base
 3. Leg-Out - *Explosive* Price Action
-	a. Drop - Supply Zone - Red in colour
+	a. Drop - Supply Zone - Red in color
 	b. Rally - Demand Zone
 
-Demand Zone: DBR and RBR
-Supply Z
+Demand Zone: DBR (Reversal Pattern) and RBR
+Supply Zone: RBD (Reversal Pattern) and DBD (Continuation
 
 > 6 Base Candles
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDQ3ODgzOCwtMTEwMDI1MzYzNywtNz
+eyJoaXN0b3J5IjpbLTYzMDMwNjIwMSwtMTEwMDI1MzYzNywtNz
 M3NjY4Njg3XX0=
 -->
