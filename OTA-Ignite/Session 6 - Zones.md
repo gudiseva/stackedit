@@ -26,9 +26,13 @@ All Supply and Demand Zones are made of 3 elements
 	a. Drop - Supply Zone - Red in colour
 	b. Rally - Demand Zone
 
+Demand Zone: DBR and RBR
+Supply Z
+
 > 6 Base Candles
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDAyNTM2MzcsLTczNzY2ODY4N119
+eyJoaXN0b3J5IjpbMTExMDQ3ODgzOCwtMTEwMDI1MzYzNywtNz
+M3NjY4Njg3XX0=
 -->
