@@ -18,6 +18,10 @@ Distal Line
 
 > Buy at Wholesale and Sell at Retail
 
+All Supply and Demand Zones are made of 3 elements
+Leg-In
+Base
+Leg Out
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTEzMjg3OTZdfQ==
+eyJoaXN0b3J5IjpbNzgzNzYxMTM4XX0=
 -->
