@@ -46,14 +46,14 @@ Also, known as cutting-through candles.
 
 #### Home Work
 Mark 1 demand and 1 supply on:
---Kajaria Ceramix on Weekly Chart
- MCX on 75 min chart
+-- Kajaria Ceramix on Weekly Chart
+-- MCX on 75 min chart
 
 > Base Candles nos. is 1 to 6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzM0MTIyNSwxOTczMjk4MzExLC00ND
-AwNTczODUsLTE5OTM5NTcwMzIsLTEzOTI0OTE4MTYsMjkzNzQ5
-MDY4LC0xMTAwMjUzNjM3LC03Mzc2Njg2ODddfQ==
+eyJoaXN0b3J5IjpbLTE3MTU4NTA1MTMsMTk3MzI5ODMxMSwtND
+QwMDU3Mzg1LC0xOTkzOTU3MDMyLC0xMzkyNDkxODE2LDI5Mzc0
+OTA2OCwtMTEwMDI1MzYzNywtNzM3NjY4Njg3XX0=
 -->
