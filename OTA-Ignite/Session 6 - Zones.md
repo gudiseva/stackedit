@@ -36,10 +36,10 @@ Supply Zone: RBD (Reversal Pattern) and DBD (Continuation Pattern)
 > Sell Retracement 
 `Stop Loss is always placed above the Distal Line`
 
-> 6 Base Candles
+> 6 Base Candles is 1 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI0OTE4MTYsMjkzNzQ5MDY4LC0xMT
-AwMjUzNjM3LC03Mzc2Njg2ODddfQ==
+eyJoaXN0b3J5IjpbMTUwMDE5NTkyMywtMTM5MjQ5MTgxNiwyOT
+M3NDkwNjgsLTExMDAyNTM2MzcsLTczNzY2ODY4N119
 -->
