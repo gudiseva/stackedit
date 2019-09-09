@@ -19,9 +19,10 @@ Distal Line
 > Buy at Wholesale and Sell at Retail
 
 All Supply and Demand Zones are made of 3 elements
-Leg-In
-Base
-Leg Out
+1. Leg-In
+2. Base
+3. Leg-Out
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzNzYxMTM4XX0=
+eyJoaXN0b3J5IjpbMTEwNzIzMTY2OV19
 -->
