@@ -14,6 +14,7 @@
 - Distal line is at the very lowest wick in the base / formation
 
 ## Distal Line Placement
+
 ### In case of a Reversal Pattern
 - Proximal line is drawn at the very highest candle body in the base
 - Distal line is drawn at the very lowest Price of the entire Drop-Base-Rally
@@ -24,6 +25,6 @@
 - Ignore the Leg-In Candle
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU4Njg4OTAsMjEzOTY2OTA5MCwtNz
+eyJoaXN0b3J5IjpbLTExOTUyMDA3NzYsMjEzOTY2OTA5MCwtNz
 ExNzkzNTU4LC05Nzk5ODg4MjJdfQ==
 -->
