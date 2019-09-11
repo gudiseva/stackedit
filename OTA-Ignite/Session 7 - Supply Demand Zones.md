@@ -7,7 +7,7 @@
 3. Using the Base / Leg technique, draw Proximal and Distal lines from the origin of the rally and extend them forward.
 
 ## Proximal Line Placement - Demand Zone
-- *Its always concerned with the bases*
+- ***Its always concerned with the bases***
 - Greater risk -> Proximal line is at the very highest wick in the base
 - ***Preferred*** -> Proximal line is at the very highest body in the base
 - Lower Odds -> Proximal line is at the very lowest body in the base
@@ -36,6 +36,7 @@ Violated Zone
 3. TBD
 
 ## Proximal Line Placement - Supply Zone
+- ***Its always concerned with the bases***
 - Greater Risk -> Proximal line at the lowest wick in the base
 - ***Preferred*** -> Proximal line at the lowest body in the base
 - Lower Odds -> Proximal line at the highest body in the base
@@ -59,6 +60,6 @@ Going from Right to Left ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTMyNjYwMywtMjQyNDY0NzIwLDE4MT
-k0NjI5NjNdfQ==
+eyJoaXN0b3J5IjpbLTEzNjg2MzA1MDMsMTEzOTMyNjYwMywtMj
+QyNDY0NzIwLDE4MTk0NjI5NjNdfQ==
 -->
