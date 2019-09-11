@@ -11,12 +11,13 @@
 - Greater risk -> Proximal line is at the very highest wick in the base
 - ***Preferred*** -> Proximal line is at the very highest body in the base
 - Lower Odds -> Proximal line is at the very lowest body in the base
-- `Distal line is at the very lowest wick in the base`
+- Distal line is at the very lowest wick in the formation
 
 ## Distal Line Placement
 - Proximal line is drawn at the very highest candle body in the base
-- Distal line is drawn at the very lowest Price of the entire DBR
+- Distal line is drawn at the very lowest Price of the entire Drop-Base-Rally
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk3MDMzNCwyMTM5NjY5MDkwLC03MT
+eyJoaXN0b3J5IjpbMTIyMTcxNzg0NCwyMTM5NjY5MDkwLC03MT
 E3OTM1NTgsLTk3OTk4ODgyMl19
 -->
