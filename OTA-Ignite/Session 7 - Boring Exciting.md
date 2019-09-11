@@ -13,7 +13,9 @@
 - Lower Odds -> Proximal line is at the very lowest body in the base
 - `Distal line is at the very lowest wick in the base`
 
+## Distal Line Placement
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODI0NjQwMSwtNzExNzkzNTU4LC05Nz
+eyJoaXN0b3J5IjpbMjEzOTY2OTA5MCwtNzExNzkzNTU4LC05Nz
 k5ODg4MjJdfQ==
 -->
