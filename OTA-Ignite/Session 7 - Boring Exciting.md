@@ -14,8 +14,9 @@
 - `Distal line is at the very lowest wick in the base`
 
 ## Distal Line Placement
-- 
+- Proximal line is drawn at the very highest candle body in the base
+- Distal line is drawn at the very lowest Price of the entire DBR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTY2OTA5MCwtNzExNzkzNTU4LC05Nz
-k5ODg4MjJdfQ==
+eyJoaXN0b3J5IjpbLTExMjk3MDMzNCwyMTM5NjY5MDkwLC03MT
+E3OTM1NTgsLTk3OTk4ODgyMl19
 -->
