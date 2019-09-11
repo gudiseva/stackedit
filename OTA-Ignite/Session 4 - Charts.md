@@ -1,3 +1,4 @@
+> Date: 06-Sep-2019
 # Charts
 
 --- Find the greatest stack of unfilled orders.
@@ -51,7 +52,7 @@ Core Strategy
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTE2NDg3LC0xNjA3NTg1Mzk2LC0xMD
-E3MjExMzA0LC0yMDczNjg2MTcwLDY2OTQ3MTIxNiwtOTAwMzkx
-MTUzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE0NjcxODIwMjcsLTI5MTE2NDg3LC0xNj
+A3NTg1Mzk2LC0xMDE3MjExMzA0LC0yMDczNjg2MTcwLDY2OTQ3
+MTIxNiwtOTAwMzkxMTUzLDczMDk5ODExNl19
 -->
