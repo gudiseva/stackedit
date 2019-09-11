@@ -24,7 +24,8 @@
 - Distal line is drawn at the very lowest Price of the Base-Rally (move out) / Leg-Out
 - Ignore the Leg-In Candle
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUyMDA3NzYsMjEzOTY2OTA5MCwtNz
-ExNzkzNTU4LC05Nzk5ODg4MjJdfQ==
+eyJoaXN0b3J5IjpbMjAxOTA4MDA2LC0xMTk1MjAwNzc2LDIxMz
+k2NjkwOTAsLTcxMTc5MzU1OCwtOTc5OTg4ODIyXX0=
 -->
