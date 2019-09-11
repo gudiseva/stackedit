@@ -30,13 +30,15 @@ Tested Zone
 Violated Zone
 : crosses Distal Line
 
+## Zones Marking - Supply Zone
 1. Start with current price on the chart
-2. Without cutting through cancles, look up an left until you find the origin of a cery string ("explosive") candle
+2. Without cutting through candles, look up and left until you find the origin of a very strong ("explosive") candle
+3. 
 
 ## Proximal Line Placement - Supply Zone
 Greater Risk -> Proximal line at the lowest wick in the base
 Preferred -> Proximal line at the lowest body in the base
 Lower Odds -> Proximal line at the highest body in the base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTI1MzQ4NCwxODE5NDYyOTYzXX0=
+eyJoaXN0b3J5IjpbNzQxNDQwMjksMTgxOTQ2Mjk2M119
 -->
