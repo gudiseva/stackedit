@@ -1,3 +1,4 @@
+> Date: 07-Sep-2019
 # Core Strategy Principle
 
 At or near the turn in price - low risk, high reward, high probability entry point into a market.
@@ -44,7 +45,7 @@ Fahim Ansari-Mumbai, India
 bIOCON dAILY
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjg0OTA1MSwtNDEzOTI5MzYzLDIxMT
-EzMjM0MTgsLTEwOTYzMDc1NTgsNjI5MTY3OTAzLDM5MjA5OTIy
-MSw2MzEwNzIwMDEsLTE2NzczMDgxMjZdfQ==
+eyJoaXN0b3J5IjpbLTYzNDY4ODY2MiwtNTI2ODQ5MDUxLC00MT
+M5MjkzNjMsMjExMTMyMzQxOCwtMTA5NjMwNzU1OCw2MjkxNjc5
+MDMsMzkyMDk5MjIxLDYzMTA3MjAwMSwtMTY3NzMwODEyNl19
 -->
