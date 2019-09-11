@@ -20,9 +20,10 @@
 
 ### In case of a Continuous Pattern
 - Proximal line is drawn at the very highest candle body in the base
-- Distal line is drawn at the very lowest Price of the Base-Rally (move out)
+- Distal line is drawn at the very lowest Price of the Base-Rally (move out) / Leg-Out
 - Ignore the Leg-In Candle
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjEyMzA2MiwyMTM5NjY5MDkwLC03MT
-E3OTM1NTgsLTk3OTk4ODgyMl19
+eyJoaXN0b3J5IjpbLTE0OTU4Njg4OTAsMjEzOTY2OTA5MCwtNz
+ExNzkzNTU4LC05Nzk5ODg4MjJdfQ==
 -->
