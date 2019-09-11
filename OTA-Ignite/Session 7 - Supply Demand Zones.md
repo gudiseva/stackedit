@@ -1,7 +1,7 @@
 > Date: 11-Sep-2019
 # Supply and Demand Zones
 
-## Zones Marking
+## Zones Marking - Demand Zone
 1. Start with the current price on the chart.
 2. Without cutting though candles, look down and left until you find the origin of very strong ("explosive") rally in price.
 3. Using the Base / Leg technique, draw Proximal and Distal lines from the origin of the rally and extend them forward.
@@ -33,7 +33,7 @@ Violated Zone
 ## Zones Marking - Supply Zone
 1. Start with current price on the chart
 2. Without cutting through candles, look up and left until you find the origin of a very strong ("explosive") candle
-3. 
+3. TBD
 
 ## Proximal Line Placement - Supply Zone
 - Greater Risk -> Proximal line at the lowest wick in the base
@@ -51,5 +51,5 @@ Violated Zone
 - Proximal line is drawn at the very lowest candle body in the base
 - *Ignore the Leg-In Candle*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ1NjExMTYsMTgxOTQ2Mjk2M119
+eyJoaXN0b3J5IjpbLTI0MjQ2NDcyMCwxODE5NDYyOTYzXX0=
 -->
