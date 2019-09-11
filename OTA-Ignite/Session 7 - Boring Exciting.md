@@ -7,8 +7,9 @@
 3. Using the Base / Leg technique, draw Proximal and Distal lines from the origin of the rally and extend them forward.
 
 ## Proximal Line Placement
-
- 
+- Its always concerned with the bases
+- Proximal line is at the very highest wick in the base
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjA1NDI4MSwtOTc5OTg4ODIyXX0=
+eyJoaXN0b3J5IjpbLTUwMTYwNTg3NCwtOTc5OTg4ODIyXX0=
 -->
