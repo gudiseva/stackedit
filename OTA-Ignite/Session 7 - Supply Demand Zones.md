@@ -43,7 +43,8 @@ Violated Zone
 ## Distal Line Placement - Supply Zone
 
 ### In case of a Reversal Pattern
-
+- Distal line is drawn at the very highest Price of the entire Rally-Base-Drop
+- Proximal line is drawn at the very lowest candle body in the base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ3MjExNiwxODE5NDYyOTYzXX0=
+eyJoaXN0b3J5IjpbMTI5NDE3OTA4MywxODE5NDYyOTYzXX0=
 -->
