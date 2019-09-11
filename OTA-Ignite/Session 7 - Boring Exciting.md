@@ -1,5 +1,5 @@
 > Date: 11-Sep-2019
-# 
+# Supply and Demand
 
 ## Zones Marking
 1. Start with the current price on the chart.
@@ -9,8 +9,10 @@
 ## Proximal Line Placement
 - Its always concerned with the bases
 - Greater risk -> Proximal line is at the very highest wick in the base
-- **Preferred** -> Proximal line is at the very highest body in the base
+- ***Preferred*** -> Proximal line is at the very highest body in the base
 - Lower Odds -> Proximal line is at the very lowest body in the base
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA4NjQ5ODUsLTk3OTk4ODgyMl19
+eyJoaXN0b3J5IjpbLTcxMTc5MzU1OCwtOTc5OTg4ODIyXX0=
 -->
