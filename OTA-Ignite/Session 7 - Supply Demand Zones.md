@@ -52,10 +52,11 @@ Violated Zone
 - *Ignore the Leg-In Candle*
 
 ## Base Isolation Technique
-1. Going from Right to LEft ...
-2. Draw a Vrtical Line procisely on top of the Leg Candle that identifies the beginning of the Leg-Out
-
+Going from Right to LEft ...
+1. Draw a Vertical Line precisely on top of the Leg Candle that identifies the beginning of the Leg-Out
+2. Draw a second vertical Line precisely on top of theLeg candle that identifies the end of the Leg-In
+3. The Base (made of Base Candles) has been isolated between the two Vertical Lines.  Place Proximal and Distal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTU3MDExNywtMjQyNDY0NzIwLDE4MT
+eyJoaXN0b3J5IjpbLTExNDk4MjEyOCwtMjQyNDY0NzIwLDE4MT
 k0NjI5NjNdfQ==
 -->
