@@ -30,7 +30,10 @@ Tested Zone
 Violated Zone
 : crosses Distal Line
 
+1. Start with current price on the chart
+2. Without cutting through cancles, look up an left until you find the origin of a cery string ("explosive") candle
 
+Proximal linme 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTQ2Mjk2M119
+eyJoaXN0b3J5IjpbLTcxMDcxOTkwNSwxODE5NDYyOTYzXX0=
 -->
