@@ -39,6 +39,11 @@ Violated Zone
 - Greater Risk -> Proximal line at the lowest wick in the base
 - ***Preferred*** -> Proximal line at the lowest body in the base
 - Lower Odds -> Proximal line at the highest body in the base
+
+## Distal Line Placement - Supply Zone
+
+### In case of a Reversal Pattern
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwMTkyMTg4LDE4MTk0NjI5NjNdfQ==
+eyJoaXN0b3J5IjpbLTIwNTQ3MjExNiwxODE5NDYyOTYzXX0=
 -->
