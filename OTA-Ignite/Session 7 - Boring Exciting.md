@@ -11,9 +11,9 @@
 - Greater risk -> Proximal line is at the very highest wick in the base
 - ***Preferred*** -> Proximal line is at the very highest body in the base
 - Lower Odds -> Proximal line is at the very lowest body in the base
-- Distal line is at the very lowest wick in the base
+- `Distal line is at the very lowest wick in the base`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzY4MTM1MywtNzExNzkzNTU4LC05Nz
+eyJoaXN0b3J5IjpbMTk5ODI0NjQwMSwtNzExNzkzNTU4LC05Nz
 k5ODg4MjJdfQ==
 -->
