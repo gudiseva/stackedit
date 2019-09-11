@@ -1,3 +1,4 @@
+> Date: 09-Sep-2019
 # Core Strategy Formations
 
 There is a potential big stack of Institutional Orders.
@@ -53,7 +54,8 @@ Mark 1 demand and 1 supply on:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU4NTA1MTMsMTk3MzI5ODMxMSwtND
-QwMDU3Mzg1LC0xOTkzOTU3MDMyLC0xMzkyNDkxODE2LDI5Mzc0
-OTA2OCwtMTEwMDI1MzYzNywtNzM3NjY4Njg3XX0=
+eyJoaXN0b3J5IjpbLTE3Mzg0ODM3NjgsLTE3MTU4NTA1MTMsMT
+k3MzI5ODMxMSwtNDQwMDU3Mzg1LC0xOTkzOTU3MDMyLC0xMzky
+NDkxODE2LDI5Mzc0OTA2OCwtMTEwMDI1MzYzNywtNzM3NjY4Nj
+g3XX0=
 -->
