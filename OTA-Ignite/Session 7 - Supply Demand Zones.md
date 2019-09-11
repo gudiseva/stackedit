@@ -50,6 +50,8 @@ Violated Zone
 - Distal line is drawn at the very highest Price of the Base-Drop (move out) / Leg-Out
 - Proximal line is drawn at the very lowest candle body in the base
 - *Ignore the Leg-In Candle*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjQ2NDcyMCwxODE5NDYyOTYzXX0=
+eyJoaXN0b3J5IjpbOTUzMjIzNzc0LC0yNDI0NjQ3MjAsMTgxOT
+Q2Mjk2M119
 -->
