@@ -8,8 +8,9 @@
 
 ## Proximal Line Placement
 - Its always concerned with the bases
-- Proximal line is at the very highest wick in the base
-- 
+- Greater risk -> Proximal line is at the very highest wick in the base
+- **Preferred** -> Proximal line is at the very highest body in the base
+- Lower Odds -> Proximal line is at the very lowest body in the base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTYwNTg3NCwtOTc5OTg4ODIyXX0=
+eyJoaXN0b3J5IjpbLTExMzA4NjQ5ODUsLTk3OTk4ODgyMl19
 -->
