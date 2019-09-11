@@ -17,9 +17,12 @@
 ### In case of a Reversal Pattern
 - Proximal line is drawn at the very highest candle body in the base
 - Distal line is drawn at the very lowest Price of the entire Drop-Base-Rally
-### In case of a Reversal Pattern
-- Distal line is drwan at the very lowest Price of the Ba
+
+### In case of a Continuous Pattern
+- Proximal line is drawn at the very highest candle body in the base
+- Distal line is drawn at the very lowest Price of the Base-Rally (move out)
+- Ignore the Leg-In Candle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg5NjMwMjIsMjEzOTY2OTA5MCwtNz
-ExNzkzNTU4LC05Nzk5ODg4MjJdfQ==
+eyJoaXN0b3J5IjpbMTU0MjEyMzA2MiwyMTM5NjY5MDkwLC03MT
+E3OTM1NTgsLTk3OTk4ODgyMl19
 -->
