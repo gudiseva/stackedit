@@ -51,7 +51,11 @@ Violated Zone
 - Proximal line is drawn at the very lowest candle body in the base
 - *Ignore the Leg-In Candle*
 
+## Base Isolation Technique
+1. Going from Right to LEft ...
+2. Draw a Vrtical Line procisely on top of the Leg Candle that identifies the beginning of the Leg-Out
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMjIzNzc0LC0yNDI0NjQ3MjAsMTgxOT
-Q2Mjk2M119
+eyJoaXN0b3J5IjpbMjEwNTU3MDExNywtMjQyNDY0NzIwLDE4MT
+k0NjI5NjNdfQ==
 -->
