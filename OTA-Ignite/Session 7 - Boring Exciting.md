@@ -1,5 +1,5 @@
 > Date: 11-Sep-2019
-# Supply and Demand
+# Supply and Demand Zones
 
 ## Zones Marking
 1. Start with the current price on the chart.
@@ -32,6 +32,6 @@ Violated Zone
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTk4OTQyMCwtMTE5NTIwMDc3NiwyMT
+eyJoaXN0b3J5IjpbMTgxOTQ2Mjk2MywtMTE5NTIwMDc3NiwyMT
 M5NjY5MDkwLC03MTE3OTM1NTgsLTk3OTk4ODgyMl19
 -->
