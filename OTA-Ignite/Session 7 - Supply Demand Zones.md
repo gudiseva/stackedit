@@ -36,9 +36,9 @@ Violated Zone
 3. 
 
 ## Proximal Line Placement - Supply Zone
-Greater Risk -> Proximal line at the lowest wick in the base
-Preferred -> Proximal line at the lowest body in the base
-Lower Odds -> Proximal line at the highest body in the base
+- Greater Risk -> Proximal line at the lowest wick in the base
+- ***Preferred*** -> Proximal line at the lowest body in the base
+- Lower Odds -> Proximal line at the highest body in the base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxNDQwMjksMTgxOTQ2Mjk2M119
+eyJoaXN0b3J5IjpbNDEwMTkyMTg4LDE4MTk0NjI5NjNdfQ==
 -->
