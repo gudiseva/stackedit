@@ -58,8 +58,10 @@ Going from Right to Left ...
 2. Draw a second Vertical Line precisely on top of the Leg Candle that identifies the end of the Leg-In.
 3. The Base (made of Base Candles) has been isolated between the two Vertical Lines.  Place Proximal and Distal Line accurately and then erase the Vertical Lines.
 
-Mark 
+#### Home Work:
+-- Mark 1 Supply Zone and 1 Demand Zone on Daily Chart of Apollo Tyres
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYyNzcxNDQsLTEzNjg2MzA1MDMsMT
-EzOTMyNjYwMywtMjQyNDY0NzIwLDE4MTk0NjI5NjNdfQ==
+eyJoaXN0b3J5IjpbMTk4MDg0MzA1MCwtMTM2ODYzMDUwMywxMT
+M5MzI2NjAzLC0yNDI0NjQ3MjAsMTgxOTQ2Mjk2M119
 -->
