@@ -22,7 +22,7 @@
 ### In case of a Continuous Pattern
 - Proximal line is drawn at the very highest candle body in the base
 - Distal line is drawn at the very lowest Price of the Base-Rally (move out) / Leg-Out
-- Ignore the Leg-In Candle
+- *Ignore the Leg-In Candle*
 
 Tested Zone
 : pierces the Proximal Line
@@ -46,9 +46,10 @@ Violated Zone
 - Distal line is drawn at the very highest Price of the entire Rally-Base-Drop
 - Proximal line is drawn at the very lowest candle body in the base
 
-### In case of a Continuous Pattern
+### In case of a Continuous Pattern - Drop Base Drop
 - Distal line is drawn at the very highest Price of the Base-Drop (move out) / Leg-Out
 - Proximal line is drawn at the very lowest candle body in the base
+- *Ignore the Leg-In Candle*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTQ3NzAwNSwxODE5NDYyOTYzXX0=
+eyJoaXN0b3J5IjpbMTgxNzUyMzMwNCwxODE5NDYyOTYzXX0=
 -->
