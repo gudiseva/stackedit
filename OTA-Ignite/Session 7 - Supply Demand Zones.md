@@ -6,20 +6,20 @@
 2. Without cutting though candles, look down and left until you find the origin of very strong ("explosive") rally in price.
 3. Using the Base / Leg technique, draw Proximal and Distal lines from the origin of the rally and extend them forward.
 
-## Proximal Line Placement
+## Proximal Line Placement - Demand Zone
 - *Its always concerned with the bases*
 - Greater risk -> Proximal line is at the very highest wick in the base
 - ***Preferred*** -> Proximal line is at the very highest body in the base
 - Lower Odds -> Proximal line is at the very lowest body in the base
 - Distal line is at the very lowest wick in the base / formation
 
-## Distal Line Placement
+## Distal Line Placement - Demand Zone
 
-### In case of a Reversal Pattern
+### In case of a Reversal Pattern - *Drop-Base-Rally*
 - Proximal line is drawn at the very highest candle body in the base
 - Distal line is drawn at the very lowest Price of the entire Drop-Base-Rally
 
-### In case of a Continuous Pattern
+### In case of a Continuous Pattern - *Rally-Base-Rally*
 - Proximal line is drawn at the very highest candle body in the base
 - Distal line is drawn at the very lowest Price of the Base-Rally (move out) / Leg-Out
 - *Ignore the Leg-In Candle*
@@ -42,14 +42,14 @@ Violated Zone
 
 ## Distal Line Placement - Supply Zone
 
-### In case of a Reversal Pattern
+### In case of a Reversal Pattern - *Rally-Base-Drop*
 - Distal line is drawn at the very highest Price of the entire Rally-Base-Drop
 - Proximal line is drawn at the very lowest candle body in the base
 
-### In case of a Continuous Pattern - Drop Base Drop
+### In case of a Continuous Pattern - *Drop Base Drop*
 - Distal line is drawn at the very highest Price of the Base-Drop (move out) / Leg-Out
 - Proximal line is drawn at the very lowest candle body in the base
 - *Ignore the Leg-In Candle*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzUyMzMwNCwxODE5NDYyOTYzXX0=
+eyJoaXN0b3J5IjpbLTEyOTQ1NjExMTYsMTgxOTQ2Mjk2M119
 -->
