@@ -24,8 +24,14 @@
 - Distal line is drawn at the very lowest Price of the Base-Rally (move out) / Leg-Out
 - Ignore the Leg-In Candle
 
+Tested Zone
+: pierces the Proximal Line
+
+Violated Zone
+: crosses Distal Line
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTA4MDA2LC0xMTk1MjAwNzc2LDIxMz
-k2NjkwOTAsLTcxMTc5MzU1OCwtOTc5OTg4ODIyXX0=
+eyJoaXN0b3J5IjpbMjExOTk4OTQyMCwtMTE5NTIwMDc3NiwyMT
+M5NjY5MDkwLC03MTE3OTM1NTgsLTk3OTk4ODgyMl19
 -->
