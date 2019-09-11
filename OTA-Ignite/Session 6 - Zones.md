@@ -46,7 +46,7 @@ Violated Zone
 Also, known as cutting-through candles.
 
 #### Home Work
-Mark 1 Demand Zoneand 1 supply on:
+Mark 1 Demand Zone and 1 Supply Zone on:
 -- Kajaria Ceramix on Weekly Chart
 -- MCX on 75 min chart
 
@@ -54,8 +54,8 @@ Mark 1 Demand Zoneand 1 supply on:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ2MTAwNjAsLTE3MTU4NTA1MTMsMT
-k3MzI5ODMxMSwtNDQwMDU3Mzg1LC0xOTkzOTU3MDMyLC0xMzky
-NDkxODE2LDI5Mzc0OTA2OCwtMTEwMDI1MzYzNywtNzM3NjY4Nj
-g3XX0=
+eyJoaXN0b3J5IjpbLTQ4MjA0OTQ4NiwtMTcxNTg1MDUxMywxOT
+czMjk4MzExLC00NDAwNTczODUsLTE5OTM5NTcwMzIsLTEzOTI0
+OTE4MTYsMjkzNzQ5MDY4LC0xMTAwMjUzNjM3LC03Mzc2Njg2OD
+ddfQ==
 -->
