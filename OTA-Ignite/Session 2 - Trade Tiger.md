@@ -1,3 +1,4 @@
+> Date: 04-Sep-2019
 # Trade Tiger - 2.5
 
 ## Definitions
@@ -111,5 +112,5 @@ Apply
 [^2]: Tick size in NSE is 5 Paise.  E.g. If stock is trading at 100.  It can go to 100.05, 100.15, but not 100.03.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTcxMjI5XX0=
+eyJoaXN0b3J5IjpbLTEzMjM5NDkyMTUsLTkyOTcxMjI5XX0=
 -->
