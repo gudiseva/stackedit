@@ -50,13 +50,14 @@ Hourly Income
 
 | Curve          |Zones                          |Trend                         |
 |----------------|-------------------------------|-----------------------------|
-|Single backticks|`5 min`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|`75 min`|`5 min`            |`15 min`            |
+|`Daily`          |`15 min`            |`75 min`            |
+|`Weekly`          |`125/75 min`|`Daily`|
+|`MonthlyWeekly`          |`125/75 min`|`Daily`|
 
 Curve
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk1OTUyMDAsLTEyNzExMTQ5MjgsND
+eyJoaXN0b3J5IjpbLTEzNzY4NTY5NjUsLTEyNzExMTQ5MjgsND
 E4MjI3ODI3LDcwMzYwNTEwM119
 -->
