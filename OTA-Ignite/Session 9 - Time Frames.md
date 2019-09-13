@@ -13,15 +13,19 @@ Long Term Wealth
 2. ITF (Intermediate Time Frame) -- Used to assess the Trend
 3. LTF (Lower Time Frame) -- Used to identify Supply and Demand
 
-Monthly Income Trading:
-Trades that last for a few months
+## Different Time Frames
+Monthly Income Trading
+: Trades that last for a few months
 
-Weekly Income Trading
+Weekly Income Trading (Swing)
 : Trades that last for a few weeks
 
-Daily Income Trading
-: Trades that last for a few d
+Daily Income Trading (Buy Today Sell Tomorrow)
+: Trades that last for a few days
+
+Hourly Income Trading
+: Trades that last for a few hours (Intra Day)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzU1MjM2LDQxODIyNzgyNyw3MDM2MD
-UxMDNdfQ==
+eyJoaXN0b3J5IjpbMTcwMjA5MzMwNiw0MTgyMjc4MjcsNzAzNj
+A1MTAzXX0=
 -->
