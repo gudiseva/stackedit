@@ -12,6 +12,16 @@ Long Term Wealth
 1. HTF (Higher Time Frame) -- Used to assess the Curve
 2. ITF (Intermediate Time Frame) -- Used to assess the Trend
 3. LTF (Lower Time Frame) -- Used to identify Supply and Demand
+
+Monthly Income Trading:
+Trades that last for a few months
+
+Weekly Income Trading
+: Trades that last for a few weeks
+
+Daily Income Trading
+: Trades that last for a few d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MjI3ODI3LDcwMzYwNTEwM119
+eyJoaXN0b3J5IjpbLTUwNzU1MjM2LDQxODIyNzgyNyw3MDM2MD
+UxMDNdfQ==
 -->
