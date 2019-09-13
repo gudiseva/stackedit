@@ -27,13 +27,26 @@ Hourly Income Trading (Intra Day)
 : Trades that last for a few hours
 
 ## Time Frames by Trading Purpose
-Monthly Income -> Monthly, Weekly, Daily
-Weekly Income -> Weekly, Daily, 125/75
-Daily Income -> Daily, 75, 15
-Hourly Income -> 75, 15, 5
+Monthly Income
+: Monthly
+  Weekly
+  Daily
+
+Weekly Income
+: Weekly
+  Daily
+  125/75
+
+Daily Income
+: Daily
+  75
+  15
+  
+Hourly Income
+:75, 15, 5
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjAyMTk3Niw0MTgyMjc4MjcsNzAzNj
+eyJoaXN0b3J5IjpbLTY1OTYxMDYzNiw0MTgyMjc4MjcsNzAzNj
 A1MTAzXX0=
 -->
