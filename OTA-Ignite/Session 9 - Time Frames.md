@@ -9,9 +9,9 @@ Short Term Income
 Long Term Wealth
 
 #### A minimum of 3 Time Frames when planning trades
-1. HTF (Higher Time  - Used to assess the Curve
-2. ITF - Used to assess the Trend
-3. 
+1. HTF (Higher Time Frame) -- Used to assess the Curve
+2. ITF (Intermediate Time Frame) -- Used to assess the Trend
+3. LTF (Lower Time Frame) -- Used to identify Supply and Demand
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDQ5ODc1OCw3MDM2MDUxMDNdfQ==
+eyJoaXN0b3J5IjpbNDE4MjI3ODI3LDcwMzYwNTEwM119
 -->
