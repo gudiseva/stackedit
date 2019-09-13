@@ -47,8 +47,9 @@ Hourly Income
   15
   5
 
+
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzExMTQ5MjgsNDE4MjI3ODI3LDcwMz
-YwNTEwM119
+eyJoaXN0b3J5IjpbOTI5OTU0MjEwLC0xMjcxMTE0OTI4LDQxOD
+IyNzgyNyw3MDM2MDUxMDNdfQ==
 -->
