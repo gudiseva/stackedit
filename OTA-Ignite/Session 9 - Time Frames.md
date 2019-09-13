@@ -23,9 +23,14 @@ Weekly Income Trading (Swing)
 Daily Income Trading (Buy Today Sell Tomorrow)
 : Trades that last for a few days
 
-Hourly Income Trading
-: Trades that last for a few hours (Intra Day)
+Hourly Income Trading (Intra Day)
+: Trades that last for a few hours
+
+## Time Frames by Trading Purpose
+Monthly -> Monthly, Weekly, Daily
+Weekly -> Weekly, Daily, 125/75
+Daily Income -> Daily, 75
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjA5MzMwNiw0MTgyMjc4MjcsNzAzNj
+eyJoaXN0b3J5IjpbLTcxMzMzOTIwNSw0MTgyMjc4MjcsNzAzNj
 A1MTAzXX0=
 -->
