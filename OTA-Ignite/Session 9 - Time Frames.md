@@ -55,9 +55,15 @@ Hourly Income
 |Weekly Income		|Days - Weeks		|`Weekly`   |`125/75 min`	|`Daily`	|
 |Monthly Income		|Weeks - Months		|`Monthly`  |`Daily`		|`Weekly`	|
 
+## Gaps
+-- Represent the ultimate picture of Supply / Demand imbalance
+-- Our strongest trading opportunities
+-- 
+
+
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTU3NDAyMCwtMTI3MTExNDkyOCw0MT
-gyMjc4MjcsNzAzNjA1MTAzXX0=
+eyJoaXN0b3J5IjpbMTEyNjQwMjQ1MiwxMzAxNTc0MDIwLC0xMj
+cxMTE0OTI4LDQxODIyNzgyNyw3MDM2MDUxMDNdfQ==
 -->
