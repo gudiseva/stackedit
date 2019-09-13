@@ -48,16 +48,16 @@ Hourly Income
   5
 
 
-| | Curve          |Zones                          |Trend                         |
-|-|----------------|-------------------------------|-----------------------------|
-|Minutes - Hours|`75 min`|`5 min`            |`15 min`            |
-|Hours - Days|`Daily`          |`15 min`            |`75 min`            |
-| X|`Weekly`          |`125/75 min`|`Daily`|
-| X|`Monthly`          |`Daily`|`Weekly`|
+|Trading Purpose| Trade Duration | Curve          |Zones                          |Trend                         |
+|-|-|----------------|-------------------------------|-----------------------------|
+|Hourly Income|Minutes - Hours|`75 min`|`5 min`            |`15 min`            |
+|Daily Income|Hours - Days|`Daily`          |`15 min`            |`75 min`            |
+|Weekly Income|Days - Weeks|`Weekly`          |`125/75 min`|`Daily`|
+|Monthly Income|Weeks - Months|`Monthly`          |`Daily`|`Weekly`|
 
 Curve
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMTY3NTc1LC0xMjcxMTE0OTI4LDQxOD
-IyNzgyNyw3MDM2MDUxMDNdfQ==
+eyJoaXN0b3J5IjpbMTE5NTAyMTQ1MSwtMTI3MTExNDkyOCw0MT
+gyMjc4MjcsNzAzNjA1MTAzXX0=
 -->
