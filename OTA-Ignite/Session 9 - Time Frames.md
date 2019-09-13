@@ -32,8 +32,8 @@ Weekly Income -> Weekly, Daily, 125/75
 Daily Income -> Daily, 75, 15
 Hourly Income -> 75, 15, 5
 
-9:15 AM to
+> Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDg4NzMyNyw0MTgyMjc4MjcsNzAzNj
+eyJoaXN0b3J5IjpbMTEzNjAyMTk3Niw0MTgyMjc4MjcsNzAzNj
 A1MTAzXX0=
 -->
