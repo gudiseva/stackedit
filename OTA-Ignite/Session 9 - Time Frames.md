@@ -41,12 +41,14 @@ Daily Income
 : Daily
   75
   15
-  
+
 Hourly Income
-:75, 15, 5
+: 75
+  15
+  5
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTYxMDYzNiw0MTgyMjc4MjcsNzAzNj
-A1MTAzXX0=
+eyJoaXN0b3J5IjpbLTEyNzExMTQ5MjgsNDE4MjI3ODI3LDcwMz
+YwNTEwM119
 -->
