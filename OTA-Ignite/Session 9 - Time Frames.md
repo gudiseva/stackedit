@@ -73,13 +73,15 @@ Gap Down + Basing Candle = Red Leg Candle
 ##### Scenario #2:
 Gap Down + Green Leg Candle = Red Leg Candle
 
-Home Work
-1 D and 1 S
--- 125 min chart of PEL
+#### Home Work
+Mark 1 Supply Zone and 1 Demand Zone on:
+-- 125 min chart of PEL.  What type of Income, we want to go for?
+-- Ma
+
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MDIyMzE5LDE5Mjc2ODc1NzMsMTkwMT
-I1Njk3MSwxMzAxNTc0MDIwLC0xMjcxMTE0OTI4LDQxODIyNzgy
-Nyw3MDM2MDUxMDNdfQ==
+eyJoaXN0b3J5IjpbLTE2NjA5MjU0ODcsMTkyNzY4NzU3MywxOT
+AxMjU2OTcxLDEzMDE1NzQwMjAsLTEyNzExMTQ5MjgsNDE4MjI3
+ODI3LDcwMzYwNTEwM119
 -->
