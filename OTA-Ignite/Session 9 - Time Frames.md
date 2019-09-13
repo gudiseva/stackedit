@@ -73,10 +73,13 @@ Gap Down + Basing Candle = Red Leg Candle
 ##### Scenario #2:
 Gap Down + Green Leg Candle = Red Leg Candle
 
+Home Work
+1 D and 1 S
+-- 125 min chart of PEL
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzY4NzU3MywxOTAxMjU2OTcxLDEzMD
-E1NzQwMjAsLTEyNzExMTQ5MjgsNDE4MjI3ODI3LDcwMzYwNTEw
-M119
+eyJoaXN0b3J5IjpbODY5MDIyMzE5LDE5Mjc2ODc1NzMsMTkwMT
+I1Njk3MSwxMzAxNTc0MDIwLC0xMjcxMTE0OTI4LDQxODIyNzgy
+Nyw3MDM2MDUxMDNdfQ==
 -->
