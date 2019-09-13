@@ -48,8 +48,15 @@ Hourly Income
   5
 
 
+| Curve          |Zones                          |Trend                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`5 min`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+Curve
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5OTU0MjEwLC0xMjcxMTE0OTI4LDQxOD
-IyNzgyNyw3MDM2MDUxMDNdfQ==
+eyJoaXN0b3J5IjpbLTE3ODk1OTUyMDAsLTEyNzExMTQ5MjgsND
+E4MjI3ODI3LDcwMzYwNTEwM119
 -->
