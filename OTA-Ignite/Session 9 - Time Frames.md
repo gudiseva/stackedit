@@ -27,10 +27,13 @@ Hourly Income Trading (Intra Day)
 : Trades that last for a few hours
 
 ## Time Frames by Trading Purpose
-Monthly -> Monthly, Weekly, Daily
-Weekly -> Weekly, Daily, 125/75
-Daily Income -> Daily, 75
+Monthly Income -> Monthly, Weekly, Daily
+Weekly Income -> Weekly, Daily, 125/75
+Daily Income -> Daily, 75, 15
+Hourly Income -> 75, 15, 5
+
+9:15 AM to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzMzOTIwNSw0MTgyMjc4MjcsNzAzNj
+eyJoaXN0b3J5IjpbMTY0NDg4NzMyNyw0MTgyMjc4MjcsNzAzNj
 A1MTAzXX0=
 -->
