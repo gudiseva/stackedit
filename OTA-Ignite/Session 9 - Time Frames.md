@@ -66,11 +66,12 @@ Gap Up + Basing Candle = Green Leg Candle
 ##### Scenario #2:
 Gap Up + Red Leg Candle = Green Leg Candle
 
+Gap Down + Baing CNLE = rED lEG cANDLE
 
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODAyMzI1NzEsMTkwMTI1Njk3MSwxMz
-AxNTc0MDIwLC0xMjcxMTE0OTI4LDQxODIyNzgyNyw3MDM2MDUx
-MDNdfQ==
+eyJoaXN0b3J5IjpbODE4NjU4ODQ2LDE5MDEyNTY5NzEsMTMwMT
+U3NDAyMCwtMTI3MTExNDkyOCw0MTgyMjc4MjcsNzAzNjA1MTAz
+XX0=
 -->
