@@ -61,19 +61,22 @@ Hourly Income
 -- Our strongest trading opportunities
 -- Could represent added risk, but they also represent opportunities
 
-###Demand Zone Scenario
+#### Demand Zone Scenario
 ##### Scenario #1:
 Gap Up + Basing Candle = Green Leg Candle
 ##### Scenario #2:
 Gap Up + Red Leg Candle = Green Leg Candle
 
-Supply Zone Scenario
+#### Supply Zone Scenario
+##### Scenario #1:
 Gap Down + Basing Candle = Red Leg Candle
+##### Scenario #2:
 Gap Down + Green Leg Candle = Red Leg Candle
+
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0OTE0NzA1LDE5MDEyNTY5NzEsMTMwMT
-U3NDAyMCwtMTI3MTExNDkyOCw0MTgyMjc4MjcsNzAzNjA1MTAz
-XX0=
+eyJoaXN0b3J5IjpbMTkyNzY4NzU3MywxOTAxMjU2OTcxLDEzMD
+E1NzQwMjAsLTEyNzExMTQ5MjgsNDE4MjI3ODI3LDcwMzYwNTEw
+M119
 -->
