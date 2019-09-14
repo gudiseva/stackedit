@@ -1,16 +1,14 @@
+# Definitions
 
-ATR -> Average Tool Range -> Tool gives the volatility
+ATR
+: Average Tool Range
+  Tool gives the volatility
 
-DATR -> Daily ATR
+DATR
+: Daily ATR
+  `Add Study -> Select DATR for 14 days`
 
-  
-
-Add Study -> Select DATR for 14 days
-
-  
-
-For trade types:
-
+#### For trade types:
 - Intraday, the Stop Loss rule is 2% of DATR.
 
   
@@ -94,5 +92,5 @@ Your File Reference Number is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNjM2MzY2XX0=
+eyJoaXN0b3J5IjpbLTE3ODE0ODg5OTBdfQ==
 -->
