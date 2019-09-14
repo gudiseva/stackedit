@@ -8,14 +8,12 @@
 - Background: White
 - Foreground: Black
  -> Scripts
-- Retracement: 0, 33.33, 66.66, 100 (Uncheck Snap to Price)
+- Retracement -> 0, 33.33, 66.66, 100 (Uncheck Snap to Price)
+- Demand Zone & Supply Zone -> All and 125
+- Previous -> Uncheck all of them
+- Mouse Pointer -> Is always Tracker Ball
 
-Demand Zone & Supply Zone -> All and 125
-
-Previous -> Uncheck all of them
-Mouse Pointer -> Is always Tracker Ball
-
-3 indicators on charts
+### 3 indicators on charts
  - DATR
  - Basing Candle
  - 50 day moving average
@@ -34,5 +32,5 @@ Position Size -> 0.2%
 
 Email: ignitementor@branch.sharekhan.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg3MDE1NThdfQ==
+eyJoaXN0b3J5IjpbMjAxMjkyNTUzNV19
 -->
