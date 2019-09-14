@@ -23,15 +23,12 @@ Save Chart Template
 Settings -> Default Template
 
 Dock Charts -> LTF and HTF
-
 Click on Chart + Hit C
 
-## Notes:
-[1]: Never place trade below 1:2 as it can stop out
-
-Position Size -> 0.2%
-
-Email: ignitementor@branch.sharekhan.com
+### Notes: [^1]/[^2]/[^3]
+[^1]: Never place trade below 1:2 as it can stop out
+[^2]: Position Size -> 0.2%
+[^3]: Email: ignitementor@branch.sharekhan.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTE4MzE2N119
+eyJoaXN0b3J5IjpbLTEzNzU5MDk4OTFdfQ==
 -->
