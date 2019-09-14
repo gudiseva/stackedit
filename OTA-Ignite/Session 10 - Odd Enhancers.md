@@ -1,9 +1,9 @@
 > 14-Sept-2019
 # Odd Enhancers
 
--- Scoring system that measures the quality of a trade.
--- Decide a  minimum score acceptable to enter a trade based on your level of risk aversion.
--- We focus on trading only when specific criteria occur in a Price Chart providing a significant advantage or edge.
+--- Scoring system that measures the quality of a trade.
+--- Decide a  minimum score acceptable to enter a trade based on your level of risk aversion.
+--- We focus on trading only when specific criteria occur in a Price Chart providing a significant advantage or edge.
 
 
 ## Odd Enhancers “Freshness”
@@ -47,6 +47,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUwNDgzNDcsLTE1MDY1ODIwOTVdfQ
-==
+eyJoaXN0b3J5IjpbLTUzNzIzMzQ2OCwtMTUwNjU4MjA5NV19
 -->
