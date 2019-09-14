@@ -78,16 +78,16 @@ Add Study -> Average -> Avg. Type = S; Avg. Period = 50 -> Sub Graph = 2 -> Appl
 #### Home Work
 Mark 1 Supply Zone and 1 Demand Zone on:
 - Century Textiles
--- Assess trend on Daily chart
--- Find the execution timeframe
--- Score odd enhancers
+	- Assess trend on Daily chart
+	- Find the execution timeframe
+	- Score odd enhancers
 
 - Power Grid
-- - Analyse the trend on 75 min Chart
--- What is the type of trade I am taking?
--- Mark Demand and Supply on the execution timeframe
--- Score odd enhancers
+	- Analyse the trend on 75 min Chart
+	- What is the type of trade I am taking?
+	- Mark Demand and Supply on the execution timeframe
+	- Score odd enhancers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1OTU2NzgyLDc4MDEzOTAyNiwtMTUwNj
+eyJoaXN0b3J5IjpbOTM5MzM0Njk5LDc4MDEzOTAyNiwtMTUwNj
 U4MjA5NV19
 -->
