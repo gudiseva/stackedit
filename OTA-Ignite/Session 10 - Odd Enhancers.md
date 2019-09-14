@@ -82,8 +82,11 @@ Mark 1 Supply Zone and 1 Demand Zone on:
 -- Find the execution timeframe
 -- Score odd enhancers
 
-Analyse the trend on 75 min chart on Power Grid.  What is the type of trade I am taking and mark 1 d and 1 s on the execution timeframe.  Also, odd enhancers
+- Power Grid
+-- Analyse the trend on 75 min Chart
+-- What is the type of trade I am taking?
+-- Mark Demand and Supply on the execution timeframe.  Also, odd enhancers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzIzMzMxMiw3ODAxMzkwMjYsLTE1MD
-Y1ODIwOTVdfQ==
+eyJoaXN0b3J5IjpbLTE3MDY4NTkxNjcsNzgwMTM5MDI2LC0xNT
+A2NTgyMDk1XX0=
 -->
