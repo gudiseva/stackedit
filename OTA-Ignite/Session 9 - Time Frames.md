@@ -75,14 +75,13 @@ Gap Down + Green Leg Candle = Red Leg Candle
 
 #### Home Work
 Mark 1 Supply Zone and 1 Demand Zone on:
-
 -- 125 min chart of PEL.  What type of Income, we want to go for?
 -- Daily chart of ICICI Bank.  What type of trade, we will be trading?
 
 
 > Indian Stock Market Timings: 9:15 AM to 3:30 PM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDU2OTUzNCwyMTc2NTg1NzYsMTkyNz
-Y4NzU3MywxOTAxMjU2OTcxLDEzMDE1NzQwMjAsLTEyNzExMTQ5
-MjgsNDE4MjI3ODI3LDcwMzYwNTEwM119
+eyJoaXN0b3J5IjpbMjE3NjU4NTc2LDIxNzY1ODU3NiwxOTI3Nj
+g3NTczLDE5MDEyNTY5NzEsMTMwMTU3NDAyMCwtMTI3MTExNDky
+OCw0MTgyMjc4MjcsNzAzNjA1MTAzXX0=
 -->
