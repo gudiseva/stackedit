@@ -64,18 +64,9 @@ Add Study -> Average -> Avg. Type = S; Avg. Period = 50 -> Sub Graph = 2 -> Appl
 | -------- | ------ |
 | If SMA is Green and Slope is Between “12-3” | Trend is Uptrend |
 | If SMA is Red and slope is between “3-6” | Trend in Downtrend |
-
-  
-
-If SM is Green / Red and Slope is flat at “3” -> Trend is Sideways
-
-  
-
-If SMA is Red and Slope is Between “12-3” -> Trend is Indecisive
-
-  
-
-If SMA is Green and slope is Between “3-6” -> Trend is Indecisive
+| If SM is Green / Red and Slope is flat at “3” | Trend is Sideways |
+| If SMA is Red and Slope is Between “12-3” | Trend is Indecisive |
+| If SMA is Green and slope is Between “3-6” | Trend is Indecisive
 
   
 
@@ -95,6 +86,6 @@ Century Textiles - assess trend on dly chard.  Find the execution timeframe and 
 
 Analyse the trend on 75 min chart on Power Grid.  What is the type of trade I am taking and mark 1 d and 1 s on the execution timeframe.  Also, odd enhancers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQyOTk2OCw3ODAxMzkwMjYsLTE1MD
-Y1ODIwOTVdfQ==
+eyJoaXN0b3J5IjpbLTE2MTk5NTQxNjUsNzgwMTM5MDI2LC0xNT
+A2NTgyMDk1XX0=
 -->
