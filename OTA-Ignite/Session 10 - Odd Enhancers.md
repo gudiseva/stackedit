@@ -45,7 +45,59 @@
 1. If the Odd Enhancers Score is 7, we will go for a Proximal or Type 1 Entry.
 2. If the Odd Enhancers Score is 6, we will either go for Type 2 or Zonal Entry / Type 3 or Confirmation Entry
 
+---
 
+# Trend
+
+> Identify Trend only on ITF
+
+### Plot 50 SMA (Simple Moving Average)
+Add Study -> Average -> Avg. Type = S; Avg. Period = 50 -> Sub Graph = 2 -> Apply
+
+  
+
+1.  Count 7 candles from CMP (including the current candle) and plot a vertical line on 7th Candle.
+2.  Plot a horizontal line where the 50 SMA and the vertical line intersects
+3.  Divide the same in clock wise segments.
+
+  
+
+If SMA is Green and Slope is Between “12-3” -> Trend is Uptrend
+
+  
+
+If SMA is Red and slope is between “3-6” -> Trend ins Downtrend
+
+  
+
+If SM is Green / Red and Slope is flat at “3” -> Trend is Sideways
+
+  
+
+If SMA is Red and Slope is Between “12-3” -> Trend is Indecisive
+
+  
+
+If SMA is Green and slope is Between “3-6” -> Trend is Indecisive
+
+  
+
+Decision Matrix
+
+  
+
+> Combine Curve, Zone and Trend
+
+What action to take when to take it?
+
+  
+
+Century Textiles - assess trend on dly chard.  Find the execution timeframe and mark 1 d and 1 s.  Also, score odd enhancers
+
+  
+
+Analyse the trend on 75 min chart on Power Grid.  What is the type of trade I am taking and mark 1 d and 1 s on the execution timeframe.  Also, odd enhancers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMTM5MDI2LC0xNTA2NTgyMDk1XX0=
+eyJoaXN0b3J5IjpbLTg1Nzk3NjQwMiw3ODAxMzkwMjYsLTE1MD
+Y1ODIwOTVdfQ==
 -->
