@@ -1,4 +1,6 @@
-User Settings: 999
+# Platform Immersion / Trade Tiger
+
+## User Settings: 999
 
 Settings File is shared
 
@@ -33,5 +35,5 @@ Position Size -> 0.2%
 
 Email: ignitementor@branch.sharekhan.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ0MjE3ODFdfQ==
+eyJoaXN0b3J5IjpbLTEyMjY2MjIzMTJdfQ==
 -->
