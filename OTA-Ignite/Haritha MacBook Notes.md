@@ -11,10 +11,11 @@ DATR
 #### For trade types:
 - Intraday, the Stop Loss rule is 2% of DATR
 - Swing Trading -> 10% of DATR
+---
 - Entry -> Proximal Line
 - Stop Loss -> Below Distal Line (- 2% DATR)
 - Target -> Distal of Opposite Zone
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzE2MDgyNl19
+eyJoaXN0b3J5IjpbMzMyNDQ5NTk5XX0=
 -->
