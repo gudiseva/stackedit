@@ -1,15 +1,14 @@
 # Platform Immersion / Trade Tiger
 
-## User Settings: 999
+## User Settings
+- Time out: 999
+- Settings File is shared
 
-Settings File is shared
-
-Graph Settings
-Background -> White
-Foreground -> Black
+## Graph Settings
+- Background: White
+- Foreground: Black
  -> Scripts
-
-Retracement ->  33.33; 66.66, 100 (Uncheck Snap to Price)
+- Retracement: 0, 33.33, 66.66, 100 (Uncheck Snap to Price)
 
 Demand Zone & Supply Zone -> All and 125
 
@@ -35,5 +34,5 @@ Position Size -> 0.2%
 
 Email: ignitementor@branch.sharekhan.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY2MjIzMTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NTg3MDE1NThdfQ==
 -->
