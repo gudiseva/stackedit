@@ -14,7 +14,7 @@
 | Supply | Fresh Zone | 1st Touch | 2nd Touch or more than 50% in |
 | Demand | Fresh Zone | 1st Touch | 2nd Touch or more than 50% in |
 
-> The “fresher” the Zone, the higher probability that price will turn in that Supply or Demand Zone
+`The “fresher” the Zone, the higher probability that price will turn in that Supply or Demand Zone.`
 
   
 
@@ -26,7 +26,7 @@
 | Supply | Price left the zone with Gap or 2 consecutive Red Candles | Price has left the Zone with only 1 Red Candle and preceding Green Base Candle | More than 50% of the Base of the Red Leg Candle is submerged within the Zone |
 | Demand | Price left the zone with Gap or 2 consecutive Green Candles | Price has left the Zone with only 1 Green Candle and preceding Red Base Candle | More than 50% of the Base of the Green Leg Candle is submerged within the Zone |
 
-> The "stronger" the move away from a Zone, the more out of balance Supply and Demand is in that Zone
+`The "stronger" the move away from a Zone, the more out of balance Supply and Demand is in that Zone.`
 
   
 
@@ -38,7 +38,7 @@
 | Supply | Upto 3 Base Candles in Zone | 4 to 6 Candles | More than 6 Candles |
 | Demand | Upto 3 Base Candles in Zone | 4 to 6 Candles | More than 6 Candles |
 
-> The "less time" price spends in a Zone, the more out of balance Supply and Demand is in that Zone.
+`The "less time" price spends in a Zone, the more out of balance Supply and Demand is in that Zone.`
 
 
 ### Notes:
@@ -47,5 +47,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDg2NDE1NiwtMTUwNjU4MjA5NV19
+eyJoaXN0b3J5IjpbNzgwMTM5MDI2LC0xNTA2NTgyMDk1XX0=
 -->
