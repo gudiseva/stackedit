@@ -10,11 +10,9 @@
 > Has price returned to the Zone?
 
 | LTF Zone | Best=3 | Good=1.5 | Poor=0 |
-| -------- | -------- | ------------ | ----|
-| Supply | Fresh Zone | 1st ouch | 2nd Touch or more than 50% in |
-
-| Demand | 1st Touch | 2nd Touch or more than 50% in |
-
+| -------- | ------ | -------- | ------ |
+| Supply | Fresh Zone | 1st Touch | 2nd Touch or more than 50% in |
+| Demand | Fresh Zone | 1st Touch | 2nd Touch or more than 50% in |
 
 > The “fresher” the Zone, the higher probability that price will turn in that Supply or Demand Zone
 
@@ -24,9 +22,8 @@
 > How did Price leave the Zone?
 
 | LTF Zone | Best=2 | Good=1 | Poor=0 |
-
+| -------- | ------ | ------ | ------ |
 | Supply | Price left the zone with Gap or 2 consecutive Red Candles | Price has left the Zone with only 1 Red Candle and preceding Green Base Candle | More than 50% of the Base of the Red Leg Candle is submerged within the Zone |
-
 | Demand | Price left the zone with Gap or 2 consecutive Green Candles | Price has left the Zone with only 1 Green Candle and preceding Red Base Candle | More than 50% of the Base of the Green Leg Candle is submerged within the Zone |
 
 
@@ -53,5 +50,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDc0NDE3MV19
+eyJoaXN0b3J5IjpbLTczNjQ3NDM2M119
 -->
