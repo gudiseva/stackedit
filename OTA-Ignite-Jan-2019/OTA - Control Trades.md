@@ -27,11 +27,11 @@ Dock Charts -> LTF and HTF
 Click on Chart + Hit C
 
 ## Notes:
-- [^1] Never place trade below 1:2 as it can stop out
+[1]: Never place trade below 1:2 as it can stop out
 
 Position Size -> 0.2%
 
 Email: ignitementor@branch.sharekhan.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTg1NjI3NF19
+eyJoaXN0b3J5IjpbLTY3NTE4MzE2N119
 -->
