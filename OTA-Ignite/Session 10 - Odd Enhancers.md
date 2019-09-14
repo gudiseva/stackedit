@@ -26,7 +26,6 @@
 | Supply | Price left the zone with Gap or 2 consecutive Red Candles | Price has left the Zone with only 1 Red Candle and preceding Green Base Candle | More than 50% of the Base of the Red Leg Candle is submerged within the Zone |
 | Demand | Price left the zone with Gap or 2 consecutive Green Candles | Price has left the Zone with only 1 Green Candle and preceding Red Base Candle | More than 50% of the Base of the Green Leg Candle is submerged within the Zone |
 
-
 > The stronger the move away from a Zone, the more out of balance Supply and Demand is in that Zone
 
   
@@ -35,14 +34,12 @@
 > How much Time did Price spend at the Zone?
 
 | LTF Zone | Best=2 | Good=1 | Poor=0 |
-
+| -------- | ------ | ------ | ------ |
 | Supply | Upto 3 Base Candles in Zone | 4 to 6 Candles | More than 6 Candles |
-
 | Demand | Upto 3 Base Candles in Zone | 4 to 6 Candles | More than 6 Candles |
 
 > The less time price spends in a Zone, the more out of balance Supply and Demand is in that Zone.
 
-  
 
 ### Notes:
 1. If the Odd Enhancers Score is 7, we will go for a Proximal or Type 1 Entry.
@@ -50,5 +47,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjQ3NDM2M119
+eyJoaXN0b3J5IjpbLTE1MDY1ODIwOTVdfQ==
 -->
