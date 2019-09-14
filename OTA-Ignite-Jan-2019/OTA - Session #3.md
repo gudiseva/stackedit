@@ -11,9 +11,9 @@ perpetuate
 #### Home Work
 - Suzlon
 - JPAssociates
--
-TATA - 25% now; 75% at Rs.80
-YES - Correct Time
+- TATA - 25% now; 75% at Rs.80
+- YES -> Correct Time
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg2OTcyMDddfQ==
+eyJoaXN0b3J5IjpbMjE0MzQ4MDg5Nl19
 -->
