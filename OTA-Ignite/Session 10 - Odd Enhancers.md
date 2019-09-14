@@ -54,14 +54,12 @@
 ### Plot 50 SMA (Simple Moving Average)
 Add Study -> Average -> Avg. Type = S; Avg. Period = 50 -> Sub Graph = 2 -> Apply
 
-  
-
-1.  Count 7 candles from CMP (including the current candle) and plot a vertical line on 7th Candle.
+### Steps:
+1.  Count 7 candles from CMP (*including the current candle*) and plot a vertical line on 7th Candle.
 2.  Plot a horizontal line where the 50 SMA and the vertical line intersects
 3.  Divide the same in clock wise segments.
-
   
-
+### Actions:
 If SMA is Green and Slope is Between “12-3” -> Trend is Uptrend
 
   
@@ -98,6 +96,6 @@ Century Textiles - assess trend on dly chard.  Find the execution timeframe and 
 
 Analyse the trend on 75 min chart on Power Grid.  What is the type of trade I am taking and mark 1 d and 1 s on the execution timeframe.  Also, odd enhancers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Nzk3NjQwMiw3ODAxMzkwMjYsLTE1MD
-Y1ODIwOTVdfQ==
+eyJoaXN0b3J5IjpbODkyODQ5NTQwLDc4MDEzOTAyNiwtMTUwNj
+U4MjA5NV19
 -->
