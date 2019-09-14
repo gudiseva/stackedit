@@ -10,7 +10,7 @@
 > Has price returned to the Zone?
 
 | LTF Zone | Best=3 | Good=1.5 | Poor=0 |
-
+| -------- | -------- | ------------ | ----|
 | Supply | Fresh Zone | 1st ouch | 2nd Touch or more than 50% in |
 
 | Demand | 1st Touch | 2nd Touch or more than 50% in |
@@ -48,12 +48,10 @@
   
 
 ### Notes:
-> If the Odd Enhancers Score is 7, we will go for a Proximal or Type 1 Entry.
+1. If the Odd Enhancers Score is 7, we will go for a Proximal or Type 1 Entry.
+2. If the Odd Enhancers Score is 6, we will either go for Type 2 or Zonal Entry / Type 3 or Confirmation Entry
 
-If the Odd Enhancers Score is 6, we will either go for Type 2 or Zonal Entry / Type 3 or Confirmation Entry
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzQ3NTU1Ml19
+eyJoaXN0b3J5IjpbLTM3MDc0NDE3MV19
 -->
