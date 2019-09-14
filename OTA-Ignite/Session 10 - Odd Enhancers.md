@@ -70,21 +70,17 @@ Add Study -> Average -> Avg. Type = S; Avg. Period = 50 -> Sub Graph = 2 -> Appl
 
 
 # Decision Matrix
-
-  
-
 > Combine Curve, Zone and Trend
 
-What action to take when to take it?
+`What action to take when to take it?`
 
   
-
-Century Textiles - assess trend on dly chard.  Find the execution timeframe and mark 1 d and 1 s.  Also, score odd enhancers
-
-  
+#### Home Work
+Mark 1 Supply Zone and 1 Demand Zone on:
+* Century Textiles - assess trend on dly chard.  Find the execution timeframe and mark 1 d and 1 s.  Also, score odd enhancers
 
 Analyse the trend on 75 min chart on Power Grid.  What is the type of trade I am taking and mark 1 d and 1 s on the execution timeframe.  Also, odd enhancers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzNjM1NjIsNzgwMTM5MDI2LC0xNT
-A2NTgyMDk1XX0=
+eyJoaXN0b3J5IjpbODAzNjQ1NTc3LDc4MDEzOTAyNiwtMTUwNj
+U4MjA5NV19
 -->
