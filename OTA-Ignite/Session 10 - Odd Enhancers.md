@@ -6,11 +6,8 @@
 -- We focus on trading only when specific criteria occur in a Price Chart providing a significant advantage or edge.
 
 
-# Odd Enhancers “Freshness”
-
-Has price returned to the Zone?
-
-  
+## Odd Enhancers “Freshness”
+> Has price returned to the Zone?
 
 | LTF Zone | Best=3 | Good=1.5 | Poor=0 |
 
@@ -18,17 +15,13 @@ Has price returned to the Zone?
 
 | Demand | 1st Touch | 2nd Touch or more than 50% in |
 
-  
 
 > The “fresher” the Zone, the higher probability that price will turn in that Supply or Demand Zone
 
   
 
-# Odd Enhancers “Strength”
-
-How did Price leave the Zone?
-
-  
+## Odd Enhancers “Strength”
+> How did Price leave the Zone?
 
 | LTF Zone | Best=2 | Good=1 | Poor=0 |
 
@@ -36,17 +29,13 @@ How did Price leave the Zone?
 
 | Demand | Price left the zone with Gap or 2 consecutive Green Candles | Price has left the Zone with only 1 Green Candle and preceding Red Base Candle | More than 50% of the Base of the Green Leg Candle is submerged within the Zone |
 
-  
 
 > The stronger the move away from a Zone, the more out of balance Supply and Demand is in that Zone
 
   
 
-# Odd Enhancers “Time”
-
-How much Time did Price spend at the Zone?
-
-  
+## Odd Enhancers “Time”
+> How much Time did Price spend at the Zone?
 
 | LTF Zone | Best=2 | Good=1 | Poor=0 |
 
@@ -54,22 +43,17 @@ How much Time did Price spend at the Zone?
 
 | Demand | Upto 3 Base Candles in Zone | 4 to 6 Candles | More than 6 Candles |
 
-  
-
 > The less time price spends in a Zone, the more out of balance Supply and Demand is in that Zone.
 
   
 
-Notes:
-
-If the Odd Enhancers Score is 7, we will go for a Proximal or Type 1 Entry.
-
-  
+### Notes:
+> If the Odd Enhancers Score is 7, we will go for a Proximal or Type 1 Entry.
 
 If the Odd Enhancers Score is 6, we will either go for Type 2 or Zonal Entry / Type 3 or Confirmation Entry
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjI0OTA0MF19
+eyJoaXN0b3J5IjpbMTI1NzQ3NTU1Ml19
 -->
