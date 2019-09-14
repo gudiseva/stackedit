@@ -60,10 +60,9 @@ Add Study -> Average -> Avg. Type = S; Avg. Period = 50 -> Sub Graph = 2 -> Appl
 3.  Divide the same in clock wise segments.
   
 ### Actions:
-If SMA is Green and Slope is Between “12-3” -> Trend is Uptrend
-
-  
-
+| LTF Zone | Trend |
+| -------- | ------ | ------ | ------ |
+| If SMA is Green and Slope is Between “12-3” | Trend is Uptrend |
 If SMA is Red and slope is between “3-6” -> Trend ins Downtrend
 
   
@@ -96,6 +95,6 @@ Century Textiles - assess trend on dly chard.  Find the execution timeframe and 
 
 Analyse the trend on 75 min chart on Power Grid.  What is the type of trade I am taking and mark 1 d and 1 s on the execution timeframe.  Also, odd enhancers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyODQ5NTQwLDc4MDEzOTAyNiwtMTUwNj
+eyJoaXN0b3J5IjpbMzc2MjA1ODc0LDc4MDEzOTAyNiwtMTUwNj
 U4MjA5NV19
 -->
