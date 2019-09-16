@@ -1,0 +1,91 @@
+> 16-Sept-2019
+# Curve Analysis
+
+heps us to know whn to be in Bullish or Bearish mode
+
+  
+
+Cur Ana combined with the Odds Enhancers Scoring Methodology dictates the smarter action to tba taken (Buy / Sell) and only then we focus on Supply an d Demand Zones to time the
+
+  
+
+Cureve Ana - use of charts where we use Larger Time Franes to identify fresh levels of Supply and Demand
+
+  
+
+We assesss how close or far our Entries are from these Larger Time Frame Supply and Demand Zones and ...
+
+  
+
+... the closer we are to these Supply Zones, the more we want to be Sellers
+
+  
+
+... the closer we are to thse Demand Zones, the more we want to be Buyers
+
+  
+
+### Steps
+
+1. Identify the nearest quality HTF Supplu Zone
+
+2. Identify the nearest quality HTF Demand Zone
+
+3. Divide the Range defined by the Proximal Lines of the Supply and Demand Zones into 3 Equal Sections (thirds)
+
+* Use the 3-step zone-ing process *
+
+  
+
+## Decision MAtrix
+
+  
+
+---
+
+Supply Zone
+
+---
+
+High on the Curve (HOC) [Retail Pricing Area]
+
+(Only Short, when Trend is Down or Sideways)
+
+Do not Short when the Trend is Up. Also, can't go Long as it's HOC.
+
+---
+
+Equilibrium [Fair Pricing Area]
+
+Go Long when the Trend is Up.
+
+Short when the Trend is Down.
+
+As a beginner, avoid taking trades which are in Equilibrium.
+
+---
+
+Low on the Curve (LOC) [Wholesale Pricing Area]
+
+(Only Long, when the Trend is Up or Sideways)
+
+Do not go Long when the Trend is Down.
+
+Also, can't Short as it's LOC.
+
+---
+
+Demand Zone
+
+---
+
+  
+
+### Home Work:
+
+Plan Monthly Income Trade on HDFC
+
+Hourly Income Trade on Kotak Bank
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUxNjEyMzU2MF19
+-->
