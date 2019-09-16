@@ -1,15 +1,8 @@
 > 16-Sept-2019
 # Curve Analysis
-
-heps us to know whn to be in Bullish or Bearish mode
-
-  
-
-Cur Ana combined with the Odds Enhancers Scoring Methodology dictates the smarter action to tba taken (Buy / Sell) and only then we focus on Supply an d Demand Zones to time the
-
-  
-
-Cureve Ana - use of charts where we use Larger Time Franes to identify fresh levels of Supply and Demand
+- helps us to know when to be in Bullish or Bearish mode
+- Curve Analysis combined with the Odds Enhancers Scoring Methodology dictates the smarter action to be taken (Buy / Sell) and only then we focus on Supply and Demand Zones to time the trade
+- Curve Analysis - use of charts where we use Larger Time Frames to identify fresh levels of Supply and Demand
 
   
 
@@ -87,5 +80,5 @@ Plan Monthly Income Trade on HDFC
 
 Hourly Income Trade on Kotak Bank
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjEyMzU2MF19
+eyJoaXN0b3J5IjpbLTY4NTk1MjYyN119
 -->
