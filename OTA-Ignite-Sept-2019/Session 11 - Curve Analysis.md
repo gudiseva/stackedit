@@ -20,18 +20,18 @@
 Supply Zone
 
 ---
-- High on the Curve (HOC) [Retail Pricing Area]
+#### High on the Curve (HOC) [Retail Pricing Area]
 - (Only Short, when Trend is Down or Sideways)
 - Do not Short when the Trend is Up. Also, can't go Long as it's HOC.
 
 ---
-Equilibrium [Fair Pricing Area]
-Go Long when the Trend is Up.
-Short when the Trend is Down.
-As a beginner, avoid taking trades which are in Equilibrium.
+#### Equilibrium [Fair Pricing Area]
+- Go Long when the Trend is Up.
+- Short when the Trend is Down.
+- As a beginner, avoid taking trades which are in Equilibrium.
 
 ---
-Low on the Curve (LOC) [Wholesale Pricing Area]
+####Low on the Curve (LOC) [Wholesale Pricing Area]
 (Only Long, when the Trend is Up or Sideways)
 Do not go Long when the Trend is Down.
 Also, can't Short as it's LOC.
@@ -49,5 +49,5 @@ Plan Monthly Income Trade on HDFC
 
 Hourly Income Trade on Kotak Bank
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzEwNzYxN119
+eyJoaXN0b3J5IjpbNTQ4NTE3OTE5XX0=
 -->
