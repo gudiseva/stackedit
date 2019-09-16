@@ -16,8 +16,9 @@
 
 ## Decision Matrix
 
+Draw
 ---
-Supply Zone
+#### Supply Zone
 
 ---
 #### High on the Curve (HOC) [Retail Pricing Area]
@@ -31,23 +32,19 @@ Supply Zone
 - As a beginner, avoid taking trades which are in Equilibrium.
 
 ---
-####Low on the Curve (LOC) [Wholesale Pricing Area]
-(Only Long, when the Trend is Up or Sideways)
-Do not go Long when the Trend is Down.
-Also, can't Short as it's LOC.
+#### Low on the Curve (LOC) [Wholesale Pricing Area]
+- (Only Long, when the Trend is Up or Sideways)
+- Do not go Long when the Trend is Down.
+- Also, can't Short as it's LOC.
 
 ---
-Demand Zone
+#### Demand Zone
 
 ---
 
-  
-
-### Home Work:
-
-Plan Monthly Income Trade on HDFC
-
-Hourly Income Trade on Kotak Bank
+#### Home Work
+1. Plan Monthly Income Trade on HDFC
+2. Hourly Income Trade on Kotak Bank
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NTE3OTE5XX0=
+eyJoaXN0b3J5IjpbNzEzMzY0NDM0XX0=
 -->
