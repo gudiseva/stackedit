@@ -16,7 +16,9 @@
 
 ## Decision Matrix
 
-Draw
+Draw Retracement Line from Proximal Line of Supply Zone to Proximal Line of Demand Zone
+
+---
 ---
 #### Supply Zone
 
@@ -46,5 +48,5 @@ Draw
 1. Plan Monthly Income Trade on HDFC
 2. Hourly Income Trade on Kotak Bank
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzMzY0NDM0XX0=
+eyJoaXN0b3J5IjpbLTExNDUyODI0OTZdfQ==
 -->
