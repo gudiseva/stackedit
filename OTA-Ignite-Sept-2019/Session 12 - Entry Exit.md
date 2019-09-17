@@ -138,6 +138,7 @@ Avg. movement of a stock in day.
 # Important Notes:
 - Always set your target just below the opposing Supply Zone
 - Opposing Supply and Demand Zone are just to book profits.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDQ0NzM0NF19
+eyJoaXN0b3J5IjpbLTE2NzEzNjQ3NTcsMTY5MDQ0NzM0NF19
 -->
