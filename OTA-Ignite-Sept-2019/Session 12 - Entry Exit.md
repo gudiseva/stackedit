@@ -143,6 +143,10 @@ Avg. movement of a stock in day.
 Targets are set slightly before the opposing Zones
 
 Target represents at least 3:1 Risk to Reward Ratio.
+
+#### Home Work
+1. Plan an Hourly IT on Excide Industry after the Market gets closed
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE0MjIxNSwxNjkwNDQ3MzQ0XX0=
+eyJoaXN0b3J5IjpbLTE3NTM4ODY3NDUsMTY5MDQ0NzM0NF19
 -->
