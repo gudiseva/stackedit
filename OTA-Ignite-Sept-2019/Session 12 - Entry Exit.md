@@ -145,8 +145,8 @@ Targets are set slightly before the opposing Zones
 Target represents at least 3:1 Risk to Reward Ratio.
 
 #### Home Work
-1. Plan an Hourly IT on Excide Industry after the Market gets closed
-2. 
+1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
+2. Plan a Montly Income Trade on PetroNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM4ODY3NDUsMTY5MDQ0NzM0NF19
+eyJoaXN0b3J5IjpbNTk0MDM3NDksMTY5MDQ0NzM0NF19
 -->
