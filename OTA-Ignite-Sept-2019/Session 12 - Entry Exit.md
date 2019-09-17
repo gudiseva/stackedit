@@ -138,7 +138,11 @@ Avg. movement of a stock in day.
 # Important Notes:
 - Always set your target just below the opposing Supply Zone
 - Opposing Supply and Demand Zone are just to book profits.
-- 
+-   
+
+Targets are set slightly before the opposing Zones
+
+Target represents at least 3:1 Risk to Reward Ratio.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEzNjQ3NTcsMTY5MDQ0NzM0NF19
+eyJoaXN0b3J5IjpbLTE1ODE0MjIxNSwxNjkwNDQ3MzQ0XX0=
 -->
