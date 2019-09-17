@@ -47,6 +47,10 @@ Draw Retracement Line from Proximal Line of Supply Zone to Proximal Line of Dema
 #### Home Work
 1. Plan Monthly Income Trade on HDFC
 2. Hourly Income Trade on Kotak Bank
+
+### Video
+https://videorefuge.com/v/1912
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDUyODI0OTZdfQ==
+eyJoaXN0b3J5IjpbLTM4MDAwODUwOCwtMTE0NTI4MjQ5Nl19
 -->
