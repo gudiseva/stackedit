@@ -14,7 +14,7 @@
 | 10. | https://videorefuge.com/v/1913 |
 | 11. | https://videorefuge.com/v/1912 |
 | 12. |  |
-| 13. | [Session #13] (https://videorefuge.com/v/1955) |
+| 13. | https://videorefuge.com/v/1955 |
 | 14. |  |
 | 15. |  |
 | 16. |  |
@@ -26,6 +26,6 @@
 | NA  | https://videorefuge.com/v/1933 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzk5MTU1OCwxMjk2OTg4NjUzLC0xMD
-gxNjUzNTM5XX0=
+eyJoaXN0b3J5IjpbNTAzOTg3OTAwLDEyOTY5ODg2NTMsLTEwOD
+E2NTM1MzldfQ==
 -->
