@@ -2,7 +2,7 @@
 
 | Session # | Video Links|
 | --------- | ------------------------------ |
-| 01. | [https://videorefuge.com/v/1941](https://videorefuge.com/v/1941) |
+| 01. | https://videorefuge.com/v/1941](https://videorefuge.com/v/1941) |
 | 02. | [https://videorefuge.com/v/1942](https://videorefuge.com/v/1942) |
 | 03. | https://videorefuge.com/v/1936 |
 | 04. | https://videorefuge.com/v/1935 |
@@ -26,6 +26,6 @@
 | NA  | https://videorefuge.com/v/1933 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDA0NTg1Miw1MDM5ODc5MDAsMTI5Nj
+eyJoaXN0b3J5IjpbMTIzODYzMTMxMyw1MDM5ODc5MDAsMTI5Nj
 k4ODY1MywtMTA4MTY1MzUzOV19
 -->
