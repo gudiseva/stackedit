@@ -20,41 +20,25 @@ Limit Orders
 
 Market Order
 : At whatever price the market is offering you.
-
  
 - Stop Loss will go above Distal Line of Supply Zone.
 - Stop Loss will go below Distal Line of Demand Zone.
-
-  
 
 ## 1 - Proximal Entry
 - A Sell limit order is placed before price reaches the proximal line, with a buy stop order just above the Distal line.
 - A Buy limit order is placed before the price reaches the proximal line, with a sell stop order just below the Distal line.
 
-Pros and Con:
-
+#### Pros and Con:
 - We will get entry, but risk is high
 
-  
-
 ## 2 - Zone Entry
+- A Sell limit or market order is placed when price is anywhere inside the Supply Zone.
+- A Buy limit or market order is placed when price is anywhere inside the Demand Zone.
 
-- A Sell limit or market order is placed when price is anywhere inside the Zupply Zone
-
-  
-
-- A Buy limit or market order is placed when price is anywher inside the Demand Zone
-
-  
-
-Pros and Con:
-
+#### Pros and Con:
 - We might not get the entry always
 
-  
-
 ## 3 - Confirmation Entry
-
 - When price rallies into the Supply Zone, reverses, and crosses below the proximal line, Sell Short
 
   
@@ -121,6 +105,6 @@ Target represents at least 3:1 Risk to Reward Ratio.
 1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
 2. Plan a Montly Income Trade on PetroNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5OTM1MDc3LDU5NDAzNzQ5LDE2OTA0ND
-czNDRdfQ==
+eyJoaXN0b3J5IjpbLTIwMDU5OTk5MjUsNTk0MDM3NDksMTY5MD
+Q0NzM0NF19
 -->
