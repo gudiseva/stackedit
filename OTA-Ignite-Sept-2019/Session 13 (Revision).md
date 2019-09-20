@@ -10,12 +10,9 @@
 2. Daily Income Trade on Castrol India
   
 #### Instructor 
-Fahim Ansari, Mumbai, India
-
-fahim.ansari@onlinetradingacademy.com
-
-  
+Name: Fahim Ansari, Mumbai, India
+Email: fahim.ansari@onlinetradingacademy.com
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTM2MTM1NiwtMTMyMzQyNTY5MV19
+eyJoaXN0b3J5IjpbLTI4NTEwOTQxNSwtMTMyMzQyNTY5MV19
 -->
