@@ -20,9 +20,6 @@ Limit Orders
 
 Market Order
 : At whatever price the market is offering you.
- 
-- Stop Loss will go above Distal Line of Supply Zone.
-- Stop Loss will go below Distal Line of Demand Zone.
 
 ## 1 - Proximal Entry
 - A Sell limit order is placed before price reaches the proximal line, with a buy stop order just above the Distal line.
@@ -45,6 +42,7 @@ Market Order
 #### Pros and Con:
 - have to be glued to the computer
 
+### Comparison
 | Entries | Advantages | Disadvantages |
 | ------- | ---------- | ------------- |
 | Proximal Entry #1 | Probability of meeting entry is the highest. Set and forget strategy on most platforms| Higher risk than Zone Entry. Lower reward than Zone Entry. Greatest unknown, increasing chance of stopping out.|
@@ -54,15 +52,14 @@ Market Order
   
 
 ### Stop Loss
-
+- Stop Loss Line will go above Distal Line of Supply Zone.
+- Stop Loss Line will go below Distal Line of Demand Zone.
 - For Daily Income Trade and Hourly Income Trade, Stop Loss should be 2% of the Daily ATR.
-
 - For Monthly Income Trade and Weekly Income Trade, Stop Loss will be 10% of DATR.
 
   
 
 ### Daily ATR
-
 Avg. movement of a stock in day.
 
   
@@ -92,6 +89,6 @@ Target represents at least 3:1 Risk to Reward Ratio.
 1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
 2. Plan a Montly Income Trade on PetroNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzE2MDYzNCw1OTQwMzc0OSwxNjkwND
+eyJoaXN0b3J5IjpbLTQyODcxNzA3NCw1OTQwMzc0OSwxNjkwND
 Q3MzQ0XX0=
 -->
