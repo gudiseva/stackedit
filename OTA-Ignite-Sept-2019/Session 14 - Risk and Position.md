@@ -16,7 +16,7 @@ Size
 Complete order includes SETS. Last S is Size
 
 ## 2% Rule
-You will not loose more than 2% of your money in any trade
+You should not loose more than 2% of your money in any trade
 
 ## Position Size Planner
 New -> CASH -> Hourly Income -> Capital Allocation
@@ -27,5 +27,5 @@ View and Modify ->
 2. Hourly Income Trade on Marico
 3. Position Size Planner
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzNTk1OTA3XX0=
+eyJoaXN0b3J5IjpbNzI5NzQ5NzMyLDc1MzU5NTkwN119
 -->
