@@ -40,29 +40,16 @@ Market Order
 
 ## 3 - Confirmation Entry
 - When price rallies into the Supply Zone, reverses, and crosses below the proximal line, Sell Short
-
-  
-
 - When price drops into the Demand Zone, reverses, and crosses above the proximal line, Buy
 
-  
-
-Pros and Con:
-
+#### Pros and Con:
 - have to be glued to the computer
 
-  
-  
-
 | Entries | Advantages | Disadvantages |
-
-| --- | --- | --- |
-
+| ------- | ---------- | ------------- |
 | Proximal Entry #1 | Probability of meeting entry is the highest. Set and forget strategy on most platforms| Higher risk than Zone Entry. Lower reward than Zone Entry. Greatest unknown, increasing chance of stopping out.|
-
-| Zone Entry #2 | Risk is lowest of entry types. Reward is the greatest of entry types. Probability of meeting entry higher than #3 entry | Lower probablity of meeting entry |
-
-| Confirmation Entry #3 | Risk is same as Limit Entry. Reward is same as Limit Entry. Less chance os stopping out | Lowest probability of meeting entry. Non-automated entry on most platforms. |
+| Zone Entry #2 | Risk is lowest of entry types. Reward is the greatest of entry types. Probability of meeting entry higher than #3 entry | Lower probability of meeting entry |
+| Confirmation Entry #3 | Risk is same as Limit Entry. Reward is same as Limit Entry. Less chance of stopping out | Lowest probability of meeting entry. Non-automated entry on most platforms. |
 
   
 
@@ -105,6 +92,6 @@ Target represents at least 3:1 Risk to Reward Ratio.
 1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
 2. Plan a Montly Income Trade on PetroNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU5OTk5MjUsNTk0MDM3NDksMTY5MD
-Q0NzM0NF19
+eyJoaXN0b3J5IjpbMTY3NzE2MDYzNCw1OTQwMzc0OSwxNjkwND
+Q3MzQ0XX0=
 -->
