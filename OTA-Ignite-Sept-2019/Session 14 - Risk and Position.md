@@ -1,8 +1,8 @@
 > 19-Sep-2019
 # Risk Management and Position Sizing
-
 - After, scoring if reward to risk is not there then why to go for the trade.
 - Focus on rewards that are at least 2 to 3 times greater than our risk.
+- Below 6, don't go for any trades
 
 ### Books to read:
 1. Mark Douglas - Trading in the Zone
@@ -16,20 +16,15 @@ Size
 Complete order includes SETS. Last S is Size
 
 ## 2% Rule
-
 You will not loose more than 2% of your money in any trade
 
-  
-
-# Postion Size Planner
-
+## Position Size Planner
 New -> CASH -> Hourly Income -> Capital Allocation
-
 View and Modify ->
 
   
 
-Below 6, don't go for any trades
+
 
   
 
@@ -41,5 +36,5 @@ Below 6, don't go for any trades
 
 3. Position Size Planner
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzI4MzgyNV19
+eyJoaXN0b3J5IjpbLTEzOTMxMDg1OTZdfQ==
 -->
