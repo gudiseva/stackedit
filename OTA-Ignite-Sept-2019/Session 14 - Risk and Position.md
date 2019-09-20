@@ -1,14 +1,7 @@
-
 > 19-Sep-2019
-
 # Risk Management and Position Sizing
 
-(Session #14)
-
 After, scoring if reward to risk is not there then why to go for the trade.
-
-  
-
 Focus on rewards that are atleast 2 to 3 times greater than our risk.
 
   
@@ -63,5 +56,5 @@ Below 6, don't go for any trades
 
 3. Position Size Planner
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA0NDQ4NTZdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzc2MDQ2MTNdfQ==
 -->
