@@ -1,35 +1,21 @@
 > 17-Sep-2019
 # Entry and Exit Strategies
 
-## Types of Entrys
+## Types of Entry's
 
-1. Type #1 - Proximal Entry
-
+### Type #1 - Proximal Entry
 Take entry near the Proximal Line.
-
 Just above in Demand Zone
-
 Just below in Supply Zone
 
-  
-
-2. Type #2 - Zone Entry
-
+### Type #2 - Zone Entry
 Entry Taken inside the Zone
 
-  
-
-3. Type #3 - Confirmation Entry
-
+### Type #3 - Confirmation Entry
 At the Proximal Line when the price is returning from the Zone.
-
 We will not take inside the zone or when entering the proximal line.
 
-  
-  
-
 Limit Orders
-
 : Say, CMP is 102. You want to book at 100.
 
   
@@ -148,5 +134,6 @@ Target represents at least 3:1 Risk to Reward Ratio.
 1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
 2. Plan a Montly Income Trade on PetroNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MDM3NDksMTY5MDQ0NzM0NF19
+eyJoaXN0b3J5IjpbLTM5MTQ4ODQxMyw1OTQwMzc0OSwxNjkwND
+Q3MzQ0XX0=
 -->
