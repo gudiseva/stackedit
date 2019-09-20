@@ -21,6 +21,9 @@ Limit Orders
 Market Order
 : At whatever price the market is offering you.
 
+Daily ATR
+: Avg. movement of a stock in day.
+
 ## 1 - Proximal Entry
 - A Sell limit order is placed before price reaches the proximal line, with a buy stop order just above the Distal line.
 - A Buy limit order is placed before the price reaches the proximal line, with a sell stop order just below the Distal line.
@@ -57,22 +60,11 @@ Market Order
 - For Daily Income Trade and Hourly Income Trade, Stop Loss should be 2% of the Daily ATR.
 - For Monthly Income Trade and Weekly Income Trade, Stop Loss will be 10% of DATR.
 
-  
-
-### Daily ATR
-Avg. movement of a stock in day.
-
-  
-
-# Exit
-
+## Exit
 1. Make sure, you have clear and planned Target and Stop Loss Exit
-
-2. Target represtns at least 3:1 Reward to Risk Ratio
-
+2. Target represents at least 3:1 Reward to Risk Ratio
 3. Exit BEFORE the competitive buying and selling begins (just before opposing the Supply and Demand Levels)
-
-4. Managet the trade by only moving the Stop Loss Protective Order in the direction of profitability.
+4. Manage the trade by only moving the Stop Loss Protective Order in the direction of profitability.
 
   
 
@@ -89,6 +81,6 @@ Target represents at least 3:1 Risk to Reward Ratio.
 1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
 2. Plan a Montly Income Trade on PetroNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODcxNzA3NCw1OTQwMzc0OSwxNjkwND
-Q3MzQ0XX0=
+eyJoaXN0b3J5IjpbNDIzMTQxOTQ3LDU5NDAzNzQ5LDE2OTA0ND
+czNDRdfQ==
 -->
