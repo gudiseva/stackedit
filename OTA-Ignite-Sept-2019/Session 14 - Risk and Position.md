@@ -1,34 +1,19 @@
 > 19-Sep-2019
 # Risk Management and Position Sizing
 
-After, scoring if reward to risk is not there then why to go for the trade.
-Focus on rewards that are atleast 2 to 3 times greater than our risk.
+- After, scoring if reward to risk is not there then why to go for the trade.
+- Focus on rewards that are at least 2 to 3 times greater than our risk.
 
-  
-
-Boook:
-
+### Books to read:
 1. Mark Douglas - Trading in the Zone
-
 2. Steve - Trading Psychology
 
-  
-
 Position
-
-: Buying long and selling short is "taking a position"
-
-  
+: Buying long and selling short is "*taking a position*"
 
 Size
-
 : no. of units of shares, contracts (options), lots (futures), etc.
-
-  
-
 Complete order includes SETS. Last S is Size
-
-  
 
 ## 2% Rule
 
@@ -56,5 +41,5 @@ Below 6, don't go for any trades
 
 3. Position Size Planner
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc2MDQ2MTNdfQ==
+eyJoaXN0b3J5IjpbLTc1MzI4MzgyNV19
 -->
