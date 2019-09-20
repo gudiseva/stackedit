@@ -18,11 +18,8 @@ We will not take inside the zone or when entering the proximal line.
 Limit Orders
 : Say, CMP is 102. You want to book at 100.
 
-  
-
 Market Order
-
-: At whatever price the market is offerring you.
+: At whatever price the market is offering you.
 
   
 
@@ -134,6 +131,6 @@ Target represents at least 3:1 Risk to Reward Ratio.
 1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
 2. Plan a Montly Income Trade on PetroNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTQ4ODQxMyw1OTQwMzc0OSwxNjkwND
-Q3MzQ0XX0=
+eyJoaXN0b3J5IjpbLTE3NTk2OTY0MjcsNTk0MDM3NDksMTY5MD
+Q0NzM0NF19
 -->
