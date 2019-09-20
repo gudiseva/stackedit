@@ -66,21 +66,16 @@ Daily ATR
 3. Exit BEFORE the competitive buying and selling begins (just before opposing the Supply and Demand Levels)
 4. Manage the trade by only moving the Stop Loss Protective Order in the direction of profitability.
 
-  
-
-# Important Notes:
+### Important Notes:
 - Always set your target just below the opposing Supply Zone
 - Opposing Supply and Demand Zone are just to book profits.
--   
-
-Targets are set slightly before the opposing Zones
-
-Target represents at least 3:1 Risk to Reward Ratio.
+- Targets are set slightly before the opposing Zones
+- Target represents at least 3:1 Risk to Reward Ratio.
 
 #### Home Work
-1. Plan an Hourly Income Trade on Excide Industry after the Market gets closed
-2. Plan a Montly Income Trade on PetroNet
+1. Plan an Hourly Income Trade on Exide Industry after the Market gets closed
+2. Plan a Monthly Income Trade on Petronet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzMTQxOTQ3LDU5NDAzNzQ5LDE2OTA0ND
-czNDRdfQ==
+eyJoaXN0b3J5IjpbMTQxOTk0MDUzOSw1OTQwMzc0OSwxNjkwND
+Q3MzQ0XX0=
 -->
