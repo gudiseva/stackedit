@@ -73,9 +73,9 @@ Daily ATR
 - Target represents at least 3:1 Risk to Reward Ratio.
 
 #### Home Work
-1. Plan an Hourly Income Trade on Exide Industry after the Market gets closed
+1. Plan an Hourly Income Trade on Exide Industry after the Market close
 2. Plan a Monthly Income Trade on Petronet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTk0MDUzOSw1OTQwMzc0OSwxNjkwND
+eyJoaXN0b3J5IjpbMTc1ODIxMjQ2Niw1OTQwMzc0OSwxNjkwND
 Q3MzQ0XX0=
 -->
