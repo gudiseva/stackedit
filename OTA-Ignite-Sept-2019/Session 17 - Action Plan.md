@@ -12,8 +12,10 @@ http://moneycontrol.com/markets/global-indices/
 
 This script DATR has 24.11. that means our target should not go beyond the DATR correct?
 
-#
+#### Home Work
+1. Run Scanner IgniteHourlyIncomeBearish and HIBul
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyMTI2Mzc3LDE3NDE3NzExOTQsOTcyMj
+eyJoaXN0b3J5IjpbMzQzOTk1NDc5LDE3NDE3NzExOTQsOTcyMj
 EzOTk2XX0=
 -->
