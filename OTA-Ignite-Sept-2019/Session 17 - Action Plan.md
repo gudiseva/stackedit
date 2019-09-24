@@ -12,6 +12,8 @@ http://moneycontrol.com/markets/global-indices/
 
 This script DATR has 24.11. that means our target should not go beyond the DATR correct?
 
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTc3MTE5NCw5NzIyMTM5OTZdfQ==
+eyJoaXN0b3J5IjpbODMyMTI2Mzc3LDE3NDE3NzExOTQsOTcyMj
+EzOTk2XX0=
 -->
