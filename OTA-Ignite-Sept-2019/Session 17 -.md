@@ -3,8 +3,10 @@
 
 Tue and Fri is WIT from 8:00 PM to 9:00 PM
 
-All t
+All the stocks that are there in Nify50 are there in www.sgxnifty.org
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE4MjA1NTcsLTE1NTQ0NTcxNTQsLT
+eyJoaXN0b3J5IjpbLTIwMjQwOTYxMjgsLTE1NTQ0NTcxNTQsLT
 E4NzY0NzExMTRdfQ==
 -->
