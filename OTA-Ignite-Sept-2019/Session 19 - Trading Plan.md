@@ -11,8 +11,10 @@ Last date to submit PTP: 4-Oct-2019
 Daily 5 AM to 7 AM
 Saturday: Up to 11 AM / 12 PM
 
-
+#### Homework:
+- 1st half is the revision
+- Survey
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg5Nzg1NDEsNzQ3MDUyNTk5LDM5NT
-g4ODg0NSw0NDYzNzQ4OTddfQ==
+eyJoaXN0b3J5IjpbMjA2Nzk2MzI0LDc0NzA1MjU5OSwzOTU4OD
+g4NDUsNDQ2Mzc0ODk3XX0=
 -->
